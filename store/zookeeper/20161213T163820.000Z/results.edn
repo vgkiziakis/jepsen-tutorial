@@ -1,0 +1,12 @@
+{:valid? true,
+ :configs
+ ({:model {},
+   :last-op
+   {:type :ok,
+    :f :cas,
+    :value [3 1],
+    :process 0,
+    :time 16980161218,
+    :index 171},
+   :pending []}),
+ :final-paths ()}

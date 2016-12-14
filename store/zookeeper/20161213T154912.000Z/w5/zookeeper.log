@@ -1,0 +1,74 @@
+2016-12-13 15:49:13,611 - INFO  [main:QuorumPeerConfig@101] - Reading configuration from: /etc/zookeeper/conf/zoo.cfg
+2016-12-13 15:49:13,617 - INFO  [main:QuorumPeerConfig@334] - Defaulting to majority quorums
+2016-12-13 15:49:13,623 - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2016-12-13 15:49:13,623 - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2016-12-13 15:49:13,624 - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2016-12-13 15:49:13,638 - INFO  [main:QuorumPeerMain@127] - Starting quorum peer
+2016-12-13 15:49:13,653 - INFO  [main:NIOServerCnxnFactory@94] - binding to port 0.0.0.0/0.0.0.0:2181
+2016-12-13 15:49:13,675 - INFO  [main:QuorumPeer@913] - tickTime set to 2000
+2016-12-13 15:49:13,675 - INFO  [main:QuorumPeer@933] - minSessionTimeout set to -1
+2016-12-13 15:49:13,675 - INFO  [main:QuorumPeer@944] - maxSessionTimeout set to -1
+2016-12-13 15:49:13,676 - INFO  [main:QuorumPeer@959] - initLimit set to 10
+2016-12-13 15:49:13,695 - INFO  [main:QuorumPeer@429] - currentEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2016-12-13 15:49:13,719 - INFO  [main:QuorumPeer@444] - acceptedEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2016-12-13 15:49:13,728 - INFO  [Thread-1:QuorumCnxManager$Listener@486] - My election bind port: 0.0.0.0/0.0.0.0:3888
+2016-12-13 15:49:13,738 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:QuorumPeer@670] - LOOKING
+2016-12-13 15:49:13,740 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@740] - New election. My id =  4, proposed zxid=0x0
+2016-12-13 15:49:13,750 - WARN  [WorkerSender[myid=4]:QuorumCnxManager@368] - Cannot open channel to 2 at election address w3/192.168.4.103:3888
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.toSend(QuorumCnxManager.java:327)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.process(FastLeaderElection.java:393)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.run(FastLeaderElection.java:365)
+	at java.lang.Thread.run(Thread.java:745)
+2016-12-13 15:49:13,752 - INFO  [WorkerReceiver[myid=4]:FastLeaderElection@542] - Notification: 0 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 0 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-13 15:49:13,754 - INFO  [WorkerReceiver[myid=4]:FastLeaderElection@542] - Notification: 4 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 0 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-13 15:49:13,755 - INFO  [WorkerReceiver[myid=4]:FastLeaderElection@542] - Notification: 4 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 4 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-13 15:49:13,764 - INFO  [WorkerReceiver[myid=4]:FastLeaderElection@542] - Notification: 1 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-13 15:49:13,765 - INFO  [WorkerReceiver[myid=4]:FastLeaderElection@542] - Notification: 4 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-13 15:49:13,776 - INFO  [WorkerReceiver[myid=4]:FastLeaderElection@542] - Notification: 3 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-13 15:49:13,779 - INFO  [WorkerReceiver[myid=4]:FastLeaderElection@542] - Notification: 4 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-13 15:49:13,785 - INFO  [w5/192.168.4.105:3888:QuorumCnxManager$Listener@493] - Received connection request /192.168.4.103:42111
+2016-12-13 15:49:13,787 - INFO  [WorkerReceiver[myid=4]:FastLeaderElection@542] - Notification: 2 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 2 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-13 15:49:13,789 - INFO  [WorkerReceiver[myid=4]:FastLeaderElection@542] - Notification: 4 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 2 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-13 15:49:13,989 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:QuorumPeer@750] - LEADING
+2016-12-13 15:49:13,992 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Leader@58] - TCP NoDelay set to: true
+2016-12-13 15:49:14,002 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:zookeeper.version=3.4.5--1, built on 03/16/2014 21:36 GMT
+2016-12-13 15:49:14,002 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:host.name=w5
+2016-12-13 15:49:14,002 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.version=1.8.0_111
+2016-12-13 15:49:14,002 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.vendor=Oracle Corporation
+2016-12-13 15:49:14,002 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.home=/usr/lib/jvm/java-8-oracle/jre
+2016-12-13 15:49:14,002 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.class.path=/etc/zookeeper/conf:/usr/share/java/jline.jar:/usr/share/java/log4j-1.2.jar:/usr/share/java/xercesImpl.jar:/usr/share/java/xmlParserAPIs.jar:/usr/share/java/netty.jar:/usr/share/java/slf4j-api.jar:/usr/share/java/slf4j-log4j12.jar:/usr/share/java/zookeeper.jar
+2016-12-13 15:49:14,003 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-13 15:49:14,003 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2016-12-13 15:49:14,003 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.compiler=<NA>
+2016-12-13 15:49:14,003 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:os.name=Linux
+2016-12-13 15:49:14,003 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:os.arch=amd64
+2016-12-13 15:49:14,003 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:os.version=3.16.0-4-amd64
+2016-12-13 15:49:14,003 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:user.name=zookeeper
+2016-12-13 15:49:14,004 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:user.home=/var/lib/zookeeper
+2016-12-13 15:49:14,004 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:user.dir=/
+2016-12-13 15:49:14,005 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:ZooKeeperServer@162] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir /var/lib/zookeeper/version-2 snapdir /var/lib/zookeeper/version-2
+2016-12-13 15:49:14,006 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Leader@345] - LEADING - LEADER ELECTION TOOK - 266
+2016-12-13 15:49:14,009 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:FileTxnSnapLog@240] - Snapshotting: 0x0 to /var/lib/zookeeper/version-2/snapshot.0
+2016-12-13 15:49:15,015 - INFO  [LearnerHandler-/192.168.4.102:48132:LearnerHandler@263] - Follower sid: 1 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@438fa51b
+2016-12-13 15:49:15,015 - INFO  [LearnerHandler-/192.168.4.101:46035:LearnerHandler@263] - Follower sid: 0 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@470106af
+2016-12-13 15:49:15,015 - INFO  [LearnerHandler-/192.168.4.104:44156:LearnerHandler@263] - Follower sid: 3 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@67b98333
+2016-12-13 15:49:15,015 - INFO  [LearnerHandler-/192.168.4.103:56091:LearnerHandler@263] - Follower sid: 2 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@25f07a33
+2016-12-13 15:49:15,042 - INFO  [LearnerHandler-/192.168.4.102:48132:LearnerHandler@318] - Synchronizing with Follower sid: 1 maxCommittedLog=0x0 minCommittedLog=0x0 peerLastZxid=0x0
+2016-12-13 15:49:15,042 - INFO  [LearnerHandler-/192.168.4.102:48132:LearnerHandler@395] - Sending DIFF
+2016-12-13 15:49:15,042 - INFO  [LearnerHandler-/192.168.4.103:56091:LearnerHandler@318] - Synchronizing with Follower sid: 2 maxCommittedLog=0x0 minCommittedLog=0x0 peerLastZxid=0x0
+2016-12-13 15:49:15,042 - INFO  [LearnerHandler-/192.168.4.103:56091:LearnerHandler@395] - Sending DIFF
+2016-12-13 15:49:15,042 - INFO  [LearnerHandler-/192.168.4.101:46035:LearnerHandler@318] - Synchronizing with Follower sid: 0 maxCommittedLog=0x0 minCommittedLog=0x0 peerLastZxid=0x0
+2016-12-13 15:49:15,043 - INFO  [LearnerHandler-/192.168.4.101:46035:LearnerHandler@395] - Sending DIFF
+2016-12-13 15:49:15,046 - INFO  [LearnerHandler-/192.168.4.104:44156:LearnerHandler@318] - Synchronizing with Follower sid: 3 maxCommittedLog=0x0 minCommittedLog=0x0 peerLastZxid=0x0
+2016-12-13 15:49:15,046 - INFO  [LearnerHandler-/192.168.4.104:44156:LearnerHandler@395] - Sending DIFF
+2016-12-13 15:49:15,054 - WARN  [LearnerHandler-/192.168.4.102:48132:Leader@574] - Commiting zxid 0x100000000 from /192.168.4.105:2888 not first!
+2016-12-13 15:49:15,054 - WARN  [LearnerHandler-/192.168.4.102:48132:Leader@576] - First is 0x0
+2016-12-13 15:49:15,054 - INFO  [LearnerHandler-/192.168.4.102:48132:Leader@598] - Have quorum of supporters; starting up and setting last processed zxid: 0x100000000

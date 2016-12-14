@@ -1,0 +1,1027 @@
+2016-12-14 11:50:36,332{GMT}	INFO	[jepsen node w4] jepsen.os.debian: w4 setting up debian
+2016-12-14 11:50:36,332{GMT}	INFO	[jepsen node w3] jepsen.os.debian: w3 setting up debian
+2016-12-14 11:50:36,332{GMT}	INFO	[jepsen node w2] jepsen.os.debian: w2 setting up debian
+2016-12-14 11:50:36,332{GMT}	INFO	[jepsen node w5] jepsen.os.debian: w5 setting up debian
+2016-12-14 11:50:36,333{GMT}	INFO	[jepsen node w1] jepsen.os.debian: w1 setting up debian
+2016-12-14 11:50:37,042{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: Tearing down ZK on w3
+2016-12-14 11:50:37,042{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: Tearing down ZK on w2
+2016-12-14 11:50:37,042{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: Tearing down ZK on w1
+2016-12-14 11:50:37,042{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: Tearing down ZK on w4
+2016-12-14 11:50:37,042{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: Tearing down ZK on w5
+2016-12-14 11:50:37,245{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: Setting up ZK on w1
+2016-12-14 11:50:37,245{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: Setting up ZK on w2
+2016-12-14 11:50:37,245{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: Setting up ZK on w3
+2016-12-14 11:50:37,245{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: Setting up ZK on w5
+2016-12-14 11:50:37,245{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: Setting up ZK on w4
+2016-12-14 11:50:37,751{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: w1 ZK restarting
+2016-12-14 11:50:37,751{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: w4 ZK restarting
+2016-12-14 11:50:37,751{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: w2 ZK restarting
+2016-12-14 11:50:37,751{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: w3 ZK restarting
+2016-12-14 11:50:37,752{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: w5 ZK restarting
+2016-12-14 11:50:42,852{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: w4 ZK ready
+2016-12-14 11:50:42,852{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: w1 ZK ready
+2016-12-14 11:50:42,853{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: w5 ZK ready
+2016-12-14 11:50:42,853{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: w3 ZK ready
+2016-12-14 11:50:42,853{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: w2 ZK ready
+2016-12-14 11:50:42,855{GMT}	INFO	[clojure-agent-send-off-pool-27] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w1 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__378@b2d3013
+2016-12-14 11:50:42,855{GMT}	INFO	[clojure-agent-send-off-pool-29] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w4 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__378@627a4bca
+2016-12-14 11:50:42,855{GMT}	INFO	[clojure-agent-send-off-pool-24] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w5 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__378@3a117fcd
+2016-12-14 11:50:42,855{GMT}	INFO	[clojure-agent-send-off-pool-4] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w2 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__378@4c1a22fc
+2016-12-14 11:50:42,855{GMT}	INFO	[clojure-agent-send-off-pool-26] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w3 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__378@671edb33
+2016-12-14 11:50:42,856{GMT}	INFO	[clojure-agent-send-off-pool-24-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.4.105:2181
+2016-12-14 11:50:42,856{GMT}	INFO	[clojure-agent-send-off-pool-27-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.4.101:2181
+2016-12-14 11:50:42,857{GMT}	INFO	[clojure-agent-send-off-pool-29-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.4.104:2181
+2016-12-14 11:50:42,858{GMT}	INFO	[clojure-agent-send-off-pool-26-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.4.103:2181
+2016-12-14 11:50:42,858{GMT}	INFO	[clojure-agent-send-off-pool-4-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.4.102:2181
+2016-12-14 11:50:42,858{GMT}	INFO	[clojure-agent-send-off-pool-24-SendThread(w5:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w5/192.168.4.105:2181, initiating session
+2016-12-14 11:50:42,862{GMT}	INFO	[clojure-agent-send-off-pool-27-SendThread(w1:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w1/192.168.4.101:2181, initiating session
+2016-12-14 11:50:42,866{GMT}	INFO	[clojure-agent-send-off-pool-29-SendThread(w4:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w4/192.168.4.104:2181, initiating session
+2016-12-14 11:50:42,869{GMT}	INFO	[clojure-agent-send-off-pool-26-SendThread(w3:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w3/192.168.4.103:2181, initiating session
+2016-12-14 11:50:42,870{GMT}	INFO	[clojure-agent-send-off-pool-4-SendThread(w2:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w2/192.168.4.102:2181, initiating session
+2016-12-14 11:50:42,957{GMT}	INFO	[clojure-agent-send-off-pool-24-SendThread(w5:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w5/192.168.4.105:2181, sessionid = 0x458fd2b81d70000, negotiated timeout = 5000
+2016-12-14 11:50:42,960{GMT}	INFO	[clojure-agent-send-off-pool-27-SendThread(w1:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w1/192.168.4.101:2181, sessionid = 0x58fd2b8def0000, negotiated timeout = 5000
+2016-12-14 11:50:42,963{GMT}	INFO	[clojure-agent-send-off-pool-4-SendThread(w2:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w2/192.168.4.102:2181, sessionid = 0x158fd2b8ec70000, negotiated timeout = 5000
+2016-12-14 11:50:42,972{GMT}	INFO	[clojure-agent-send-off-pool-26-SendThread(w3:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w3/192.168.4.103:2181, sessionid = 0x258fd2b90830000, negotiated timeout = 5000
+2016-12-14 11:50:42,974{GMT}	INFO	[clojure-agent-send-off-pool-29-SendThread(w4:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w4/192.168.4.104:2181, sessionid = 0x358fd2b86880000, negotiated timeout = 5000
+2016-12-14 11:50:43,310{GMT}	INFO	[jepsen nemesis] jepsen.core: Nemesis starting
+2016-12-14 11:50:43,310{GMT}	INFO	[jepsen worker 0] jepsen.core: Worker 0 starting
+2016-12-14 11:50:43,310{GMT}	INFO	[jepsen worker 4] jepsen.core: Worker 4 starting
+2016-12-14 11:50:43,310{GMT}	INFO	[jepsen worker 3] jepsen.core: Worker 3 starting
+2016-12-14 11:50:43,311{GMT}	INFO	[jepsen worker 2] jepsen.core: Worker 2 starting
+2016-12-14 11:50:43,310{GMT}	INFO	[jepsen worker 1] jepsen.core: Worker 1 starting
+2016-12-14 11:50:43,767{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:write	3
+2016-12-14 11:50:43,790{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:ok	:write	3
+2016-12-14 11:50:43,821{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:cas	[4 4]
+2016-12-14 11:50:43,839{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:fail	:cas	[4 4]
+2016-12-14 11:50:44,214{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:cas	[2 3]
+2016-12-14 11:50:44,233{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:fail	:cas	[2 3]
+2016-12-14 11:50:44,322{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:write	2
+2016-12-14 11:50:44,337{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:ok	:write	2
+2016-12-14 11:50:44,612{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:write	0
+2016-12-14 11:50:44,627{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:write	0
+2016-12-14 11:50:44,649{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:cas	[1 3]
+2016-12-14 11:50:44,665{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:fail	:cas	[1 3]
+2016-12-14 11:50:44,728{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:read	nil
+2016-12-14 11:50:44,729{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:read	0
+2016-12-14 11:50:44,878{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:read	nil
+2016-12-14 11:50:44,878{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:cas	[3 0]
+2016-12-14 11:50:44,880{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:read	0
+2016-12-14 11:50:44,894{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:fail	:cas	[3 0]
+2016-12-14 11:50:45,142{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:cas	[4 0]
+2016-12-14 11:50:45,161{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:fail	:cas	[4 0]
+2016-12-14 11:50:45,360{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:read	nil
+2016-12-14 11:50:45,361{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:read	0
+2016-12-14 11:50:45,430{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:read	nil
+2016-12-14 11:50:45,430{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:read	0
+2016-12-14 11:50:45,782{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:write	3
+2016-12-14 11:50:45,798{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:write	3
+2016-12-14 11:50:46,137{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:write	2
+2016-12-14 11:50:46,167{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:write	2
+2016-12-14 11:50:46,250{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:cas	[3 3]
+2016-12-14 11:50:46,265{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:fail	:cas	[3 3]
+2016-12-14 11:50:46,765{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:cas	[2 4]
+2016-12-14 11:50:46,781{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:ok	:cas	[2 4]
+2016-12-14 11:50:46,956{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:cas	[1 1]
+2016-12-14 11:50:46,972{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:fail	:cas	[1 1]
+2016-12-14 11:50:47,041{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:write	0
+2016-12-14 11:50:47,057{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:write	0
+2016-12-14 11:50:47,062{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:write	1
+2016-12-14 11:50:47,077{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:ok	:write	1
+2016-12-14 11:50:47,728{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:cas	[3 0]
+2016-12-14 11:50:47,745{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:fail	:cas	[3 0]
+2016-12-14 11:50:47,752{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:read	nil
+2016-12-14 11:50:47,753{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:read	1
+2016-12-14 11:50:47,926{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:cas	[3 4]
+2016-12-14 11:50:47,943{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:fail	:cas	[3 4]
+2016-12-14 11:50:48,026{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:cas	[3 1]
+2016-12-14 11:50:48,041{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:fail	:cas	[3 1]
+2016-12-14 11:50:48,052{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:cas	[3 4]
+2016-12-14 11:50:48,067{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:fail	:cas	[3 4]
+2016-12-14 11:50:48,311{GMT}	INFO	[jepsen nemesis] jepsen.util: :nemesis	:info	:start	nil
+2016-12-14 11:50:48,632{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:read	nil
+2016-12-14 11:50:48,633{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:read	1
+2016-12-14 11:50:48,659{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:read	nil
+2016-12-14 11:50:48,659{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:read	1
+2016-12-14 11:50:48,679{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:read	nil
+2016-12-14 11:50:48,681{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:read	1
+2016-12-14 11:50:48,840{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:read	nil
+2016-12-14 11:50:48,842{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:ok	:read	1
+2016-12-14 11:50:48,860{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:write	4
+2016-12-14 11:50:48,965{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:write	4
+2016-12-14 11:50:49,270{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:write	0
+2016-12-14 11:50:49,287{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:ok	:write	0
+2016-12-14 11:50:49,330{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:read	nil
+2016-12-14 11:50:49,331{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:read	4
+2016-12-14 11:50:49,376{GMT}	INFO	[jepsen nemesis] jepsen.util: :nemesis	:info	:start	"Cut off {\"w4\" #{\"w5\" \"w2\" \"w3\"}, \"w1\" #{\"w5\" \"w2\" \"w3\"}, \"w5\" #{\"w4\" \"w1\"}, \"w2\" #{\"w4\" \"w1\"}, \"w3\" #{\"w4\" \"w1\"}}"
+2016-12-14 11:50:49,612{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:read	nil
+2016-12-14 11:50:49,614{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:read	0
+2016-12-14 11:50:49,698{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:read	nil
+2016-12-14 11:50:49,700{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:read	0
+2016-12-14 11:50:50,339{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:cas	[0 2]
+2016-12-14 11:50:50,920{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:write	3
+2016-12-14 11:50:50,938{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:write	3
+2016-12-14 11:50:51,065{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:read	nil
+2016-12-14 11:50:51,066{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:ok	:read	3
+2016-12-14 11:50:51,076{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:read	nil
+2016-12-14 11:50:51,076{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:read	4
+2016-12-14 11:50:51,161{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:cas	[1 2]
+2016-12-14 11:50:51,178{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:fail	:cas	[1 2]
+2016-12-14 11:50:51,408{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:read	nil
+2016-12-14 11:50:51,409{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:read	3
+2016-12-14 11:50:51,902{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:write	2
+2016-12-14 11:50:51,921{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:write	2
+2016-12-14 11:50:52,171{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:cas	[2 3]
+2016-12-14 11:50:52,290{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:read	nil
+2016-12-14 11:50:52,293{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:read	2
+2016-12-14 11:50:52,372{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:cas	[2 3]
+2016-12-14 11:50:52,388{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:cas	[2 3]
+2016-12-14 11:50:52,971{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:read	nil
+2016-12-14 11:50:52,975{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 1 indeterminate
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /jepsen/data
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:111) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1113) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1142) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at sun.reflect.GeneratedMethodAccessor25.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at zookeeper$data$fn__513.invoke(zookeeper.clj:352) ~[na:na]
+	at zookeeper$data.invokeStatic(zookeeper.clj:351) ~[na:na]
+	at zookeeper$data.doInvoke(zookeeper.clj:310) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.zk.ZKStateContainer.getState(zk.clj:18) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor24.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.deref(atoms.clj:75) ~[na:na]
+	at clojure.core$deref.invokeStatic(core.clj:2228) ~[clojure-1.8.0.jar:na]
+	at clojure.core$deref.invoke(core.clj:2214) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:94) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:50:53,125{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:read	nil
+2016-12-14 11:50:53,129{GMT}	WARN	[jepsen worker 2] jepsen.core: Process 2 indeterminate
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /jepsen/data
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:111) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1113) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1142) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at sun.reflect.GeneratedMethodAccessor25.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at zookeeper$data$fn__513.invoke(zookeeper.clj:352) ~[na:na]
+	at zookeeper$data.invokeStatic(zookeeper.clj:351) ~[na:na]
+	at zookeeper$data.doInvoke(zookeeper.clj:310) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.zk.ZKStateContainer.getState(zk.clj:18) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor24.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.deref(atoms.clj:75) ~[na:na]
+	at clojure.core$deref.invokeStatic(core.clj:2228) ~[clojure-1.8.0.jar:na]
+	at clojure.core$deref.invoke(core.clj:2214) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:94) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:50:53,679{GMT}	INFO	[clojure-agent-send-off-pool-27-SendThread(w1:2181)] org.apache.zookeeper.ClientCnxn: Client session timed out, have not heard from server in 3335ms for sessionid 0x58fd2b8def0000, closing socket connection and attempting reconnect
+2016-12-14 11:50:53,783{GMT}	WARN	[jepsen worker 0] jepsen.core: Process 0 indeterminate
+java.lang.IllegalMonitorStateException: null
+	at java.util.concurrent.locks.ReentrantReadWriteLock$Sync.tryRelease(ReentrantReadWriteLock.java:371) ~[na:1.8.0_111]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1261) ~[na:1.8.0_111]
+	at java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.unlock(ReentrantReadWriteLock.java:1131) ~[na:1.8.0_111]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.locks.ZKDistributedReentrantLock.unlock(locks.clj:130) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:58) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor28.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:99) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:50:53,952{GMT}	INFO	[jepsen worker 2] jepsen.util: 7	:invoke	:cas	[0 1]
+2016-12-14 11:50:53,971{GMT}	WARN	[jepsen worker 2] jepsen.core: Process 7 indeterminate
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /jepsen/data
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:111) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1113) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1142) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at sun.reflect.GeneratedMethodAccessor25.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at zookeeper$data$fn__513.invoke(zookeeper.clj:352) ~[na:na]
+	at zookeeper$data.invokeStatic(zookeeper.clj:351) ~[na:na]
+	at zookeeper$data.doInvoke(zookeeper.clj:310) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.zk.ZKStateContainer.getState(zk.clj:18) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor24.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:59) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor28.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:99) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:50:53,977{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:cas	[1 2]
+2016-12-14 11:50:53,991{GMT}	WARN	[jepsen worker 4] jepsen.core: Process 4 indeterminate
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /jepsen/data
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:111) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1113) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1142) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at sun.reflect.GeneratedMethodAccessor25.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at zookeeper$data$fn__513.invoke(zookeeper.clj:352) ~[na:na]
+	at zookeeper$data.invokeStatic(zookeeper.clj:351) ~[na:na]
+	at zookeeper$data.doInvoke(zookeeper.clj:310) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.zk.ZKStateContainer.getState(zk.clj:18) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor24.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:59) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor28.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:99) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:50:54,377{GMT}	INFO	[jepsen nemesis] jepsen.util: :nemesis	:info	:stop	nil
+2016-12-14 11:50:54,580{GMT}	INFO	[jepsen nemesis] jepsen.util: :nemesis	:info	:stop	"fully connected"
+2016-12-14 11:50:54,620{GMT}	INFO	[jepsen worker 4] jepsen.util: 9	:invoke	:read	nil
+2016-12-14 11:50:54,623{GMT}	WARN	[jepsen worker 4] jepsen.core: Process 9 indeterminate
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /jepsen/data
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:111) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1113) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1142) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at sun.reflect.GeneratedMethodAccessor25.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at zookeeper$data$fn__513.invoke(zookeeper.clj:352) ~[na:na]
+	at zookeeper$data.invokeStatic(zookeeper.clj:351) ~[na:na]
+	at zookeeper$data.doInvoke(zookeeper.clj:310) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.zk.ZKStateContainer.getState(zk.clj:18) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor24.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.deref(atoms.clj:75) ~[na:na]
+	at clojure.core$deref.invokeStatic(core.clj:2228) ~[clojure-1.8.0.jar:na]
+	at clojure.core$deref.invoke(core.clj:2214) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:94) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:50:54,760{GMT}	INFO	[jepsen worker 1] jepsen.util: 6	:invoke	:read	nil
+2016-12-14 11:50:54,763{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 6 indeterminate
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /jepsen/data
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:111) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1113) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1142) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at sun.reflect.GeneratedMethodAccessor25.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at zookeeper$data$fn__513.invoke(zookeeper.clj:352) ~[na:na]
+	at zookeeper$data.invokeStatic(zookeeper.clj:351) ~[na:na]
+	at zookeeper$data.doInvoke(zookeeper.clj:310) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.zk.ZKStateContainer.getState(zk.clj:18) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor24.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.deref(atoms.clj:75) ~[na:na]
+	at clojure.core$deref.invokeStatic(core.clj:2228) ~[clojure-1.8.0.jar:na]
+	at clojure.core$deref.invoke(core.clj:2214) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:94) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:50:55,465{GMT}	INFO	[clojure-agent-send-off-pool-29-SendThread(w4:2181)] org.apache.zookeeper.ClientCnxn: Unable to read additional data from server sessionid 0x358fd2b86880000, likely server has closed socket, closing socket connection and attempting reconnect
+2016-12-14 11:50:55,567{GMT}	ERROR	[clojure-agent-send-off-pool-29-EventThread] org.apache.zookeeper.ClientCnxn: Error while calling watcher 
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /stm/atoms/jepsen
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1003) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at zookeeper$exists.invokeStatic(zookeeper.clj:96) ~[na:na]
+	at zookeeper$exists.doInvoke(zookeeper.clj:54) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:464) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.invalidateCache(atoms.clj:107) ~[na:na]
+	at avout.atoms.DistributedAtom$fn__1351.invoke(atoms.clj:108) ~[na:na]
+	at zookeeper.internal$make_watcher$reify__378.process(internal.clj:56) ~[na:na]
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:521) [zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:497) [zookeeper-3.4.0.jar:3.4.0-1202560]
+2016-12-14 11:50:55,569{GMT}	WARN	[jepsen worker 3] jepsen.core: Process 3 indeterminate
+java.lang.IllegalMonitorStateException: null
+	at java.util.concurrent.locks.ReentrantReadWriteLock$Sync.tryRelease(ReentrantReadWriteLock.java:371) ~[na:1.8.0_111]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1261) ~[na:1.8.0_111]
+	at java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.unlock(ReentrantReadWriteLock.java:1131) ~[na:1.8.0_111]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.locks.ZKDistributedReentrantLock.unlock(locks.clj:130) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:58) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor28.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:99) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:50:55,602{GMT}	INFO	[jepsen worker 0] jepsen.util: 5	:invoke	:read	nil
+2016-12-14 11:50:55,602{GMT}	INFO	[jepsen worker 0] jepsen.util: 5	:ok	:read	1
+2016-12-14 11:50:55,605{GMT}	INFO	[clojure-agent-send-off-pool-27-SendThread(w1:2181)] org.apache.zookeeper.ClientCnxn: Opening socket connection to server w1/192.168.4.101:2181
+2016-12-14 11:50:55,606{GMT}	INFO	[clojure-agent-send-off-pool-27-SendThread(w1:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w1/192.168.4.101:2181, initiating session
+2016-12-14 11:50:55,704{GMT}	INFO	[jepsen worker 2] jepsen.util: 12	:invoke	:cas	[2 1]
+2016-12-14 11:50:55,719{GMT}	WARN	[jepsen worker 2] jepsen.core: Process 12 indeterminate
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /jepsen/data
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:111) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1113) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1142) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at sun.reflect.GeneratedMethodAccessor25.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at zookeeper$data$fn__513.invoke(zookeeper.clj:352) ~[na:na]
+	at zookeeper$data.invokeStatic(zookeeper.clj:351) ~[na:na]
+	at zookeeper$data.doInvoke(zookeeper.clj:310) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.zk.ZKStateContainer.getState(zk.clj:18) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor24.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:59) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor28.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:99) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:50:55,765{GMT}	INFO	[jepsen worker 4] jepsen.util: 14	:invoke	:cas	[2 2]
+2016-12-14 11:50:55,779{GMT}	WARN	[jepsen worker 4] jepsen.core: Process 14 indeterminate
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /jepsen/data
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:111) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1113) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1142) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at sun.reflect.GeneratedMethodAccessor25.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at zookeeper$data$fn__513.invoke(zookeeper.clj:352) ~[na:na]
+	at zookeeper$data.invokeStatic(zookeeper.clj:351) ~[na:na]
+	at zookeeper$data.doInvoke(zookeeper.clj:310) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.zk.ZKStateContainer.getState(zk.clj:18) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor24.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:59) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor28.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:99) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:50:56,116{GMT}	INFO	[jepsen worker 2] jepsen.util: 17	:invoke	:write	4
+2016-12-14 11:50:56,135{GMT}	WARN	[jepsen worker 2] jepsen.core: Process 17 indeterminate
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /jepsen/data
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:111) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.setData(ZooKeeper.java:1228) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at zookeeper$set_data.invokeStatic(zookeeper.clj:394) ~[na:na]
+	at zookeeper$set_data.doInvoke(zookeeper.clj:356) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:470) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.zk.ZKStateContainer.setState(zk.clj:21) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.atoms$set_state.invokeStatic(atoms.clj:31) ~[na:na]
+	at avout.atoms$set_state.invoke(atoms.clj:29) ~[na:na]
+	at avout.atoms.DistributedAtom.reset(atoms.clj:68) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor26.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$reset_BANG__BANG_.invokeStatic(core.clj:111) ~[na:na]
+	at avout.core$reset_BANG__BANG_.invoke(core.clj:109) ~[na:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:95) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:50:56,179{GMT}	INFO	[jepsen worker 1] jepsen.util: 11	:invoke	:cas	[2 2]
+2016-12-14 11:50:56,224{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 11 indeterminate
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /jepsen/data
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:111) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1113) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1142) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at sun.reflect.GeneratedMethodAccessor25.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at zookeeper$data$fn__513.invoke(zookeeper.clj:352) ~[na:na]
+	at zookeeper$data.invokeStatic(zookeeper.clj:351) ~[na:na]
+	at zookeeper$data.doInvoke(zookeeper.clj:310) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.zk.ZKStateContainer.getState(zk.clj:18) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor24.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:59) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor28.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:99) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:50:56,492{GMT}	INFO	[jepsen worker 3] jepsen.util: 8	:invoke	:cas	[3 3]
+2016-12-14 11:50:56,507{GMT}	INFO	[jepsen worker 0] jepsen.util: 5	:invoke	:cas	[1 0]
+2016-12-14 11:50:56,738{GMT}	INFO	[clojure-agent-send-off-pool-29-SendThread(w4:2181)] org.apache.zookeeper.ClientCnxn: Opening socket connection to server w4/192.168.4.104:2181
+2016-12-14 11:50:56,738{GMT}	INFO	[clojure-agent-send-off-pool-29-SendThread(w4:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w4/192.168.4.104:2181, initiating session
+2016-12-14 11:50:56,741{GMT}	INFO	[clojure-agent-send-off-pool-29-EventThread] org.apache.zookeeper.ClientCnxn: EventThread shut down
+2016-12-14 11:50:56,741{GMT}	INFO	[clojure-agent-send-off-pool-29-SendThread(w4:2181)] org.apache.zookeeper.ClientCnxn: Unable to reconnect to ZooKeeper service, session 0x358fd2b86880000 has expired, closing socket connection
+2016-12-14 11:50:56,845{GMT}	WARN	[jepsen worker 3] jepsen.core: Process 8 indeterminate
+java.lang.IllegalMonitorStateException: null
+	at java.util.concurrent.locks.ReentrantReadWriteLock$Sync.tryRelease(ReentrantReadWriteLock.java:371) ~[na:1.8.0_111]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1261) ~[na:1.8.0_111]
+	at java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.unlock(ReentrantReadWriteLock.java:1131) ~[na:1.8.0_111]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.locks.ZKDistributedReentrantLock.unlock(locks.clj:130) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:58) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor28.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:99) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:50:56,885{GMT}	INFO	[clojure-agent-send-off-pool-27-SendThread(w1:2181)] org.apache.zookeeper.ClientCnxn: Unable to reconnect to ZooKeeper service, session 0x58fd2b8def0000 has expired, closing socket connection
+2016-12-14 11:50:56,988{GMT}	ERROR	[clojure-agent-send-off-pool-27-EventThread] org.apache.zookeeper.ClientCnxn: Error while calling watcher 
+org.apache.zookeeper.KeeperException$SessionExpiredException: KeeperErrorCode = Session expired for /stm/atoms/jepsen
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:127) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1003) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at zookeeper$exists.invokeStatic(zookeeper.clj:96) ~[na:na]
+	at zookeeper$exists.doInvoke(zookeeper.clj:54) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:464) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.invalidateCache(atoms.clj:107) ~[na:na]
+	at avout.atoms.DistributedAtom$fn__1351.invoke(atoms.clj:108) ~[na:na]
+	at zookeeper.internal$make_watcher$reify__378.process(internal.clj:56) ~[na:na]
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:521) [zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:497) [zookeeper-3.4.0.jar:3.4.0-1202560]
+2016-12-14 11:50:56,989{GMT}	WARN	[jepsen worker 0] jepsen.core: Process 5 indeterminate
+java.lang.IllegalMonitorStateException: null
+	at java.util.concurrent.locks.ReentrantReadWriteLock$Sync.tryRelease(ReentrantReadWriteLock.java:371) ~[na:1.8.0_111]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1261) ~[na:1.8.0_111]
+	at java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.unlock(ReentrantReadWriteLock.java:1131) ~[na:1.8.0_111]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.locks.ZKDistributedReentrantLock.unlock(locks.clj:130) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:58) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor28.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:99) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:50:56,989{GMT}	ERROR	[clojure-agent-send-off-pool-27-EventThread] org.apache.zookeeper.ClientCnxn: Error while calling watcher 
+org.apache.zookeeper.KeeperException$SessionExpiredException: KeeperErrorCode = Session expired for /stm/atoms/jepsen
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:127) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1003) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at zookeeper$exists.invokeStatic(zookeeper.clj:96) ~[na:na]
+	at zookeeper$exists.doInvoke(zookeeper.clj:54) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:464) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.invalidateCache(atoms.clj:107) ~[na:na]
+	at avout.atoms.DistributedAtom$fn__1351.invoke(atoms.clj:108) ~[na:na]
+	at zookeeper.internal$make_watcher$reify__378.process(internal.clj:56) ~[na:na]
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:521) [zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:497) [zookeeper-3.4.0.jar:3.4.0-1202560]
+2016-12-14 11:50:56,989{GMT}	INFO	[clojure-agent-send-off-pool-27-EventThread] org.apache.zookeeper.ClientCnxn: EventThread shut down
+2016-12-14 11:50:57,066{GMT}	INFO	[jepsen worker 2] jepsen.util: 22	:invoke	:write	4
+2016-12-14 11:50:57,085{GMT}	WARN	[jepsen worker 2] jepsen.core: Process 22 indeterminate
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /jepsen/data
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:111) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.setData(ZooKeeper.java:1228) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at zookeeper$set_data.invokeStatic(zookeeper.clj:394) ~[na:na]
+	at zookeeper$set_data.doInvoke(zookeeper.clj:356) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:470) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.zk.ZKStateContainer.setState(zk.clj:21) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.atoms$set_state.invokeStatic(atoms.clj:31) ~[na:na]
+	at avout.atoms$set_state.invoke(atoms.clj:29) ~[na:na]
+	at avout.atoms.DistributedAtom.reset(atoms.clj:68) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor26.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$reset_BANG__BANG_.invokeStatic(core.clj:111) ~[na:na]
+	at avout.core$reset_BANG__BANG_.invoke(core.clj:109) ~[na:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:95) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:50:57,166{GMT}	INFO	[jepsen worker 4] jepsen.util: 19	:invoke	:read	nil
+2016-12-14 11:50:57,170{GMT}	WARN	[jepsen worker 4] jepsen.core: Process 19 indeterminate
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /jepsen/data
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:111) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1113) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1142) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at sun.reflect.GeneratedMethodAccessor25.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at zookeeper$data$fn__513.invoke(zookeeper.clj:352) ~[na:na]
+	at zookeeper$data.invokeStatic(zookeeper.clj:351) ~[na:na]
+	at zookeeper$data.doInvoke(zookeeper.clj:310) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.zk.ZKStateContainer.getState(zk.clj:18) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor24.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.deref(atoms.clj:75) ~[na:na]
+	at clojure.core$deref.invokeStatic(core.clj:2228) ~[clojure-1.8.0.jar:na]
+	at clojure.core$deref.invoke(core.clj:2214) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:94) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:50:58,139{GMT}	INFO	[jepsen worker 1] jepsen.util: 16	:invoke	:read	nil
+2016-12-14 11:50:58,142{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 16 indeterminate
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /jepsen/data
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:111) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1113) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1142) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at sun.reflect.GeneratedMethodAccessor25.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at zookeeper$data$fn__513.invoke(zookeeper.clj:352) ~[na:na]
+	at zookeeper$data.invokeStatic(zookeeper.clj:351) ~[na:na]
+	at zookeeper$data.doInvoke(zookeeper.clj:310) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.zk.ZKStateContainer.getState(zk.clj:18) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor24.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.deref(atoms.clj:75) ~[na:na]
+	at clojure.core$deref.invokeStatic(core.clj:2228) ~[clojure-1.8.0.jar:na]
+	at clojure.core$deref.invoke(core.clj:2214) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:94) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:50:58,148{GMT}	INFO	[jepsen worker 3] jepsen.util: 13	:invoke	:cas	[0 2]
+2016-12-14 11:50:58,151{GMT}	WARN	[jepsen worker 3] jepsen.core: Process 13 indeterminate
+java.lang.IllegalMonitorStateException: null
+	at java.util.concurrent.locks.ReentrantReadWriteLock$Sync.tryRelease(ReentrantReadWriteLock.java:371) ~[na:1.8.0_111]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1261) ~[na:1.8.0_111]
+	at java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.unlock(ReentrantReadWriteLock.java:1131) ~[na:1.8.0_111]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.locks.ZKDistributedReentrantLock.unlock(locks.clj:130) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:58) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor28.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:99) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:50:58,362{GMT}	INFO	[jepsen worker 4] jepsen.util: 24	:invoke	:read	nil
+2016-12-14 11:50:58,366{GMT}	WARN	[jepsen worker 4] jepsen.core: Process 24 indeterminate
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /jepsen/data
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:111) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1113) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1142) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at sun.reflect.GeneratedMethodAccessor25.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at zookeeper$data$fn__513.invoke(zookeeper.clj:352) ~[na:na]
+	at zookeeper$data.invokeStatic(zookeeper.clj:351) ~[na:na]
+	at zookeeper$data.doInvoke(zookeeper.clj:310) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.zk.ZKStateContainer.getState(zk.clj:18) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor24.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.deref(atoms.clj:75) ~[na:na]
+	at clojure.core$deref.invokeStatic(core.clj:2228) ~[clojure-1.8.0.jar:na]
+	at clojure.core$deref.invoke(core.clj:2214) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:94) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:50:58,366{GMT}	INFO	[jepsen worker 4] jepsen.core: Worker 4 done
+2016-12-14 11:50:58,442{GMT}	INFO	[jepsen worker 0] jepsen.util: 10	:invoke	:write	0
+2016-12-14 11:50:58,445{GMT}	WARN	[jepsen worker 0] jepsen.core: Process 10 indeterminate
+java.lang.IllegalMonitorStateException: null
+	at java.util.concurrent.locks.ReentrantReadWriteLock$Sync.tryRelease(ReentrantReadWriteLock.java:371) ~[na:1.8.0_111]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1261) ~[na:1.8.0_111]
+	at java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.unlock(ReentrantReadWriteLock.java:1131) ~[na:1.8.0_111]
+	at sun.reflect.GeneratedMethodAccessor12.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.locks.ZKDistributedReentrantLock.unlock(locks.clj:130) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.reset(atoms.clj:66) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor26.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$reset_BANG__BANG_.invokeStatic(core.clj:111) ~[na:na]
+	at avout.core$reset_BANG__BANG_.invoke(core.clj:109) ~[na:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:95) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:50:58,445{GMT}	INFO	[jepsen worker 0] jepsen.core: Worker 0 done
+2016-12-14 11:50:58,672{GMT}	INFO	[jepsen worker 1] jepsen.util: 21	:invoke	:read	nil
+2016-12-14 11:50:58,675{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 21 indeterminate
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /jepsen/data
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:111) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1113) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1142) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at sun.reflect.GeneratedMethodAccessor25.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at zookeeper$data$fn__513.invoke(zookeeper.clj:352) ~[na:na]
+	at zookeeper$data.invokeStatic(zookeeper.clj:351) ~[na:na]
+	at zookeeper$data.doInvoke(zookeeper.clj:310) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.zk.ZKStateContainer.getState(zk.clj:18) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor24.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.deref(atoms.clj:75) ~[na:na]
+	at clojure.core$deref.invokeStatic(core.clj:2228) ~[clojure-1.8.0.jar:na]
+	at clojure.core$deref.invoke(core.clj:2214) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:94) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:50:58,675{GMT}	INFO	[jepsen worker 1] jepsen.core: Worker 1 done
+2016-12-14 11:50:58,903{GMT}	INFO	[jepsen worker 3] jepsen.util: 18	:invoke	:read	nil
+2016-12-14 11:50:58,904{GMT}	INFO	[jepsen worker 3] jepsen.util: 18	:ok	:read	4
+2016-12-14 11:50:58,904{GMT}	INFO	[jepsen worker 3] jepsen.core: Worker 3 done
+2016-12-14 11:50:58,972{GMT}	INFO	[jepsen worker 2] jepsen.util: 27	:invoke	:write	0
+2016-12-14 11:50:58,988{GMT}	WARN	[jepsen worker 2] jepsen.core: Process 27 indeterminate
+org.apache.zookeeper.KeeperException$NoNodeException: KeeperErrorCode = NoNode for /jepsen/data
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:111) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.setData(ZooKeeper.java:1228) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at zookeeper$set_data.invokeStatic(zookeeper.clj:394) ~[na:na]
+	at zookeeper$set_data.doInvoke(zookeeper.clj:356) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:470) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.zk.ZKStateContainer.setState(zk.clj:21) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.atoms$set_state.invokeStatic(atoms.clj:31) ~[na:na]
+	at avout.atoms$set_state.invoke(atoms.clj:29) ~[na:na]
+	at avout.atoms.DistributedAtom.reset(atoms.clj:68) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor26.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$reset_BANG__BANG_.invokeStatic(core.clj:111) ~[na:na]
+	at avout.core$reset_BANG__BANG_.invoke(core.clj:109) ~[na:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:95) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:50:58,988{GMT}	INFO	[jepsen worker 2] jepsen.core: Worker 2 done
+2016-12-14 11:50:58,988{GMT}	INFO	[jepsen test runner] jepsen.core: Waiting for nemesis to complete
+2016-12-14 11:50:59,581{GMT}	INFO	[jepsen nemesis] jepsen.util: :nemesis	:info	:start	nil
+2016-12-14 11:51:00,603{GMT}	INFO	[jepsen nemesis] jepsen.util: :nemesis	:info	:start	"Cut off {\"w2\" #{\"w5\" \"w4\" \"w3\"}, \"w1\" #{\"w5\" \"w4\" \"w3\"}, \"w5\" #{\"w2\" \"w1\"}, \"w4\" #{\"w2\" \"w1\"}, \"w3\" #{\"w2\" \"w1\"}}"
+2016-12-14 11:51:00,603{GMT}	INFO	[jepsen nemesis] jepsen.core: nemesis done
+2016-12-14 11:51:00,603{GMT}	INFO	[jepsen test runner] jepsen.core: nemesis done.
+2016-12-14 11:51:00,603{GMT}	INFO	[jepsen test runner] jepsen.core: Tearing down nemesis
+2016-12-14 11:51:00,807{GMT}	INFO	[jepsen test runner] jepsen.core: Nemesis torn down
+2016-12-14 11:51:00,811{GMT}	INFO	[clojure-agent-send-off-pool-24] org.apache.zookeeper.ZooKeeper: Session: 0x458fd2b81d70000 closed
+2016-12-14 11:51:00,811{GMT}	INFO	[clojure-agent-send-off-pool-24-EventThread] org.apache.zookeeper.ClientCnxn: EventThread shut down
+2016-12-14 11:51:00,812{GMT}	INFO	[clojure-agent-send-off-pool-10] org.apache.zookeeper.ZooKeeper: Session: 0x258fd2b90830000 closed
+2016-12-14 11:51:00,812{GMT}	INFO	[clojure-agent-send-off-pool-26-EventThread] org.apache.zookeeper.ClientCnxn: EventThread shut down
+2016-12-14 11:51:00,812{GMT}	INFO	[clojure-agent-send-off-pool-29] org.apache.zookeeper.ZooKeeper: Session: 0x158fd2b8ec70000 closed
+2016-12-14 11:51:00,812{GMT}	INFO	[clojure-agent-send-off-pool-4-EventThread] org.apache.zookeeper.ClientCnxn: EventThread shut down
+2016-12-14 11:51:00,812{GMT}	INFO	[jepsen test runner] jepsen.core: Snarfing log files
+2016-12-14 11:51:00,813{GMT}	INFO	[jepsen node w1] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-14 11:51:00,813{GMT}	INFO	[jepsen node w3] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-14 11:51:00,813{GMT}	INFO	[jepsen node w5] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-14 11:51:00,813{GMT}	INFO	[jepsen node w4] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-14 11:51:00,813{GMT}	INFO	[jepsen node w2] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-14 11:51:00,824{GMT}	INFO	[jepsen test runner] jepsen.core: Run complete, writing
+2016-12-14 11:51:00,832{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: Tearing down ZK on w3
+2016-12-14 11:51:00,832{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: Tearing down ZK on w2
+2016-12-14 11:51:00,832{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: Tearing down ZK on w4
+2016-12-14 11:51:00,832{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: Tearing down ZK on w1
+2016-12-14 11:51:00,832{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: Tearing down ZK on w5
+2016-12-14 11:51:01,437{GMT}	INFO	[jepsen test runner] jepsen.core: Analyzing
+2016-12-14 11:51:01,556{GMT}	INFO	[jepsen test runner] jepsen.core: Analysis complete
+2016-12-14 11:51:01,588{GMT}	INFO	[jepsen results] jepsen.store: Wrote /home/admin/jepsen.zookeeper/store/zookeeper/20161214T115035.000Z/results.edn
+2016-12-14 11:51:01,618{GMT}	INFO	[main] jepsen.core: {:perf
+ {:latency-graph {:valid? true},
+  :rate-graph {:valid? true},
+  :valid? true},
+ :html {:valid? true},
+ :linear
+ {:valid? false,
+  :configs
+  ({:model {:value 0},
+    :last-op
+    {:type :ok,
+     :f :write,
+     :value 0,
+     :process 1,
+     :time 6432739049,
+     :index 60},
+    :pending
+    [{:type :invoke,
+      :f :read,
+      :value 4,
+      :process 3,
+      :time 6475494633,
+      :index 61}]}),
+  :final-paths
+  ([{:op
+     {:type :ok,
+      :f :write,
+      :value 0,
+      :process 1,
+      :time 6432739049,
+      :index 60},
+     :model {:value 0}}
+    {:op
+     {:type :ok,
+      :f :read,
+      :value 4,
+      :process 3,
+      :time 6476768315,
+      :index 62},
+     :model {:msg "can't read 4 from register 0"}}]),
+  :previous-ok
+  {:type :ok,
+   :f :write,
+   :value 0,
+   :process 1,
+   :time 6432739049,
+   :index 60},
+  :last-op
+  {:type :ok,
+   :f :write,
+   :value 0,
+   :process 1,
+   :time 6432739049,
+   :index 60},
+  :op
+  {:type :ok,
+   :f :read,
+   :value 4,
+   :process 3,
+   :time 6476768315,
+   :index 62}},
+ :valid? false}
+
+
+Analysis invalid! (ﾉಥ益ಥ）ﾉ ┻━┻

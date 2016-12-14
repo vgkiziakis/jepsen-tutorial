@@ -1,0 +1,102 @@
+4	:invoke	:cas	[0 1]
+4	:ok	:cas	[0 1]
+0	:invoke	:cas	[4 4]
+0	:fail	:cas	[4 4]
+1	:invoke	:cas	[1 4]
+1	:ok	:cas	[1 4]
+0	:invoke	:cas	[3 4]
+0	:fail	:cas	[3 4]
+3	:invoke	:read	nil
+3	:ok	:read	4
+4	:invoke	:write	4
+4	:ok	:write	4
+4	:invoke	:cas	[0 0]
+4	:fail	:cas	[0 0]
+4	:invoke	:cas	[2 2]
+4	:fail	:cas	[2 2]
+3	:invoke	:cas	[4 3]
+3	:ok	:cas	[4 3]
+0	:invoke	:cas	[0 3]
+0	:fail	:cas	[0 3]
+2	:invoke	:write	1
+2	:ok	:write	1
+4	:invoke	:write	2
+4	:ok	:write	2
+1	:invoke	:write	4
+1	:ok	:write	4
+2	:invoke	:cas	[2 1]
+2	:fail	:cas	[2 1]
+4	:invoke	:read	nil
+4	:ok	:read	4
+0	:invoke	:write	3
+0	:ok	:write	3
+1	:invoke	:cas	[3 4]
+1	:ok	:cas	[3 4]
+3	:invoke	:write	2
+3	:ok	:write	2
+3	:invoke	:cas	[4 0]
+3	:fail	:cas	[4 0]
+2	:invoke	:read	nil
+2	:ok	:read	2
+2	:invoke	:write	0
+2	:ok	:write	0
+4	:invoke	:cas	[1 4]
+4	:fail	:cas	[1 4]
+0	:invoke	:read	nil
+0	:ok	:read	0
+:nemesis	:info	:start	nil
+1	:invoke	:cas	[3 4]
+1	:fail	:cas	[3 4]
+3	:invoke	:write	1
+:nemesis	:info	:start	"Cut off {\"w5\" #{\"w4\" \"w2\" \"w1\"}, \"w3\" #{\"w4\" \"w2\" \"w1\"}, \"w4\" #{\"w5\" \"w3\"}, \"w2\" #{\"w5\" \"w3\"}, \"w1\" #{\"w5\" \"w3\"}}"
+1	:invoke	:read	nil
+1	:ok	:read	0
+4	:invoke	:read	nil
+1	:invoke	:read	nil
+1	:ok	:read	0
+4	:ok	:read	0
+1	:invoke	:write	1
+2	:invoke	:read	nil
+2	:ok	:read	0
+0	:invoke	:read	nil
+0	:ok	:read	0
+4	:invoke	:write	1
+2	:invoke	:write	2
+0	:invoke	:read	nil
+0	:ok	:read	0
+0	:invoke	:write	2
+3	:info	:write	1	indeterminate: 
+1	:info	:write	1	indeterminate: 
+4	:info	:write	1	indeterminate: 
+9	:invoke	:write	0
+2	:info	:write	2	indeterminate: 
+6	:invoke	:cas	[4 1]
+7	:invoke	:write	3
+:nemesis	:info	:stop	nil
+8	:invoke	:read	nil
+:nemesis	:info	:stop	"fully connected"
+0	:info	:write	2	indeterminate: 
+5	:invoke	:read	nil
+5	:ok	:read	0
+8	:info	:read	nil	indeterminate: KeeperErrorCode = Session expired for /jepsen/data
+6	:info	:cas	[4 1]	indeterminate: 
+5	:invoke	:write	3
+5	:info	:write	3	indeterminate: 
+11	:invoke	:write	2
+13	:invoke	:cas	[2 0]
+13	:info	:cas	[2 0]	indeterminate: 
+11	:info	:write	2	indeterminate: 
+18	:invoke	:write	3
+18	:info	:write	3	indeterminate: 
+10	:invoke	:read	nil
+10	:ok	:read	0
+10	:invoke	:write	3
+10	:info	:write	3	indeterminate: 
+9	:info	:write	0	:timeout
+23	:invoke	:write	3
+23	:info	:write	3	indeterminate: 
+7	:info	:write	3	:timeout
+:nemesis	:info	:start	nil
+16	:invoke	:cas	[1 0]
+16	:info	:cas	[1 0]	indeterminate: 
+:nemesis	:info	:start	"Cut off {\"w4\" #{\"w5\" \"w2\" \"w1\"}, \"w3\" #{\"w5\" \"w2\" \"w1\"}, \"w5\" #{\"w4\" \"w3\"}, \"w2\" #{\"w4\" \"w3\"}, \"w1\" #{\"w4\" \"w3\"}}"

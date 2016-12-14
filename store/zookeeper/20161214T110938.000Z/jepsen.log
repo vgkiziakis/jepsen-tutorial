@@ -1,0 +1,955 @@
+2016-12-14 11:09:39,284{GMT}	INFO	[jepsen node w1] jepsen.os.debian: w1 setting up debian
+2016-12-14 11:09:39,284{GMT}	INFO	[jepsen node w5] jepsen.os.debian: w5 setting up debian
+2016-12-14 11:09:39,284{GMT}	INFO	[jepsen node w2] jepsen.os.debian: w2 setting up debian
+2016-12-14 11:09:39,284{GMT}	INFO	[jepsen node w3] jepsen.os.debian: w3 setting up debian
+2016-12-14 11:09:39,284{GMT}	INFO	[jepsen node w4] jepsen.os.debian: w4 setting up debian
+2016-12-14 11:09:39,992{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: Tearing down ZK on w3
+2016-12-14 11:09:39,992{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: Tearing down ZK on w2
+2016-12-14 11:09:39,992{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: Tearing down ZK on w1
+2016-12-14 11:09:39,992{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: Tearing down ZK on w4
+2016-12-14 11:09:39,993{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: Tearing down ZK on w5
+2016-12-14 11:09:40,195{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: Setting up ZK on w2
+2016-12-14 11:09:40,195{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: Setting up ZK on w5
+2016-12-14 11:09:40,195{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: Setting up ZK on w3
+2016-12-14 11:09:40,195{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: Setting up ZK on w1
+2016-12-14 11:09:40,195{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: Setting up ZK on w4
+2016-12-14 11:09:40,701{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: w1 ZK restarting
+2016-12-14 11:09:40,701{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: w5 ZK restarting
+2016-12-14 11:09:40,701{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: w4 ZK restarting
+2016-12-14 11:09:40,701{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: w2 ZK restarting
+2016-12-14 11:09:40,702{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: w3 ZK restarting
+2016-12-14 11:09:45,802{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: w1 ZK ready
+2016-12-14 11:09:45,802{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: w5 ZK ready
+2016-12-14 11:09:45,802{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: w2 ZK ready
+2016-12-14 11:09:45,803{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: w4 ZK ready
+2016-12-14 11:09:45,803{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: w3 ZK ready
+2016-12-14 11:09:45,803{GMT}	INFO	[clojure-agent-send-off-pool-28] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w1 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__378@4299ecea
+2016-12-14 11:09:45,803{GMT}	INFO	[clojure-agent-send-off-pool-25] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w3 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__378@49d97d00
+2016-12-14 11:09:45,804{GMT}	INFO	[clojure-agent-send-off-pool-18] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w4 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__378@41b056bf
+2016-12-14 11:09:45,804{GMT}	INFO	[clojure-agent-send-off-pool-28-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.4.101:2181
+2016-12-14 11:09:45,804{GMT}	INFO	[clojure-agent-send-off-pool-29] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w2 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__378@263e8e17
+2016-12-14 11:09:45,805{GMT}	INFO	[clojure-agent-send-off-pool-27] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w5 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__378@7a93ecdd
+2016-12-14 11:09:45,805{GMT}	INFO	[clojure-agent-send-off-pool-25-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.4.103:2181
+2016-12-14 11:09:45,809{GMT}	INFO	[clojure-agent-send-off-pool-29-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.4.102:2181
+2016-12-14 11:09:45,810{GMT}	INFO	[clojure-agent-send-off-pool-27-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.4.105:2181
+2016-12-14 11:09:45,811{GMT}	INFO	[clojure-agent-send-off-pool-29-SendThread(w2:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w2/192.168.4.102:2181, initiating session
+2016-12-14 11:09:45,811{GMT}	INFO	[clojure-agent-send-off-pool-28-SendThread(w1:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w1/192.168.4.101:2181, initiating session
+2016-12-14 11:09:45,811{GMT}	INFO	[clojure-agent-send-off-pool-25-SendThread(w3:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w3/192.168.4.103:2181, initiating session
+2016-12-14 11:09:45,811{GMT}	INFO	[clojure-agent-send-off-pool-18-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.4.104:2181
+2016-12-14 11:09:45,811{GMT}	INFO	[clojure-agent-send-off-pool-27-SendThread(w5:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w5/192.168.4.105:2181, initiating session
+2016-12-14 11:09:45,822{GMT}	INFO	[clojure-agent-send-off-pool-18-SendThread(w4:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w4/192.168.4.104:2181, initiating session
+2016-12-14 11:09:45,921{GMT}	INFO	[clojure-agent-send-off-pool-25-SendThread(w3:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w3/192.168.4.103:2181, sessionid = 0x258fd06137b0000, negotiated timeout = 5000
+2016-12-14 11:09:45,921{GMT}	INFO	[clojure-agent-send-off-pool-28-SendThread(w1:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w1/192.168.4.101:2181, sessionid = 0x58fd0610cd0000, negotiated timeout = 5000
+2016-12-14 11:09:45,921{GMT}	INFO	[clojure-agent-send-off-pool-29-SendThread(w2:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w2/192.168.4.102:2181, sessionid = 0x158fd06117b0000, negotiated timeout = 5000
+2016-12-14 11:09:45,922{GMT}	INFO	[clojure-agent-send-off-pool-27-SendThread(w5:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w5/192.168.4.105:2181, sessionid = 0x458fd0604e70000, negotiated timeout = 5000
+2016-12-14 11:09:45,924{GMT}	INFO	[clojure-agent-send-off-pool-18-SendThread(w4:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w4/192.168.4.104:2181, sessionid = 0x358fd0609690000, negotiated timeout = 5000
+2016-12-14 11:09:46,280{GMT}	INFO	[jepsen nemesis] jepsen.core: Nemesis starting
+2016-12-14 11:09:46,280{GMT}	INFO	[jepsen worker 0] jepsen.core: Worker 0 starting
+2016-12-14 11:09:46,280{GMT}	INFO	[jepsen worker 1] jepsen.core: Worker 1 starting
+2016-12-14 11:09:46,280{GMT}	INFO	[jepsen worker 2] jepsen.core: Worker 2 starting
+2016-12-14 11:09:46,280{GMT}	INFO	[jepsen worker 3] jepsen.core: Worker 3 starting
+2016-12-14 11:09:46,280{GMT}	INFO	[jepsen worker 4] jepsen.core: Worker 4 starting
+2016-12-14 11:09:46,369{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:write	2
+2016-12-14 11:09:46,387{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:ok	:write	2
+2016-12-14 11:09:46,516{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:write	2
+2016-12-14 11:09:46,534{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:write	2
+2016-12-14 11:09:46,645{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:read	nil
+2016-12-14 11:09:46,648{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:read	2
+2016-12-14 11:09:46,723{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:write	2
+2016-12-14 11:09:46,738{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:ok	:write	2
+2016-12-14 11:09:47,170{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:write	3
+2016-12-14 11:09:47,187{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:ok	:write	3
+2016-12-14 11:09:47,501{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:write	2
+2016-12-14 11:09:47,518{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:ok	:write	2
+2016-12-14 11:09:47,815{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:write	2
+2016-12-14 11:09:47,831{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:write	2
+2016-12-14 11:09:47,984{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:cas	[4 3]
+2016-12-14 11:09:48,003{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:fail	:cas	[4 3]
+2016-12-14 11:09:48,198{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:write	2
+2016-12-14 11:09:48,216{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:write	2
+2016-12-14 11:09:48,444{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:read	nil
+2016-12-14 11:09:48,445{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:read	2
+2016-12-14 11:09:48,517{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:read	nil
+2016-12-14 11:09:48,520{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:ok	:read	2
+2016-12-14 11:09:48,738{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:write	2
+2016-12-14 11:09:48,759{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:ok	:write	2
+2016-12-14 11:09:49,087{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:read	nil
+2016-12-14 11:09:49,088{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:ok	:read	2
+2016-12-14 11:09:49,124{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:read	nil
+2016-12-14 11:09:49,127{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:read	2
+2016-12-14 11:09:49,246{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:read	nil
+2016-12-14 11:09:49,249{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:ok	:read	2
+2016-12-14 11:09:49,684{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:write	0
+2016-12-14 11:09:49,703{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:write	0
+2016-12-14 11:09:50,066{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:write	1
+2016-12-14 11:09:50,082{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:write	1
+2016-12-14 11:09:50,406{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:cas	[3 3]
+2016-12-14 11:09:50,423{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:fail	:cas	[3 3]
+2016-12-14 11:09:50,444{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:cas	[2 3]
+2016-12-14 11:09:50,464{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:fail	:cas	[2 3]
+2016-12-14 11:09:50,509{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:write	0
+2016-12-14 11:09:50,525{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:ok	:write	0
+2016-12-14 11:09:50,731{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:read	nil
+2016-12-14 11:09:50,732{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:read	0
+2016-12-14 11:09:50,808{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:cas	[1 1]
+2016-12-14 11:09:50,824{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:fail	:cas	[1 1]
+2016-12-14 11:09:50,953{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:read	nil
+2016-12-14 11:09:50,954{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:read	0
+2016-12-14 11:09:51,280{GMT}	INFO	[jepsen nemesis] jepsen.util: :nemesis	:info	:start	nil
+2016-12-14 11:09:51,436{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:read	nil
+2016-12-14 11:09:51,436{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:read	nil
+2016-12-14 11:09:51,436{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:read	0
+2016-12-14 11:09:51,439{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:ok	:read	0
+2016-12-14 11:09:51,617{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:read	nil
+2016-12-14 11:09:51,617{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:read	0
+2016-12-14 11:09:51,959{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:read	nil
+2016-12-14 11:09:51,960{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:read	0
+2016-12-14 11:09:52,018{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:read	nil
+2016-12-14 11:09:52,019{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:ok	:read	0
+2016-12-14 11:09:52,024{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:cas	[2 3]
+2016-12-14 11:09:52,044{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:fail	:cas	[2 3]
+2016-12-14 11:09:52,137{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:write	1
+2016-12-14 11:09:52,157{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:write	1
+2016-12-14 11:09:52,174{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:read	nil
+2016-12-14 11:09:52,175{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:read	1
+2016-12-14 11:09:52,319{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:cas	[0 3]
+2016-12-14 11:09:52,340{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:write	2
+2016-12-14 11:09:52,355{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:write	2
+2016-12-14 11:09:52,482{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:cas	[3 3]
+2016-12-14 11:09:52,509{GMT}	INFO	[jepsen nemesis] jepsen.util: :nemesis	:info	:start	"Cut off {\"w2\" #{\"w5\" \"w4\" \"w3\"}, \"w1\" #{\"w5\" \"w4\" \"w3\"}, \"w5\" #{\"w2\" \"w1\"}, \"w4\" #{\"w2\" \"w1\"}, \"w3\" #{\"w2\" \"w1\"}}"
+2016-12-14 11:09:52,570{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:fail	:cas	[3 3]
+2016-12-14 11:09:52,975{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:write	2
+2016-12-14 11:09:53,545{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:write	2
+2016-12-14 11:09:53,585{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:write	2
+2016-12-14 11:09:53,686{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:cas	[1 0]
+2016-12-14 11:09:53,709{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:fail	:cas	[1 0]
+2016-12-14 11:09:53,849{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:cas	[2 2]
+2016-12-14 11:09:53,865{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:cas	[2 2]
+2016-12-14 11:09:53,867{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:cas	[0 4]
+2016-12-14 11:09:53,887{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:fail	:cas	[0 4]
+2016-12-14 11:09:54,994{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:cas	[0 4]
+2016-12-14 11:09:55,012{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:fail	:cas	[0 4]
+2016-12-14 11:09:55,199{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:cas	[1 1]
+2016-12-14 11:09:55,221{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:fail	:cas	[1 1]
+2016-12-14 11:09:55,307{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:write	1
+2016-12-14 11:09:55,323{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:write	1
+2016-12-14 11:09:55,656{GMT}	INFO	[clojure-agent-send-off-pool-28-SendThread(w1:2181)] org.apache.zookeeper.ClientCnxn: Client session timed out, have not heard from server in 3335ms for sessionid 0x58fd0610cd0000, closing socket connection and attempting reconnect
+2016-12-14 11:09:55,759{GMT}	WARN	[jepsen worker 0] jepsen.core: Process 0 indeterminate
+java.lang.IllegalMonitorStateException: null
+	at java.util.concurrent.locks.ReentrantReadWriteLock$Sync.tryRelease(ReentrantReadWriteLock.java:371) ~[na:1.8.0_111]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1261) ~[na:1.8.0_111]
+	at java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.unlock(ReentrantReadWriteLock.java:1131) ~[na:1.8.0_111]
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.locks.ZKDistributedReentrantLock.unlock(locks.clj:130) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor22.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:58) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor27.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:99) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:09:55,850{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:read	nil
+2016-12-14 11:09:55,851{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:read	1
+2016-12-14 11:09:55,981{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:read	nil
+2016-12-14 11:09:55,982{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:read	1
+2016-12-14 11:09:56,313{GMT}	INFO	[clojure-agent-send-off-pool-29-SendThread(w2:2181)] org.apache.zookeeper.ClientCnxn: Client session timed out, have not heard from server in 3335ms for sessionid 0x158fd06117b0000, closing socket connection and attempting reconnect
+2016-12-14 11:09:56,416{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 1 indeterminate
+java.lang.IllegalMonitorStateException: null
+	at java.util.concurrent.locks.ReentrantReadWriteLock$Sync.tryRelease(ReentrantReadWriteLock.java:371) ~[na:1.8.0_111]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1261) ~[na:1.8.0_111]
+	at java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.unlock(ReentrantReadWriteLock.java:1131) ~[na:1.8.0_111]
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.locks.ZKDistributedReentrantLock.unlock(locks.clj:130) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor22.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.reset(atoms.clj:66) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$reset_BANG__BANG_.invokeStatic(core.clj:111) ~[na:na]
+	at avout.core$reset_BANG__BANG_.invoke(core.clj:109) ~[na:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:95) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:09:56,806{GMT}	INFO	[clojure-agent-send-off-pool-28-SendThread(w1:2181)] org.apache.zookeeper.ClientCnxn: Opening socket connection to server w1/192.168.4.101:2181
+2016-12-14 11:09:56,807{GMT}	INFO	[clojure-agent-send-off-pool-28-SendThread(w1:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w1/192.168.4.101:2181, initiating session
+2016-12-14 11:09:56,854{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:write	3
+2016-12-14 11:09:56,871{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:cas	[1 4]
+2016-12-14 11:09:56,871{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:write	3
+2016-12-14 11:09:56,929{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:fail	:cas	[1 4]
+2016-12-14 11:09:56,977{GMT}	INFO	[jepsen worker 0] jepsen.util: 5	:invoke	:write	3
+2016-12-14 11:09:57,209{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:write	2
+2016-12-14 11:09:57,230{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:write	2
+2016-12-14 11:09:57,417{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:write	1
+2016-12-14 11:09:57,438{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:write	1
+2016-12-14 11:09:57,510{GMT}	INFO	[jepsen nemesis] jepsen.util: :nemesis	:info	:stop	nil
+2016-12-14 11:09:57,638{GMT}	INFO	[jepsen worker 1] jepsen.util: 6	:invoke	:cas	[3 3]
+2016-12-14 11:09:57,713{GMT}	INFO	[jepsen nemesis] jepsen.util: :nemesis	:info	:stop	"fully connected"
+2016-12-14 11:09:58,095{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:cas	[2 2]
+2016-12-14 11:09:58,111{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:fail	:cas	[2 2]
+2016-12-14 11:09:58,269{GMT}	INFO	[clojure-agent-send-off-pool-29-SendThread(w2:2181)] org.apache.zookeeper.ClientCnxn: Opening socket connection to server w2/192.168.4.102:2181
+2016-12-14 11:09:58,269{GMT}	INFO	[clojure-agent-send-off-pool-29-SendThread(w2:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w2/192.168.4.102:2181, initiating session
+2016-12-14 11:09:58,514{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:read	nil
+2016-12-14 11:09:58,515{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:read	1
+2016-12-14 11:09:58,619{GMT}	INFO	[clojure-agent-send-off-pool-29-SendThread(w2:2181)] org.apache.zookeeper.ClientCnxn: Unable to read additional data from server sessionid 0x158fd06117b0000, likely server has closed socket, closing socket connection and attempting reconnect
+2016-12-14 11:09:58,662{GMT}	INFO	[clojure-agent-send-off-pool-28-SendThread(w1:2181)] org.apache.zookeeper.ClientCnxn: Unable to read additional data from server sessionid 0x58fd0610cd0000, likely server has closed socket, closing socket connection and attempting reconnect
+2016-12-14 11:09:58,721{GMT}	ERROR	[clojure-agent-send-off-pool-29-EventThread] org.apache.zookeeper.ClientCnxn: Error while calling watcher 
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /stm/atoms/jepsen
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1003) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at zookeeper$exists.invokeStatic(zookeeper.clj:96) ~[na:na]
+	at zookeeper$exists.doInvoke(zookeeper.clj:54) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:464) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.invalidateCache(atoms.clj:107) ~[na:na]
+	at avout.atoms.DistributedAtom$fn__1351.invoke(atoms.clj:108) ~[na:na]
+	at zookeeper.internal$make_watcher$reify__378.process(internal.clj:56) ~[na:na]
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:521) [zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:497) [zookeeper-3.4.0.jar:3.4.0-1202560]
+2016-12-14 11:09:58,723{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 6 indeterminate
+java.lang.IllegalMonitorStateException: null
+	at java.util.concurrent.locks.ReentrantReadWriteLock$Sync.tryRelease(ReentrantReadWriteLock.java:371) ~[na:1.8.0_111]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1261) ~[na:1.8.0_111]
+	at java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.unlock(ReentrantReadWriteLock.java:1131) ~[na:1.8.0_111]
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.locks.ZKDistributedReentrantLock.unlock(locks.clj:130) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor22.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:58) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor27.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:99) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:09:58,764{GMT}	ERROR	[clojure-agent-send-off-pool-28-EventThread] org.apache.zookeeper.ClientCnxn: Error while calling watcher 
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /stm/atoms/jepsen
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1003) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at zookeeper$exists.invokeStatic(zookeeper.clj:96) ~[na:na]
+	at zookeeper$exists.doInvoke(zookeeper.clj:54) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:464) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.invalidateCache(atoms.clj:107) ~[na:na]
+	at avout.atoms.DistributedAtom$fn__1351.invoke(atoms.clj:108) ~[na:na]
+	at zookeeper.internal$make_watcher$reify__378.process(internal.clj:56) ~[na:na]
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:521) [zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:497) [zookeeper-3.4.0.jar:3.4.0-1202560]
+2016-12-14 11:09:58,765{GMT}	WARN	[jepsen worker 0] jepsen.core: Process 5 indeterminate
+java.lang.IllegalMonitorStateException: null
+	at java.util.concurrent.locks.ReentrantReadWriteLock$Sync.tryRelease(ReentrantReadWriteLock.java:371) ~[na:1.8.0_111]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1261) ~[na:1.8.0_111]
+	at java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.unlock(ReentrantReadWriteLock.java:1131) ~[na:1.8.0_111]
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.locks.ZKDistributedReentrantLock.unlock(locks.clj:130) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor22.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.reset(atoms.clj:66) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$reset_BANG__BANG_.invokeStatic(core.clj:111) ~[na:na]
+	at avout.core$reset_BANG__BANG_.invoke(core.clj:109) ~[na:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:95) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:09:58,809{GMT}	INFO	[jepsen worker 0] jepsen.util: 10	:invoke	:read	nil
+2016-12-14 11:09:58,809{GMT}	INFO	[jepsen worker 0] jepsen.util: 10	:ok	:read	0
+2016-12-14 11:09:59,394{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:write	4
+2016-12-14 11:09:59,411{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:write	4
+2016-12-14 11:09:59,723{GMT}	INFO	[jepsen worker 1] jepsen.util: 11	:invoke	:read	nil
+2016-12-14 11:09:59,723{GMT}	INFO	[jepsen worker 1] jepsen.util: 11	:ok	:read	0
+2016-12-14 11:09:59,844{GMT}	INFO	[jepsen worker 0] jepsen.util: 10	:invoke	:cas	[2 0]
+2016-12-14 11:09:59,965{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:cas	[2 2]
+2016-12-14 11:09:59,971{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:cas	[4 2]
+2016-12-14 11:09:59,985{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:fail	:cas	[2 2]
+2016-12-14 11:09:59,992{GMT}	INFO	[clojure-agent-send-off-pool-28-SendThread(w1:2181)] org.apache.zookeeper.ClientCnxn: Opening socket connection to server w1/192.168.4.101:2181
+2016-12-14 11:09:59,993{GMT}	INFO	[clojure-agent-send-off-pool-28-SendThread(w1:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w1/192.168.4.101:2181, initiating session
+2016-12-14 11:09:59,993{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:cas	[4 2]
+2016-12-14 11:09:59,994{GMT}	INFO	[clojure-agent-send-off-pool-28-SendThread(w1:2181)] org.apache.zookeeper.ClientCnxn: Unable to reconnect to ZooKeeper service, session 0x58fd0610cd0000 has expired, closing socket connection
+2016-12-14 11:09:59,995{GMT}	ERROR	[clojure-agent-send-off-pool-28-EventThread] org.apache.zookeeper.ClientCnxn: Error while calling watcher 
+org.apache.zookeeper.KeeperException$SessionExpiredException: KeeperErrorCode = Session expired for /stm/atoms/jepsen
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:127) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1003) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at zookeeper$exists.invokeStatic(zookeeper.clj:96) ~[na:na]
+	at zookeeper$exists.doInvoke(zookeeper.clj:54) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:464) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.invalidateCache(atoms.clj:107) ~[na:na]
+	at avout.atoms.DistributedAtom$fn__1351.invoke(atoms.clj:108) ~[na:na]
+	at zookeeper.internal$make_watcher$reify__378.process(internal.clj:56) ~[na:na]
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:521) [zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:497) [zookeeper-3.4.0.jar:3.4.0-1202560]
+2016-12-14 11:09:59,995{GMT}	INFO	[clojure-agent-send-off-pool-28-EventThread] org.apache.zookeeper.ClientCnxn: EventThread shut down
+2016-12-14 11:10:00,011{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:read	nil
+2016-12-14 11:10:00,012{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:read	2
+2016-12-14 11:10:00,097{GMT}	WARN	[jepsen worker 0] jepsen.core: Process 10 indeterminate
+java.lang.IllegalMonitorStateException: null
+	at java.util.concurrent.locks.ReentrantReadWriteLock$Sync.tryRelease(ReentrantReadWriteLock.java:371) ~[na:1.8.0_111]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1261) ~[na:1.8.0_111]
+	at java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.unlock(ReentrantReadWriteLock.java:1131) ~[na:1.8.0_111]
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.locks.ZKDistributedReentrantLock.unlock(locks.clj:130) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor22.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.swap(atoms.clj:58) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor27.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$swap_BANG__BANG_.invokeStatic(core.clj:107) ~[na:na]
+	at avout.core$swap_BANG__BANG_.doInvoke(core.clj:105) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:425) ~[clojure-1.8.0.jar:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:99) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:10:00,228{GMT}	INFO	[clojure-agent-send-off-pool-29-SendThread(w2:2181)] org.apache.zookeeper.ClientCnxn: Opening socket connection to server w2/192.168.4.102:2181
+2016-12-14 11:10:00,229{GMT}	INFO	[clojure-agent-send-off-pool-29-SendThread(w2:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w2/192.168.4.102:2181, initiating session
+2016-12-14 11:10:00,231{GMT}	INFO	[clojure-agent-send-off-pool-29-SendThread(w2:2181)] org.apache.zookeeper.ClientCnxn: Unable to reconnect to ZooKeeper service, session 0x158fd06117b0000 has expired, closing socket connection
+2016-12-14 11:10:00,231{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:cas	[1 1]
+2016-12-14 11:10:00,232{GMT}	ERROR	[clojure-agent-send-off-pool-29-EventThread] org.apache.zookeeper.ClientCnxn: Error while calling watcher 
+org.apache.zookeeper.KeeperException$SessionExpiredException: KeeperErrorCode = Session expired for /stm/atoms/jepsen
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:127) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1003) ~[zookeeper-3.4.0.jar:3.4.0-1202560]
+	at zookeeper$exists.invokeStatic(zookeeper.clj:96) ~[na:na]
+	at zookeeper$exists.doInvoke(zookeeper.clj:54) ~[na:na]
+	at clojure.lang.RestFn.invoke(RestFn.java:464) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.invalidateCache(atoms.clj:107) ~[na:na]
+	at avout.atoms.DistributedAtom$fn__1351.invoke(atoms.clj:108) ~[na:na]
+	at zookeeper.internal$make_watcher$reify__378.process(internal.clj:56) ~[na:na]
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:521) [zookeeper-3.4.0.jar:3.4.0-1202560]
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:497) [zookeeper-3.4.0.jar:3.4.0-1202560]
+2016-12-14 11:10:00,232{GMT}	INFO	[clojure-agent-send-off-pool-29-EventThread] org.apache.zookeeper.ClientCnxn: EventThread shut down
+2016-12-14 11:10:00,246{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:fail	:cas	[1 1]
+2016-12-14 11:10:00,633{GMT}	INFO	[jepsen worker 1] jepsen.util: 11	:invoke	:write	3
+2016-12-14 11:10:00,635{GMT}	WARN	[jepsen worker 1] jepsen.core: Process 11 indeterminate
+java.lang.IllegalMonitorStateException: null
+	at java.util.concurrent.locks.ReentrantReadWriteLock$Sync.tryRelease(ReentrantReadWriteLock.java:371) ~[na:1.8.0_111]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1261) ~[na:1.8.0_111]
+	at java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.unlock(ReentrantReadWriteLock.java:1131) ~[na:1.8.0_111]
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.locks.ZKDistributedReentrantLock.unlock(locks.clj:130) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor22.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.reset(atoms.clj:66) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$reset_BANG__BANG_.invokeStatic(core.clj:111) ~[na:na]
+	at avout.core$reset_BANG__BANG_.invoke(core.clj:109) ~[na:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:95) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:10:00,829{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:read	nil
+2016-12-14 11:10:00,830{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:read	2
+2016-12-14 11:10:00,841{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:cas	[0 3]
+2016-12-14 11:10:00,856{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:fail	:cas	[0 3]
+2016-12-14 11:10:01,091{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:cas	[2 1]
+2016-12-14 11:10:01,108{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:cas	[2 1]
+2016-12-14 11:10:01,110{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:cas	[1 2]
+2016-12-14 11:10:01,143{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:cas	[1 2]
+2016-12-14 11:10:01,269{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:cas	[3 0]
+2016-12-14 11:10:01,289{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:fail	:cas	[3 0]
+2016-12-14 11:10:01,289{GMT}	INFO	[jepsen worker 3] jepsen.core: Worker 3 done
+2016-12-14 11:10:01,309{GMT}	INFO	[jepsen worker 1] jepsen.util: 16	:invoke	:read	nil
+2016-12-14 11:10:01,309{GMT}	INFO	[jepsen worker 1] jepsen.util: 16	:ok	:read	0
+2016-12-14 11:10:01,309{GMT}	INFO	[jepsen worker 1] jepsen.core: Worker 1 done
+2016-12-14 11:10:01,584{GMT}	INFO	[jepsen worker 0] jepsen.util: 15	:invoke	:write	3
+2016-12-14 11:10:01,587{GMT}	WARN	[jepsen worker 0] jepsen.core: Process 15 indeterminate
+java.lang.IllegalMonitorStateException: null
+	at java.util.concurrent.locks.ReentrantReadWriteLock$Sync.tryRelease(ReentrantReadWriteLock.java:371) ~[na:1.8.0_111]
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.release(AbstractQueuedSynchronizer.java:1261) ~[na:1.8.0_111]
+	at java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock.unlock(ReentrantReadWriteLock.java:1131) ~[na:1.8.0_111]
+	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.locks.ZKDistributedReentrantLock.unlock(locks.clj:130) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor22.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313) ~[clojure-1.8.0.jar:na]
+	at avout.atoms.DistributedAtom.reset(atoms.clj:66) ~[na:na]
+	at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93) ~[clojure-1.8.0.jar:na]
+	at clojure.lang.Reflector.invokeInstanceMethod(Reflector.java:28) ~[clojure-1.8.0.jar:na]
+	at avout.core$reset_BANG__BANG_.invokeStatic(core.clj:111) ~[na:na]
+	at avout.core$reset_BANG__BANG_.invoke(core.clj:109) ~[na:na]
+	at jepsen.zookeeper$client$reify__1902$fn__1903.invoke(zookeeper.clj:95) ~[na:na]
+	at clojure.core$binding_conveyor_fn$fn__4676.invoke(core.clj:1938) [clojure-1.8.0.jar:na]
+	at clojure.lang.AFn.call(AFn.java:18) [clojure-1.8.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+2016-12-14 11:10:01,587{GMT}	INFO	[jepsen worker 0] jepsen.core: Worker 0 done
+2016-12-14 11:10:01,605{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:read	nil
+2016-12-14 11:10:01,606{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:read	2
+2016-12-14 11:10:01,606{GMT}	INFO	[jepsen worker 2] jepsen.core: Worker 2 done
+2016-12-14 11:10:02,713{GMT}	INFO	[jepsen nemesis] jepsen.util: :nemesis	:info	:start	nil
+2016-12-14 11:10:03,060{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:read	nil
+2016-12-14 11:10:03,061{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:read	2
+2016-12-14 11:10:03,061{GMT}	INFO	[jepsen worker 4] jepsen.core: Worker 4 done
+2016-12-14 11:10:03,061{GMT}	INFO	[jepsen test runner] jepsen.core: Waiting for nemesis to complete
+2016-12-14 11:10:03,785{GMT}	INFO	[jepsen nemesis] jepsen.util: :nemesis	:info	:start	"Cut off {\"w5\" #{\"w4\" \"w3\" \"w1\"}, \"w2\" #{\"w4\" \"w3\" \"w1\"}, \"w4\" #{\"w5\" \"w2\"}, \"w3\" #{\"w5\" \"w2\"}, \"w1\" #{\"w5\" \"w2\"}}"
+2016-12-14 11:10:03,785{GMT}	INFO	[jepsen nemesis] jepsen.core: nemesis done
+2016-12-14 11:10:03,786{GMT}	INFO	[jepsen test runner] jepsen.core: nemesis done.
+2016-12-14 11:10:03,786{GMT}	INFO	[jepsen test runner] jepsen.core: Tearing down nemesis
+2016-12-14 11:10:03,988{GMT}	INFO	[jepsen test runner] jepsen.core: Nemesis torn down
+2016-12-14 11:10:03,992{GMT}	INFO	[clojure-agent-send-off-pool-41] org.apache.zookeeper.ZooKeeper: Session: 0x258fd06137b0000 closed
+2016-12-14 11:10:03,992{GMT}	INFO	[clojure-agent-send-off-pool-25-EventThread] org.apache.zookeeper.ClientCnxn: EventThread shut down
+2016-12-14 11:10:03,993{GMT}	INFO	[clojure-agent-send-off-pool-29] org.apache.zookeeper.ZooKeeper: Session: 0x358fd0609690000 closed
+2016-12-14 11:10:03,993{GMT}	INFO	[clojure-agent-send-off-pool-48] org.apache.zookeeper.ZooKeeper: Session: 0x458fd0604e70000 closed
+2016-12-14 11:10:03,993{GMT}	INFO	[clojure-agent-send-off-pool-27-EventThread] org.apache.zookeeper.ClientCnxn: EventThread shut down
+2016-12-14 11:10:03,993{GMT}	INFO	[clojure-agent-send-off-pool-18-EventThread] org.apache.zookeeper.ClientCnxn: EventThread shut down
+2016-12-14 11:10:03,993{GMT}	INFO	[jepsen test runner] jepsen.core: Snarfing log files
+2016-12-14 11:10:03,994{GMT}	INFO	[jepsen node w1] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-14 11:10:03,994{GMT}	INFO	[jepsen node w5] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-14 11:10:03,994{GMT}	INFO	[jepsen node w2] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-14 11:10:03,994{GMT}	INFO	[jepsen node w4] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-14 11:10:03,994{GMT}	INFO	[jepsen node w3] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-14 11:10:04,004{GMT}	INFO	[jepsen test runner] jepsen.core: Run complete, writing
+2016-12-14 11:10:04,010{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: Tearing down ZK on w1
+2016-12-14 11:10:04,010{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: Tearing down ZK on w2
+2016-12-14 11:10:04,010{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: Tearing down ZK on w4
+2016-12-14 11:10:04,011{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: Tearing down ZK on w5
+2016-12-14 11:10:04,011{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: Tearing down ZK on w3
+2016-12-14 11:10:04,616{GMT}	INFO	[jepsen test runner] jepsen.core: Analyzing
+2016-12-14 11:10:04,736{GMT}	INFO	[jepsen test runner] jepsen.core: Analysis complete
+2016-12-14 11:10:04,957{GMT}	INFO	[jepsen results] jepsen.store: Wrote /home/admin/jepsen.zookeeper/store/zookeeper/20161214T110938.000Z/results.edn
+2016-12-14 11:10:05,190{GMT}	INFO	[main] jepsen.core: {:perf
+ {:latency-graph {:valid? true},
+  :rate-graph {:valid? true},
+  :valid? true},
+ :html {:valid? true},
+ :linear
+ {:valid? false,
+  :configs
+  ({:model {:value 1},
+    :last-op
+    {:type :ok,
+     :f :read,
+     :value 1,
+     :process 3,
+     :time 12711745880,
+     :index 105},
+    :pending
+    [{:type :invoke,
+      :f :cas,
+      :value [0 3],
+      :process 0,
+      :time 6515141625,
+      :index 63}
+     {:type :invoke,
+      :f :write,
+      :value 3,
+      :process 5,
+      :time 11173130386,
+      :index 94}
+     {:type :invoke,
+      :f :cas,
+      :value [3 3],
+      :process 6,
+      :time 11834811904,
+      :index 100}
+     {:type :invoke,
+      :f :read,
+      :value 0,
+      :process 10,
+      :time 13005523478,
+      :index 108}]}
+   {:model {:value 1},
+    :last-op
+    {:type :ok,
+     :f :read,
+     :value 1,
+     :process 3,
+     :time 12711745880,
+     :index 105},
+    :pending
+    [{:type :invoke,
+      :f :cas,
+      :value [0 3],
+      :process 0,
+      :time 6515141625,
+      :index 63}
+     {:type :invoke,
+      :f :write,
+      :value 2,
+      :process 1,
+      :time 7171831662,
+      :index 69}
+     {:type :invoke,
+      :f :cas,
+      :value [3 3],
+      :process 6,
+      :time 11834811904,
+      :index 100}
+     {:type :invoke,
+      :f :read,
+      :value 0,
+      :process 10,
+      :time 13005523478,
+      :index 108}]}
+   {:model {:value 1},
+    :last-op
+    {:type :ok,
+     :f :read,
+     :value 1,
+     :process 3,
+     :time 12711745880,
+     :index 105},
+    :pending
+    [{:type :invoke,
+      :f :cas,
+      :value [0 3],
+      :process 0,
+      :time 6515141625,
+      :index 63}
+     {:type :invoke,
+      :f :cas,
+      :value [3 3],
+      :process 6,
+      :time 11834811904,
+      :index 100}
+     {:type :invoke,
+      :f :read,
+      :value 0,
+      :process 10,
+      :time 13005523478,
+      :index 108}]}
+   {:model {:value 1},
+    :last-op
+    {:type :ok,
+     :f :read,
+     :value 1,
+     :process 3,
+     :time 12711745880,
+     :index 105},
+    :pending
+    [{:type :invoke,
+      :f :cas,
+      :value [0 3],
+      :process 0,
+      :time 6515141625,
+      :index 63}
+     {:type :invoke,
+      :f :write,
+      :value 2,
+      :process 1,
+      :time 7171831662,
+      :index 69}
+     {:type :invoke,
+      :f :write,
+      :value 3,
+      :process 5,
+      :time 11173130386,
+      :index 94}
+     {:type :invoke,
+      :f :cas,
+      :value [3 3],
+      :process 6,
+      :time 11834811904,
+      :index 100}
+     {:type :invoke,
+      :f :read,
+      :value 0,
+      :process 10,
+      :time 13005523478,
+      :index 108}]}),
+  :final-paths
+  ([{:op
+     {:type :ok,
+      :f :read,
+      :value 1,
+      :process 3,
+      :time 12711745880,
+      :index 105},
+     :model {:value 1}}
+    {:op
+     {:type :invoke,
+      :f :write,
+      :value 3,
+      :process 5,
+      :time 11173130386,
+      :index 94},
+     :model {:value 3}}
+    {:op
+     {:type :invoke,
+      :f :cas,
+      :value [0 3],
+      :process 0,
+      :time 6515141625,
+      :index 63},
+     :model {:msg "can't CAS 3 from 0 to 3"}}]
+   [{:op
+     {:type :ok,
+      :f :read,
+      :value 1,
+      :process 3,
+      :time 12711745880,
+      :index 105},
+     :model {:value 1}}
+    {:op
+     {:type :invoke,
+      :f :write,
+      :value 3,
+      :process 5,
+      :time 11173130386,
+      :index 94},
+     :model {:value 3}}
+    {:op
+     {:type :invoke,
+      :f :write,
+      :value 2,
+      :process 1,
+      :time 7171831662,
+      :index 69},
+     :model {:value 2}}
+    {:op
+     {:type :invoke,
+      :f :cas,
+      :value [0 3],
+      :process 0,
+      :time 6515141625,
+      :index 63},
+     :model {:msg "can't CAS 2 from 0 to 3"}}]
+   [{:op
+     {:type :ok,
+      :f :read,
+      :value 1,
+      :process 3,
+      :time 12711745880,
+      :index 105},
+     :model {:value 1}}
+    {:op
+     {:type :invoke,
+      :f :write,
+      :value 3,
+      :process 5,
+      :time 11173130386,
+      :index 94},
+     :model {:value 3}}
+    {:op
+     {:type :invoke,
+      :f :cas,
+      :value [3 3],
+      :process 6,
+      :time 11834811904,
+      :index 100},
+     :model {:value 3}}
+    {:op
+     {:type :invoke,
+      :f :write,
+      :value 2,
+      :process 1,
+      :time 7171831662,
+      :index 69},
+     :model {:value 2}}
+    {:op
+     {:type :invoke,
+      :f :cas,
+      :value [0 3],
+      :process 0,
+      :time 6515141625,
+      :index 63},
+     :model {:msg "can't CAS 2 from 0 to 3"}}]
+   [{:op
+     {:type :ok,
+      :f :read,
+      :value 1,
+      :process 3,
+      :time 12711745880,
+      :index 105},
+     :model {:value 1}}
+    {:op
+     {:type :invoke,
+      :f :write,
+      :value 3,
+      :process 5,
+      :time 11173130386,
+      :index 94},
+     :model {:value 3}}
+    {:op
+     {:type :invoke,
+      :f :write,
+      :value 2,
+      :process 1,
+      :time 7171831662,
+      :index 69},
+     :model {:value 2}}
+    {:op
+     {:type :invoke,
+      :f :cas,
+      :value [3 3],
+      :process 6,
+      :time 11834811904,
+      :index 100},
+     :model {:msg "can't CAS 2 from 3 to 3"}}]
+   [{:op
+     {:type :ok,
+      :f :read,
+      :value 1,
+      :process 3,
+      :time 12711745880,
+      :index 105},
+     :model {:value 1}}
+    {:op
+     {:type :invoke,
+      :f :write,
+      :value 2,
+      :process 1,
+      :time 7171831662,
+      :index 69},
+     :model {:value 2}}
+    {:op
+     {:type :ok,
+      :f :read,
+      :value 0,
+      :process 10,
+      :time 13005846794,
+      :index 109},
+     :model {:msg "can't read 0 from register 2"}}]
+   [{:op
+     {:type :ok,
+      :f :read,
+      :value 1,
+      :process 3,
+      :time 12711745880,
+      :index 105},
+     :model {:value 1}}
+    {:op
+     {:type :invoke,
+      :f :write,
+      :value 3,
+      :process 5,
+      :time 11173130386,
+      :index 94},
+     :model {:value 3}}
+    {:op
+     {:type :ok,
+      :f :read,
+      :value 0,
+      :process 10,
+      :time 13005846794,
+      :index 109},
+     :model {:msg "can't read 0 from register 3"}}]
+   [{:op
+     {:type :ok,
+      :f :read,
+      :value 1,
+      :process 3,
+      :time 12711745880,
+      :index 105},
+     :model {:value 1}}
+    {:op
+     {:type :invoke,
+      :f :write,
+      :value 2,
+      :process 1,
+      :time 7171831662,
+      :index 69},
+     :model {:value 2}}
+    {:op
+     {:type :invoke,
+      :f :cas,
+      :value [0 3],
+      :process 0,
+      :time 6515141625,
+      :index 63},
+     :model {:msg "can't CAS 2 from 0 to 3"}}]
+   [{:op
+     {:type :ok,
+      :f :read,
+      :value 1,
+      :process 3,
+      :time 12711745880,
+      :index 105},
+     :model {:value 1}}
+    {:op
+     {:type :invoke,
+      :f :write,
+      :value 3,
+      :process 5,
+      :time 11173130386,
+      :index 94},
+     :model {:value 3}}
+    {:op
+     {:type :invoke,
+      :f :cas,
+      :value [3 3],
+      :process 6,
+      :time 11834811904,
+      :index 100},
+     :model {:value 3}}
+    {:op
+     {:type :ok,
+      :f :read,
+      :value 0,
+      :process 10,
+      :time 13005846794,
+      :index 109},
+     :model {:msg "can't read 0 from register 3"}}]
+   [{:op
+     {:type :ok,
+      :f :read,
+      :value 1,
+      :process 3,
+      :time 12711745880,
+      :index 105},
+     :model {:value 1}}
+    {:op
+     {:type :invoke,
+      :f :write,
+      :value 3,
+      :process 5,
+      :time 11173130386,
+      :index 94},
+     :model {:value 3}}
+    {:op
+     {:type :invoke,
+      :f :cas,
+      :value [3 3],
+      :process 6,
+      :time 11834811904,
+      :index 100},
+     :model {:value 3}}
+    {:op
+     {:type :invoke,
+      :f :cas,
+      :value [0 3],
+      :process 0,
+      :time 6515141625,
+      :index 63},
+     :model {:msg "can't CAS 3 from 0 to 3"}}]
+   [{:op
+     {:type :ok,
+      :f :read,
+      :value 1,
+      :process 3,
+      :time 12711745880,
+      :index 105},
+     :model {:value 1}}
+    {:op
+     {:type :invoke,
+      :f :cas,
+      :value [0 3],
+      :process 0,
+      :time 6515141625,
+      :index 63},
+     :model {:msg "can't CAS 1 from 0 to 3"}}]),
+  :previous-ok
+  {:type :ok,
+   :f :read,
+   :value 1,
+   :process 3,
+   :time 12711745880,
+   :index 105},
+  :last-op
+  {:type :ok,
+   :f :read,
+   :value 1,
+   :process 3,
+   :time 12711745880,
+   :index 105},
+  :op
+  {:type :ok,
+   :f :read,
+   :value 0,
+   :process 10,
+   :time 13005846794,
+   :index 109}},
+ :valid? false}
+
+
+Analysis invalid! (ﾉಥ益ಥ）ﾉ ┻━┻

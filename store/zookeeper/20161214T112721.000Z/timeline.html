@@ -1,0 +1,70 @@
+<html><head><style>.ops        { position: absolute; }
+.op         { position: absolute;
+                      padding:  2px; }
+.op.invoke  { background: #C1DEFF; }
+.op.ok      { background: #B7FFB7; }
+.op.fail    { background: #FFD4D5; }
+.op.info    { background: #FEFFC1; }
+</style></head><body><h1>zookeeper</h1><p>2016-12-14T11:27:21.000Z</p><div class="ops"><div class="op fail" style="width:100;left:318;top:0;height:16" title="19 ms
+nil">2 :cas [2 0]</div><div class="op ok" style="width:100;left:106;top:32;height:16" title="17 ms
+nil">0 :write 3</div><div class="op ok" style="width:100;left:212;top:64;height:16" title="16 ms
+nil">1 :cas [3 1]</div><div class="op fail" style="width:100;left:424;top:96;height:16" title="18 ms
+nil">3 :cas [4 4]</div><div class="op ok" style="width:100;left:212;top:128;height:16" title="1 ms
+nil">1 :read 1</div><div class="op fail" style="width:100;left:318;top:160;height:16" title="17 ms
+nil">2 :cas [4 4]</div><div class="op ok" style="width:100;left:530;top:192;height:16" title="14 ms
+nil">4 :write 2</div><div class="op ok" style="width:100;left:106;top:224;height:16" title="15 ms
+nil">0 :write 4</div><div class="op ok" style="width:100;left:212;top:256;height:16" title="1 ms
+nil">1 :read 4</div><div class="op ok" style="width:100;left:212;top:288;height:16" title="0 ms
+nil">1 :read 4</div><div class="op ok" style="width:100;left:530;top:320;height:16" title="2 ms
+nil">4 :read 4</div><div class="op fail" style="width:100;left:106;top:352;height:32" title="28 ms
+nil">0 :cas [3 4]</div><div class="op ok" style="width:100;left:318;top:368;height:32" title="29 ms
+nil">2 :write 0</div><div class="op fail" style="width:100;left:530;top:416;height:16" title="19 ms
+nil">4 :cas [3 4]</div><div class="op ok" style="width:100;left:318;top:448;height:16" title="16 ms
+nil">2 :write 1</div><div class="op ok" style="width:100;left:424;top:480;height:16" title="16 ms
+nil">3 :write 0</div><div class="op fail" style="width:100;left:212;top:512;height:16" title="16 ms
+nil">1 :cas [2 4]</div><div class="op ok" style="width:100;left:212;top:544;height:16" title="15 ms
+nil">1 :write 4</div><div class="op ok" style="width:100;left:106;top:576;height:16" title="16 ms
+nil">0 :write 0</div><div class="op fail" style="width:100;left:530;top:608;height:16" title="19 ms
+nil">4 :cas [4 2]</div><div class="op ok" style="width:100;left:424;top:640;height:16" title="1 ms
+nil">3 :read 0</div><div class="op ok" style="width:100;left:318;top:672;height:32" title="1 ms
+nil">2 :read 0</div><div class="op fail" style="width:100;left:212;top:688;height:32" title="19 ms
+nil">1 :cas [3 0]</div><div class="op ok" style="width:100;left:106;top:736;height:16" title="1 ms
+nil">0 :read 0</div><div class="op fail" style="width:100;left:106;top:768;height:16" title="16 ms
+nil">0 :cas [4 4]</div><div class="op ok" style="width:100;left:530;top:800;height:16" title="13 ms
+nil">4 :write 3</div><div class="op info" style="width:100;left:0;top:832;height:16" title="nil">:nemesis :start </div><div class="op fail" style="width:100;left:318;top:848;height:16" title="27 ms
+nil">2 :cas [4 3]</div><div class="op info" style="width:100;left:0;top:896;height:16" title="nil">:nemesis :start Cut off {"w4" #{"w5" "w2" "w3"}, "w1" #{"w5" "w2" "w3"}, "w5" #{"w4" "w1"}, "w2" #{"w4" "w1"}, "w3" #{"w4" "w1"}}<br /></div><div class="op ok" style="width:100;left:530;top:960;height:16" title="1 ms
+nil">4 :read 3</div><div class="op ok" style="width:100;left:530;top:992;height:16" title="0 ms
+nil">4 :read 3</div><div class="op ok" style="width:100;left:530;top:1024;height:16" title="0 ms
+nil">4 :read 3</div><div class="op info" style="width:100;left:106;top:880;height:1216" title="3442 ms
+&quot;indeterminate: &quot;">0 :cas [2 1]</div><div class="op info" style="width:100;left:424;top:928;height:1168" title="3438 ms
+&quot;indeterminate: &quot;">3 :cas [2 0]</div><div class="op info" style="width:100;left:212;top:912;height:1184" title="3917 ms
+&quot;indeterminate: KeeperErrorCode = NoNode for /jepsen/data&quot;">1 :write 2</div><div class="op info" style="width:100;left:318;top:944;height:1152" title="3576 ms
+&quot;indeterminate: KeeperErrorCode = NoNode for /jepsen/data&quot;">2 :cas [3 1]</div><div class="op info" style="width:100;left:530;top:1072;height:1024" title="1427 ms
+&quot;indeterminate: KeeperErrorCode = NoNode for /jepsen/data&quot;">4 :write 1</div><div class="op ok" style="width:100;left:1060;top:1168;height:16" title="0 ms
+nil">9 :read 1</div><div class="op info" style="width:100;left:848;top:1200;height:896" title="13 ms
+&quot;indeterminate: KeeperErrorCode = NoNode for /jepsen/data&quot;">7 :cas [1 4]</div><div class="op info" style="width:100;left:1060;top:1232;height:864" title="21 ms
+&quot;indeterminate: KeeperErrorCode = NoNode for /jepsen/data&quot;">9 :write 2</div><div class="op info" style="width:100;left:1590;top:1264;height:832" title="14 ms
+&quot;indeterminate: KeeperErrorCode = NoNode for /jepsen/data&quot;">14 :cas [3 0]</div><div class="op info" style="width:100;left:0;top:1312;height:16" title="nil">:nemesis :stop </div><div class="op info" style="width:100;left:1378;top:1296;height:800" title="1 ms
+&quot;indeterminate: KeeperErrorCode = NoNode for /jepsen/data&quot;">12 :read </div><div class="op info" style="width:100;left:742;top:1344;height:752" title="15 ms
+&quot;indeterminate: KeeperErrorCode = NoNode for /jepsen/data&quot;">6 :cas [3 3]</div><div class="op info" style="width:100;left:0;top:1376;height:16" title="nil">:nemesis :stop fully connected<br /></div><div class="op ok" style="width:100;left:2120;top:1392;height:16" title="0 ms
+nil">19 :read 2</div><div class="op info" style="width:100;left:1272;top:1424;height:672" title="15 ms
+&quot;indeterminate: KeeperErrorCode = NoNode for /jepsen/data&quot;">11 :write 0</div><div class="op info" style="width:100;left:1802;top:1472;height:624" title="14 ms
+&quot;indeterminate: KeeperErrorCode = NoNode for /jepsen/data&quot;">16 :write 1</div><div class="op info" style="width:100;left:2120;top:1504;height:592" title="14 ms
+&quot;indeterminate: KeeperErrorCode = NoNode for /jepsen/data&quot;">19 :write 2</div><div class="op info" style="width:100;left:636;top:1088;height:1008" title="2667 ms
+&quot;indeterminate: &quot;">5 :write 3</div><div class="op info" style="width:100;left:1166;top:1552;height:544" title="0 ms
+&quot;indeterminate: KeeperErrorCode = Session expired for /jepsen/data&quot;">10 :read </div><div class="op info" style="width:100;left:1908;top:1584;height:512" title="1 ms
+&quot;indeterminate: KeeperErrorCode = NoNode for /jepsen/data&quot;">17 :read </div><div class="op info" style="width:100;left:954;top:1456;height:640" title="1591 ms
+&quot;indeterminate: &quot;">8 :cas [0 2]</div><div class="op ok" style="width:100;left:2332;top:1648;height:16" title="0 ms
+nil">21 :read 1</div><div class="op info" style="width:100;left:2544;top:1632;height:464" title="22 ms
+&quot;indeterminate: KeeperErrorCode = NoNode for /jepsen/data&quot;">24 :write 3</div><div class="op info" style="width:100;left:1696;top:1712;height:384" title="0 ms
+&quot;indeterminate: &quot;">15 :cas [2 4]</div><div class="op info" style="width:100;left:2226;top:1744;height:352" title="0 ms
+&quot;indeterminate: &quot;">20 :cas [3 3]</div><div class="op info" style="width:100;left:2438;top:1776;height:320" title="13 ms
+&quot;indeterminate: KeeperErrorCode = NoNode for /jepsen/data&quot;">22 :cas [2 2]</div><div class="op info" style="width:100;left:1484;top:1696;height:400" title="746 ms
+&quot;indeterminate: &quot;">13 :cas [0 0]</div><div class="op info" style="width:100;left:2650;top:1824;height:272" title="0 ms
+&quot;indeterminate: KeeperErrorCode = Session expired for /jepsen/data&quot;">25 :read </div><div class="op info" style="width:100;left:2862;top:1856;height:240" title="12 ms
+&quot;indeterminate: KeeperErrorCode = NoNode for /jepsen/data&quot;">29 :cas [2 3]</div><div class="op info" style="width:100;left:2756;top:1888;height:208" title="13 ms
+&quot;indeterminate: KeeperErrorCode = NoNode for /jepsen/data&quot;">27 :write 4</div><div class="op info" style="width:100;left:2332;top:1920;height:176" title="13 ms
+&quot;indeterminate: KeeperErrorCode = NoNode for /jepsen/data&quot;">21 :cas [0 2]</div><div class="op info" style="width:100;left:2968;top:1952;height:144" title="0 ms
+&quot;indeterminate: &quot;">30 :write 3</div><div class="op info" style="width:100;left:3074;top:1984;height:112" title="17 ms
+&quot;indeterminate: KeeperErrorCode = NoNode for /jepsen/data&quot;">34 :cas [1 3]</div><div class="op info" style="width:100;left:2014;top:2016;height:80" title="0 ms
+&quot;indeterminate: KeeperErrorCode = Session expired for /jepsen/data&quot;">18 :read </div><div class="op info" style="width:100;left:0;top:2048;height:16" title="nil">:nemesis :start </div><div class="op info" style="width:100;left:0;top:2064;height:16" title="nil">:nemesis :start Cut off {"w5" #{"w4" "w3" "w1"}, "w2" #{"w4" "w3" "w1"}, "w4" #{"w5" "w2"}, "w3" #{"w5" "w2"}, "w1" #{"w5" "w2"}}<br /></div></div></body></html>

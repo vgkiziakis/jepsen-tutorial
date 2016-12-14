@@ -1,0 +1,36 @@
+2016-12-13 14:15:13,538{GMT}	INFO	[jepsen node w3] jepsen.os.debian: w3 setting up debian
+2016-12-13 14:15:13,538{GMT}	INFO	[jepsen node w5] jepsen.os.debian: w5 setting up debian
+2016-12-13 14:15:13,538{GMT}	INFO	[jepsen node w1] jepsen.os.debian: w1 setting up debian
+2016-12-13 14:15:13,538{GMT}	INFO	[jepsen node w4] jepsen.os.debian: w4 setting up debian
+2016-12-13 14:15:13,538{GMT}	INFO	[jepsen node w2] jepsen.os.debian: w2 setting up debian
+2016-12-13 14:15:14,057{GMT}	INFO	[jepsen node w5] jepsen.os.debian: Installing #{iproute psmisc ntpdate faketime libzip2 unzip}
+2016-12-13 14:15:14,057{GMT}	INFO	[jepsen node w4] jepsen.os.debian: Installing #{iproute psmisc ntpdate faketime libzip2 unzip}
+2016-12-13 14:15:14,057{GMT}	INFO	[jepsen node w1] jepsen.os.debian: Installing #{iproute psmisc ntpdate faketime libzip2 unzip}
+2016-12-13 14:15:14,058{GMT}	INFO	[jepsen node w3] jepsen.os.debian: Installing #{iproute psmisc ntpdate faketime libzip2 unzip}
+2016-12-13 14:15:14,058{GMT}	INFO	[jepsen node w2] jepsen.os.debian: Installing #{iproute psmisc ntpdate faketime libzip2 unzip}
+2016-12-13 14:15:19,776{GMT}	INFO	[jepsen nemesis] jepsen.core: Nemesis starting
+2016-12-13 14:15:19,777{GMT}	INFO	[jepsen nemesis] jepsen.core: nemesis done
+2016-12-13 14:15:19,778{GMT}	INFO	[jepsen worker 1] jepsen.core: Worker 1 starting
+2016-12-13 14:15:19,778{GMT}	INFO	[jepsen worker 2] jepsen.core: Worker 2 starting
+2016-12-13 14:15:19,778{GMT}	INFO	[jepsen worker 3] jepsen.core: Worker 3 starting
+2016-12-13 14:15:19,778{GMT}	INFO	[jepsen worker 4] jepsen.core: Worker 4 starting
+2016-12-13 14:15:19,778{GMT}	INFO	[jepsen worker 0] jepsen.core: Worker 0 starting
+2016-12-13 14:15:19,778{GMT}	INFO	[jepsen worker 1] jepsen.core: Worker 1 done
+2016-12-13 14:15:19,778{GMT}	INFO	[jepsen worker 2] jepsen.core: Worker 2 done
+2016-12-13 14:15:19,779{GMT}	INFO	[jepsen worker 3] jepsen.core: Worker 3 done
+2016-12-13 14:15:19,779{GMT}	INFO	[jepsen worker 4] jepsen.core: Worker 4 done
+2016-12-13 14:15:19,779{GMT}	INFO	[jepsen worker 0] jepsen.core: Worker 0 done
+2016-12-13 14:15:19,780{GMT}	INFO	[jepsen test runner] jepsen.core: Waiting for nemesis to complete
+2016-12-13 14:15:19,780{GMT}	INFO	[jepsen test runner] jepsen.core: nemesis done.
+2016-12-13 14:15:19,780{GMT}	INFO	[jepsen test runner] jepsen.core: Tearing down nemesis
+2016-12-13 14:15:19,780{GMT}	INFO	[jepsen test runner] jepsen.core: Nemesis torn down
+2016-12-13 14:15:19,781{GMT}	INFO	[jepsen test runner] jepsen.core: Run complete, writing
+2016-12-13 14:15:19,806{GMT}	INFO	[jepsen test runner] jepsen.core: Analyzing
+2016-12-13 14:15:19,816{GMT}	INFO	[jepsen test runner] jepsen.core: Analysis complete
+2016-12-13 14:15:19,827{GMT}	INFO	[jepsen results] jepsen.store: Wrote /home/admin/jepsen.zookeeper/store/zookeeper/20161213T141512.000Z/results.edn
+2016-12-13 14:15:19,833{GMT}	INFO	[main] jepsen.core: {:valid? true,
+ :configs ({:model {}, :last-op nil, :pending []}),
+ :final-paths ()}
+
+
+Everything looks good! ヽ(‘ー`)ノ

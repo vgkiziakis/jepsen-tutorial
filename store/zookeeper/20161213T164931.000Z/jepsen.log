@@ -1,0 +1,255 @@
+2016-12-13 16:49:31,776{GMT}	INFO	[jepsen node w2] jepsen.os.debian: w2 setting up debian
+2016-12-13 16:49:31,776{GMT}	INFO	[jepsen node w4] jepsen.os.debian: w4 setting up debian
+2016-12-13 16:49:31,776{GMT}	INFO	[jepsen node w5] jepsen.os.debian: w5 setting up debian
+2016-12-13 16:49:31,776{GMT}	INFO	[jepsen node w3] jepsen.os.debian: w3 setting up debian
+2016-12-13 16:49:31,776{GMT}	INFO	[jepsen node w1] jepsen.os.debian: w1 setting up debian
+2016-12-13 16:49:32,499{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: Tearing down ZK on w2
+2016-12-13 16:49:32,499{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: Tearing down ZK on w3
+2016-12-13 16:49:32,499{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: Tearing down ZK on w1
+2016-12-13 16:49:32,499{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: Tearing down ZK on w4
+2016-12-13 16:49:32,499{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: Tearing down ZK on w5
+2016-12-13 16:49:32,703{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: Setting up ZK on w1
+2016-12-13 16:49:32,703{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: Setting up ZK on w2
+2016-12-13 16:49:32,703{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: Setting up ZK on w3
+2016-12-13 16:49:32,704{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: Setting up ZK on w4
+2016-12-13 16:49:32,704{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: Setting up ZK on w5
+2016-12-13 16:49:33,215{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: w5 ZK restarting
+2016-12-13 16:49:33,215{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: w1 ZK restarting
+2016-12-13 16:49:33,215{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: w2 ZK restarting
+2016-12-13 16:49:33,215{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: w4 ZK restarting
+2016-12-13 16:49:33,215{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: w3 ZK restarting
+2016-12-13 16:49:38,316{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: w1 ZK ready
+2016-12-13 16:49:38,316{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: w5 ZK ready
+2016-12-13 16:49:38,317{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: w2 ZK ready
+2016-12-13 16:49:38,317{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: w4 ZK ready
+2016-12-13 16:49:38,317{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: w3 ZK ready
+2016-12-13 16:49:38,322{GMT}	INFO	[clojure-agent-send-off-pool-0] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w1 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__378@461762d3
+2016-12-13 16:49:38,322{GMT}	INFO	[clojure-agent-send-off-pool-4] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w2 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__378@7ed3ab5f
+2016-12-13 16:49:38,322{GMT}	INFO	[clojure-agent-send-off-pool-2] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w3 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__378@31791fa6
+2016-12-13 16:49:38,322{GMT}	INFO	[clojure-agent-send-off-pool-1] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w4 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__378@7ced92e5
+2016-12-13 16:49:38,322{GMT}	INFO	[clojure-agent-send-off-pool-3] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w5 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__378@436c5adc
+2016-12-13 16:49:38,339{GMT}	INFO	[clojure-agent-send-off-pool-1-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.4.104:2181
+2016-12-13 16:49:38,339{GMT}	INFO	[clojure-agent-send-off-pool-2-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.4.103:2181
+2016-12-13 16:49:38,340{GMT}	INFO	[clojure-agent-send-off-pool-4-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.4.102:2181
+2016-12-13 16:49:38,340{GMT}	INFO	[clojure-agent-send-off-pool-0-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.4.101:2181
+2016-12-13 16:49:38,342{GMT}	INFO	[clojure-agent-send-off-pool-3-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.4.105:2181
+2016-12-13 16:49:38,354{GMT}	INFO	[clojure-agent-send-off-pool-1-SendThread(w4:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w4/192.168.4.104:2181, initiating session
+2016-12-13 16:49:38,354{GMT}	INFO	[clojure-agent-send-off-pool-2-SendThread(w3:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w3/192.168.4.103:2181, initiating session
+2016-12-13 16:49:38,354{GMT}	INFO	[clojure-agent-send-off-pool-0-SendThread(w1:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w1/192.168.4.101:2181, initiating session
+2016-12-13 16:49:38,354{GMT}	INFO	[clojure-agent-send-off-pool-4-SendThread(w2:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w2/192.168.4.102:2181, initiating session
+2016-12-13 16:49:38,355{GMT}	INFO	[clojure-agent-send-off-pool-3-SendThread(w5:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w5/192.168.4.105:2181, initiating session
+2016-12-13 16:49:38,465{GMT}	INFO	[clojure-agent-send-off-pool-3-SendThread(w5:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w5/192.168.4.105:2181, sessionid = 0x458f916d2f30000, negotiated timeout = 5000
+2016-12-13 16:49:38,465{GMT}	INFO	[clojure-agent-send-off-pool-4-SendThread(w2:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w2/192.168.4.102:2181, sessionid = 0x158f916d9c20000, negotiated timeout = 5000
+2016-12-13 16:49:38,465{GMT}	INFO	[clojure-agent-send-off-pool-1-SendThread(w4:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w4/192.168.4.104:2181, sessionid = 0x358f916d64b0000, negotiated timeout = 5000
+2016-12-13 16:49:38,465{GMT}	INFO	[clojure-agent-send-off-pool-0-SendThread(w1:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w1/192.168.4.101:2181, sessionid = 0x58f916ddfe0000, negotiated timeout = 5000
+2016-12-13 16:49:38,465{GMT}	INFO	[clojure-agent-send-off-pool-2-SendThread(w3:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w3/192.168.4.103:2181, sessionid = 0x258f916dfd20000, negotiated timeout = 5000
+2016-12-13 16:49:38,651{GMT}	INFO	[jepsen nemesis] jepsen.core: Nemesis starting
+2016-12-13 16:49:38,651{GMT}	INFO	[jepsen nemesis] jepsen.core: nemesis done
+2016-12-13 16:49:38,652{GMT}	INFO	[jepsen worker 1] jepsen.core: Worker 1 starting
+2016-12-13 16:49:38,652{GMT}	INFO	[jepsen worker 2] jepsen.core: Worker 2 starting
+2016-12-13 16:49:38,652{GMT}	INFO	[jepsen worker 4] jepsen.core: Worker 4 starting
+2016-12-13 16:49:38,652{GMT}	INFO	[jepsen worker 3] jepsen.core: Worker 3 starting
+2016-12-13 16:49:38,653{GMT}	INFO	[jepsen worker 0] jepsen.core: Worker 0 starting
+2016-12-13 16:49:39,537{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:cas	[1 4]
+2016-12-13 16:49:39,564{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:fail	:cas	[1 4]
+2016-12-13 16:49:39,649{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:read	nil
+2016-12-13 16:49:39,652{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:ok	:read	0
+2016-12-13 16:49:39,799{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:read	nil
+2016-12-13 16:49:39,802{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:read	0
+2016-12-13 16:49:39,910{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:read	nil
+2016-12-13 16:49:39,910{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:read	0
+2016-12-13 16:49:40,124{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:cas	[1 1]
+2016-12-13 16:49:40,144{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:fail	:cas	[1 1]
+2016-12-13 16:49:40,413{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:cas	[4 2]
+2016-12-13 16:49:40,422{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:write	2
+2016-12-13 16:49:40,435{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:fail	:cas	[4 2]
+2016-12-13 16:49:40,444{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:write	2
+2016-12-13 16:49:40,607{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:read	nil
+2016-12-13 16:49:40,609{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:ok	:read	2
+2016-12-13 16:49:40,645{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:write	3
+2016-12-13 16:49:40,660{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:write	3
+2016-12-13 16:49:41,463{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:write	1
+2016-12-13 16:49:41,484{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:ok	:write	1
+2016-12-13 16:49:41,490{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:cas	[2 3]
+2016-12-13 16:49:41,506{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:fail	:cas	[2 3]
+2016-12-13 16:49:41,558{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:read	nil
+2016-12-13 16:49:41,560{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:ok	:read	1
+2016-12-13 16:49:41,864{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:read	nil
+2016-12-13 16:49:41,866{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:read	1
+2016-12-13 16:49:42,404{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:read	nil
+2016-12-13 16:49:42,405{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:read	1
+2016-12-13 16:49:42,439{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:read	nil
+2016-12-13 16:49:42,441{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:ok	:read	1
+2016-12-13 16:49:42,503{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:read	nil
+2016-12-13 16:49:42,503{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:read	1
+2016-12-13 16:49:42,751{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:write	2
+2016-12-13 16:49:42,768{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:write	2
+2016-12-13 16:49:42,771{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:cas	[1 2]
+2016-12-13 16:49:42,790{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:fail	:cas	[1 2]
+2016-12-13 16:49:42,959{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:write	2
+2016-12-13 16:49:42,976{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:write	2
+2016-12-13 16:49:43,040{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:write	0
+2016-12-13 16:49:43,059{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:write	0
+2016-12-13 16:49:43,237{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:cas	[4 2]
+2016-12-13 16:49:43,255{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:fail	:cas	[4 2]
+2016-12-13 16:49:43,266{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:write	2
+2016-12-13 16:49:43,283{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:ok	:write	2
+2016-12-13 16:49:43,432{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:write	1
+2016-12-13 16:49:43,449{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:ok	:write	1
+2016-12-13 16:49:43,814{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:cas	[3 2]
+2016-12-13 16:49:43,832{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:fail	:cas	[3 2]
+2016-12-13 16:49:43,854{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:read	nil
+2016-12-13 16:49:43,855{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:read	1
+2016-12-13 16:49:43,983{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:write	3
+2016-12-13 16:49:44,000{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:ok	:write	3
+2016-12-13 16:49:44,040{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:write	2
+2016-12-13 16:49:44,055{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:ok	:write	2
+2016-12-13 16:49:44,168{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:read	nil
+2016-12-13 16:49:44,170{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:read	2
+2016-12-13 16:49:44,181{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:write	3
+2016-12-13 16:49:44,196{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:write	3
+2016-12-13 16:49:44,523{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:write	3
+2016-12-13 16:49:44,545{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:write	3
+2016-12-13 16:49:44,594{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:write	0
+2016-12-13 16:49:44,611{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:write	0
+2016-12-13 16:49:44,916{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:read	nil
+2016-12-13 16:49:44,917{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:ok	:read	0
+2016-12-13 16:49:44,992{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:write	4
+2016-12-13 16:49:45,007{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:ok	:write	4
+2016-12-13 16:49:45,102{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:cas	[1 2]
+2016-12-13 16:49:45,119{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:fail	:cas	[1 2]
+2016-12-13 16:49:45,641{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:cas	[4 0]
+2016-12-13 16:49:45,656{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:ok	:cas	[4 0]
+2016-12-13 16:49:45,870{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:read	nil
+2016-12-13 16:49:45,871{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:ok	:read	0
+2016-12-13 16:49:45,905{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:write	0
+2016-12-13 16:49:45,921{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:write	0
+2016-12-13 16:49:46,014{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:read	nil
+2016-12-13 16:49:46,016{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:read	0
+2016-12-13 16:49:46,368{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:read	nil
+2016-12-13 16:49:46,369{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:read	0
+2016-12-13 16:49:47,044{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:cas	[3 3]
+2016-12-13 16:49:47,059{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:fail	:cas	[3 3]
+2016-12-13 16:49:47,128{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:cas	[0 1]
+2016-12-13 16:49:47,147{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:ok	:cas	[0 1]
+2016-12-13 16:49:47,299{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:read	nil
+2016-12-13 16:49:47,300{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:read	1
+2016-12-13 16:49:47,560{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:read	nil
+2016-12-13 16:49:47,561{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:read	1
+2016-12-13 16:49:47,568{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:cas	[1 3]
+2016-12-13 16:49:47,585{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:ok	:cas	[1 3]
+2016-12-13 16:49:47,716{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:read	nil
+2016-12-13 16:49:47,717{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:read	3
+2016-12-13 16:49:47,969{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:cas	[1 1]
+2016-12-13 16:49:47,983{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:fail	:cas	[1 1]
+2016-12-13 16:49:48,364{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:write	1
+2016-12-13 16:49:48,386{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:ok	:write	1
+2016-12-13 16:49:48,685{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:write	2
+2016-12-13 16:49:48,701{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:ok	:write	2
+2016-12-13 16:49:48,943{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:read	nil
+2016-12-13 16:49:48,944{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:read	2
+2016-12-13 16:49:48,975{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:read	nil
+2016-12-13 16:49:48,976{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:read	2
+2016-12-13 16:49:49,244{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:cas	[0 4]
+2016-12-13 16:49:49,260{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:fail	:cas	[0 4]
+2016-12-13 16:49:49,271{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:cas	[3 0]
+2016-12-13 16:49:49,287{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:fail	:cas	[3 0]
+2016-12-13 16:49:49,401{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:write	0
+2016-12-13 16:49:49,417{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:write	0
+2016-12-13 16:49:49,569{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:write	4
+2016-12-13 16:49:49,587{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:write	4
+2016-12-13 16:49:49,925{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:cas	[0 1]
+2016-12-13 16:49:49,942{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:fail	:cas	[0 1]
+2016-12-13 16:49:50,038{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:cas	[3 2]
+2016-12-13 16:49:50,055{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:fail	:cas	[3 2]
+2016-12-13 16:49:50,167{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:write	2
+2016-12-13 16:49:50,183{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:ok	:write	2
+2016-12-13 16:49:50,329{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:read	nil
+2016-12-13 16:49:50,330{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:read	2
+2016-12-13 16:49:50,594{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:read	nil
+2016-12-13 16:49:50,596{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:ok	:read	2
+2016-12-13 16:49:50,872{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:read	nil
+2016-12-13 16:49:50,874{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:ok	:read	2
+2016-12-13 16:49:51,000{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:read	nil
+2016-12-13 16:49:51,001{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:read	2
+2016-12-13 16:49:51,019{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:write	3
+2016-12-13 16:49:51,037{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:cas	[2 3]
+2016-12-13 16:49:51,050{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:ok	:write	3
+2016-12-13 16:49:51,060{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:fail	:cas	[2 3]
+2016-12-13 16:49:51,346{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:cas	[2 2]
+2016-12-13 16:49:51,362{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:fail	:cas	[2 2]
+2016-12-13 16:49:51,393{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:cas	[4 1]
+2016-12-13 16:49:51,408{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:fail	:cas	[4 1]
+2016-12-13 16:49:52,166{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:read	nil
+2016-12-13 16:49:52,167{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:ok	:read	3
+2016-12-13 16:49:52,321{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:cas	[2 1]
+2016-12-13 16:49:52,337{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:fail	:cas	[2 1]
+2016-12-13 16:49:52,415{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:cas	[3 4]
+2016-12-13 16:49:52,431{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:cas	[3 4]
+2016-12-13 16:49:52,467{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:cas	[0 0]
+2016-12-13 16:49:52,481{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:fail	:cas	[0 0]
+2016-12-13 16:49:52,947{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:write	1
+2016-12-13 16:49:52,966{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:ok	:write	1
+2016-12-13 16:49:53,304{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:cas	[3 4]
+2016-12-13 16:49:53,319{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:fail	:cas	[3 4]
+2016-12-13 16:49:53,384{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:cas	[1 3]
+2016-12-13 16:49:53,400{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:cas	[1 3]
+2016-12-13 16:49:53,717{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:invoke	:read	nil
+2016-12-13 16:49:53,718{GMT}	INFO	[jepsen worker 1] jepsen.util: 1	:ok	:read	3
+2016-12-13 16:49:53,719{GMT}	INFO	[jepsen worker 1] jepsen.core: Worker 1 done
+2016-12-13 16:49:54,101{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:invoke	:write	4
+2016-12-13 16:49:54,129{GMT}	INFO	[jepsen worker 0] jepsen.util: 0	:ok	:write	4
+2016-12-13 16:49:54,129{GMT}	INFO	[jepsen worker 0] jepsen.core: Worker 0 done
+2016-12-13 16:49:54,137{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:invoke	:read	nil
+2016-12-13 16:49:54,138{GMT}	INFO	[jepsen worker 2] jepsen.util: 2	:ok	:read	4
+2016-12-13 16:49:54,138{GMT}	INFO	[jepsen worker 2] jepsen.core: Worker 2 done
+2016-12-13 16:49:54,284{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:invoke	:read	nil
+2016-12-13 16:49:54,285{GMT}	INFO	[jepsen worker 3] jepsen.util: 3	:ok	:read	4
+2016-12-13 16:49:54,285{GMT}	INFO	[jepsen worker 3] jepsen.core: Worker 3 done
+2016-12-13 16:49:54,449{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:invoke	:cas	[1 2]
+2016-12-13 16:49:54,465{GMT}	INFO	[jepsen worker 4] jepsen.util: 4	:fail	:cas	[1 2]
+2016-12-13 16:49:54,465{GMT}	INFO	[jepsen worker 4] jepsen.core: Worker 4 done
+2016-12-13 16:49:54,465{GMT}	INFO	[jepsen test runner] jepsen.core: Waiting for nemesis to complete
+2016-12-13 16:49:54,465{GMT}	INFO	[jepsen test runner] jepsen.core: nemesis done.
+2016-12-13 16:49:54,465{GMT}	INFO	[jepsen test runner] jepsen.core: Tearing down nemesis
+2016-12-13 16:49:54,465{GMT}	INFO	[jepsen test runner] jepsen.core: Nemesis torn down
+2016-12-13 16:49:54,469{GMT}	INFO	[clojure-agent-send-off-pool-3] org.apache.zookeeper.ZooKeeper: Session: 0x458f916d2f30000 closed
+2016-12-13 16:49:54,469{GMT}	INFO	[clojure-agent-send-off-pool-3-EventThread] org.apache.zookeeper.ClientCnxn: EventThread shut down
+2016-12-13 16:49:54,470{GMT}	INFO	[clojure-agent-send-off-pool-7] org.apache.zookeeper.ZooKeeper: Session: 0x58f916ddfe0000 closed
+2016-12-13 16:49:54,470{GMT}	INFO	[clojure-agent-send-off-pool-0-EventThread] org.apache.zookeeper.ClientCnxn: EventThread shut down
+2016-12-13 16:49:54,471{GMT}	INFO	[clojure-agent-send-off-pool-9] org.apache.zookeeper.ZooKeeper: Session: 0x358f916d64b0000 closed
+2016-12-13 16:49:54,471{GMT}	INFO	[clojure-agent-send-off-pool-1-EventThread] org.apache.zookeeper.ClientCnxn: EventThread shut down
+2016-12-13 16:49:54,472{GMT}	INFO	[clojure-agent-send-off-pool-0] org.apache.zookeeper.ZooKeeper: Session: 0x158f916d9c20000 closed
+2016-12-13 16:49:54,472{GMT}	INFO	[clojure-agent-send-off-pool-4-EventThread] org.apache.zookeeper.ClientCnxn: EventThread shut down
+2016-12-13 16:49:54,472{GMT}	INFO	[clojure-agent-send-off-pool-1] org.apache.zookeeper.ZooKeeper: Session: 0x258f916dfd20000 closed
+2016-12-13 16:49:54,472{GMT}	INFO	[clojure-agent-send-off-pool-2-EventThread] org.apache.zookeeper.ClientCnxn: EventThread shut down
+2016-12-13 16:49:54,472{GMT}	INFO	[jepsen test runner] jepsen.core: Snarfing log files
+2016-12-13 16:49:54,475{GMT}	INFO	[jepsen node w1] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-13 16:49:54,475{GMT}	INFO	[jepsen node w3] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-13 16:49:54,475{GMT}	INFO	[jepsen node w2] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-13 16:49:54,475{GMT}	INFO	[jepsen node w5] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-13 16:49:54,475{GMT}	INFO	[jepsen node w4] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-13 16:49:54,490{GMT}	INFO	[jepsen test runner] jepsen.core: Run complete, writing
+2016-12-13 16:49:54,515{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: Tearing down ZK on w4
+2016-12-13 16:49:54,515{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: Tearing down ZK on w3
+2016-12-13 16:49:54,515{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: Tearing down ZK on w5
+2016-12-13 16:49:54,515{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: Tearing down ZK on w1
+2016-12-13 16:49:54,516{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: Tearing down ZK on w2
+2016-12-13 16:49:55,126{GMT}	INFO	[jepsen test runner] jepsen.core: Analyzing
+2016-12-13 16:49:55,156{GMT}	INFO	[jepsen test runner] jepsen.core: Analysis complete
+2016-12-13 16:49:55,173{GMT}	INFO	[jepsen results] jepsen.store: Wrote /home/admin/jepsen.zookeeper/store/zookeeper/20161213T164931.000Z/results.edn
+2016-12-13 16:49:55,187{GMT}	INFO	[main] jepsen.core: {:valid? true,
+ :configs
+ ({:model {},
+   :last-op
+   {:type :ok,
+    :f :read,
+    :value 4,
+    :process 3,
+    :time 15965823908,
+    :index 151},
+   :pending []}),
+ :final-paths ()}
+
+
+Everything looks good! ヽ(‘ー`)ノ

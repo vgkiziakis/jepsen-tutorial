@@ -1,0 +1,41 @@
+2016-12-13 15:21:16,183{GMT}	INFO	[jepsen node w4] jepsen.os.debian: w4 setting up debian
+2016-12-13 15:21:16,183{GMT}	INFO	[jepsen node w3] jepsen.os.debian: w3 setting up debian
+2016-12-13 15:21:16,183{GMT}	INFO	[jepsen node w2] jepsen.os.debian: w2 setting up debian
+2016-12-13 15:21:16,183{GMT}	INFO	[jepsen node w5] jepsen.os.debian: w5 setting up debian
+2016-12-13 15:21:16,184{GMT}	INFO	[jepsen node w1] jepsen.os.debian: w1 setting up debian
+2016-12-13 15:21:16,901{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: Tearing down ZK on w3
+2016-12-13 15:21:16,901{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: Tearing down ZK on w1
+2016-12-13 15:21:16,901{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: Tearing down ZK on w2
+2016-12-13 15:21:16,901{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: Tearing down ZK on w5
+2016-12-13 15:21:16,901{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: Tearing down ZK on w4
+2016-12-13 15:21:17,505{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: Setting up ZK on w3
+2016-12-13 15:21:17,522{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: Setting up ZK on w4
+2016-12-13 15:21:17,522{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: Setting up ZK on w1
+2016-12-13 15:21:17,622{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: Setting up ZK on w2
+2016-12-13 15:21:17,622{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: Setting up ZK on w5
+2016-12-13 15:21:18,016{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: w3 ZK restarting
+2016-12-13 15:21:18,031{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: w4 ZK restarting
+2016-12-13 15:21:18,032{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: w1 ZK restarting
+2016-12-13 15:21:18,129{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: w2 ZK restarting
+2016-12-13 15:21:18,129{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: w5 ZK restarting
+2016-12-13 15:21:18,134{GMT}	INFO	[jepsen test runner] jepsen.core: Snarfing log files
+2016-12-13 15:21:18,138{GMT}	INFO	[jepsen node w3] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-13 15:21:18,138{GMT}	INFO	[jepsen node w2] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-13 15:21:18,138{GMT}	INFO	[jepsen node w4] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-13 15:21:18,138{GMT}	INFO	[jepsen node w5] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-13 15:21:18,141{GMT}	INFO	[jepsen node w1] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-13 15:21:18,159{GMT}	WARN	[jepsen node w1] jepsen.control: Encountered error with conn [:control "w1"]; reopening
+2016-12-13 15:21:18,168{GMT}	WARN	[jepsen node w3] jepsen.control: Encountered error with conn [:control "w3"]; reopening
+2016-12-13 15:21:18,171{GMT}	WARN	[jepsen node w4] jepsen.control: Encountered error with conn [:control "w4"]; reopening
+2016-12-13 15:21:18,231{GMT}	WARN	[jepsen node w2] jepsen.control: Encountered error with conn [:control "w2"]; reopening
+2016-12-13 15:21:18,231{GMT}	WARN	[jepsen node w5] jepsen.control: Encountered error with conn [:control "w5"]; reopening
+2016-12-13 15:21:18,254{GMT}	INFO	[jepsen node w1] jepsen.core: /var/log/zookeeper/zookeeper.log pipe closed
+2016-12-13 15:21:18,347{GMT}	INFO	[jepsen node w4] jepsen.core: /var/log/zookeeper/zookeeper.log doesn't exist
+2016-12-13 15:21:18,413{GMT}	INFO	[jepsen node w3] jepsen.core: /var/log/zookeeper/zookeeper.log doesn't exist
+2016-12-13 15:21:18,508{GMT}	INFO	[jepsen node w2] jepsen.core: /var/log/zookeeper/zookeeper.log doesn't exist
+2016-12-13 15:21:18,585{GMT}	INFO	[jepsen node w5] jepsen.core: /var/log/zookeeper/zookeeper.log doesn't exist
+2016-12-13 15:21:18,587{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: Tearing down ZK on w5
+2016-12-13 15:21:18,587{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: Tearing down ZK on w4
+2016-12-13 15:21:18,588{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: Tearing down ZK on w3
+2016-12-13 15:21:18,588{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: Tearing down ZK on w2
+2016-12-13 15:21:18,588{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: Tearing down ZK on w1

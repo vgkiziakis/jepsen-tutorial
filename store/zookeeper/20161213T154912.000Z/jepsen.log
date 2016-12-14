@@ -1,0 +1,62 @@
+2016-12-13 15:49:13,386{GMT}	INFO	[jepsen node w4] jepsen.os.debian: w4 setting up debian
+2016-12-13 15:49:13,386{GMT}	INFO	[jepsen node w5] jepsen.os.debian: w5 setting up debian
+2016-12-13 15:49:13,386{GMT}	INFO	[jepsen node w3] jepsen.os.debian: w3 setting up debian
+2016-12-13 15:49:13,386{GMT}	INFO	[jepsen node w2] jepsen.os.debian: w2 setting up debian
+2016-12-13 15:49:13,388{GMT}	INFO	[jepsen node w1] jepsen.os.debian: w1 setting up debian
+2016-12-13 15:49:14,107{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: Tearing down ZK on w5
+2016-12-13 15:49:14,107{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: Tearing down ZK on w3
+2016-12-13 15:49:14,107{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: Tearing down ZK on w1
+2016-12-13 15:49:14,107{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: Tearing down ZK on w4
+2016-12-13 15:49:14,107{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: Tearing down ZK on w2
+2016-12-13 15:49:14,312{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: Setting up ZK on w1
+2016-12-13 15:49:14,312{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: Setting up ZK on w2
+2016-12-13 15:49:14,312{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: Setting up ZK on w3
+2016-12-13 15:49:14,312{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: Setting up ZK on w4
+2016-12-13 15:49:14,313{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: Setting up ZK on w5
+2016-12-13 15:49:14,823{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: w5 ZK restarting
+2016-12-13 15:49:14,823{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: w3 ZK restarting
+2016-12-13 15:49:14,824{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: w1 ZK restarting
+2016-12-13 15:49:14,824{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: w2 ZK restarting
+2016-12-13 15:49:14,824{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: w4 ZK restarting
+2016-12-13 15:49:19,925{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: w5 ZK ready
+2016-12-13 15:49:19,925{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: w1 ZK ready
+2016-12-13 15:49:19,925{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: w3 ZK ready
+2016-12-13 15:49:19,925{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: w2 ZK ready
+2016-12-13 15:49:19,925{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: w4 ZK ready
+2016-12-13 15:49:19,931{GMT}	INFO	[jepsen nemesis] jepsen.core: Nemesis starting
+2016-12-13 15:49:19,932{GMT}	INFO	[jepsen nemesis] jepsen.core: nemesis done
+2016-12-13 15:49:19,933{GMT}	INFO	[jepsen worker 0] jepsen.core: Worker 0 starting
+2016-12-13 15:49:19,933{GMT}	INFO	[jepsen worker 1] jepsen.core: Worker 1 starting
+2016-12-13 15:49:19,933{GMT}	INFO	[jepsen worker 2] jepsen.core: Worker 2 starting
+2016-12-13 15:49:19,933{GMT}	INFO	[jepsen worker 3] jepsen.core: Worker 3 starting
+2016-12-13 15:49:19,933{GMT}	INFO	[jepsen worker 4] jepsen.core: Worker 4 starting
+2016-12-13 15:49:19,933{GMT}	INFO	[jepsen worker 0] jepsen.core: Worker 0 done
+2016-12-13 15:49:19,933{GMT}	INFO	[jepsen worker 1] jepsen.core: Worker 1 done
+2016-12-13 15:49:19,933{GMT}	INFO	[jepsen worker 2] jepsen.core: Worker 2 done
+2016-12-13 15:49:19,933{GMT}	INFO	[jepsen worker 3] jepsen.core: Worker 3 done
+2016-12-13 15:49:19,933{GMT}	INFO	[jepsen worker 4] jepsen.core: Worker 4 done
+2016-12-13 15:49:19,934{GMT}	INFO	[jepsen test runner] jepsen.core: Waiting for nemesis to complete
+2016-12-13 15:49:19,934{GMT}	INFO	[jepsen test runner] jepsen.core: nemesis done.
+2016-12-13 15:49:19,934{GMT}	INFO	[jepsen test runner] jepsen.core: Tearing down nemesis
+2016-12-13 15:49:19,934{GMT}	INFO	[jepsen test runner] jepsen.core: Nemesis torn down
+2016-12-13 15:49:19,935{GMT}	INFO	[jepsen test runner] jepsen.core: Snarfing log files
+2016-12-13 15:49:19,938{GMT}	INFO	[jepsen node w3] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-13 15:49:19,938{GMT}	INFO	[jepsen node w1] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-13 15:49:19,938{GMT}	INFO	[jepsen node w2] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-13 15:49:19,938{GMT}	INFO	[jepsen node w5] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-13 15:49:19,939{GMT}	INFO	[jepsen node w4] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-13 15:49:19,958{GMT}	INFO	[jepsen test runner] jepsen.core: Run complete, writing
+2016-12-13 15:49:19,975{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: Tearing down ZK on w2
+2016-12-13 15:49:19,975{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: Tearing down ZK on w3
+2016-12-13 15:49:19,975{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: Tearing down ZK on w5
+2016-12-13 15:49:19,975{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: Tearing down ZK on w1
+2016-12-13 15:49:19,975{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: Tearing down ZK on w4
+2016-12-13 15:49:20,583{GMT}	INFO	[jepsen test runner] jepsen.core: Analyzing
+2016-12-13 15:49:20,593{GMT}	INFO	[jepsen test runner] jepsen.core: Analysis complete
+2016-12-13 15:49:20,602{GMT}	INFO	[jepsen results] jepsen.store: Wrote /home/admin/jepsen.zookeeper/store/zookeeper/20161213T154912.000Z/results.edn
+2016-12-13 15:49:20,608{GMT}	INFO	[main] jepsen.core: {:valid? true,
+ :configs ({:model {}, :last-op nil, :pending []}),
+ :final-paths ()}
+
+
+Everything looks good! ヽ(‘ー`)ノ

@@ -1,0 +1,126 @@
+2016-12-13 15:49:15,431 - INFO  [main:QuorumPeerConfig@101] - Reading configuration from: /etc/zookeeper/conf/zoo.cfg
+2016-12-13 15:49:15,435 - INFO  [main:QuorumPeerConfig@334] - Defaulting to majority quorums
+2016-12-13 15:49:15,441 - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2016-12-13 15:49:15,441 - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2016-12-13 15:49:15,442 - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2016-12-13 15:49:15,455 - INFO  [main:QuorumPeerMain@127] - Starting quorum peer
+2016-12-13 15:49:15,469 - INFO  [main:NIOServerCnxnFactory@94] - binding to port 0.0.0.0/0.0.0.0:2181
+2016-12-13 15:49:15,492 - INFO  [main:QuorumPeer@913] - tickTime set to 2000
+2016-12-13 15:49:15,492 - INFO  [main:QuorumPeer@933] - minSessionTimeout set to -1
+2016-12-13 15:49:15,492 - INFO  [main:QuorumPeer@944] - maxSessionTimeout set to -1
+2016-12-13 15:49:15,492 - INFO  [main:QuorumPeer@959] - initLimit set to 10
+2016-12-13 15:49:15,511 - INFO  [main:QuorumPeer@429] - currentEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2016-12-13 15:49:15,531 - INFO  [main:QuorumPeer@444] - acceptedEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2016-12-13 15:49:15,537 - INFO  [Thread-1:QuorumCnxManager$Listener@486] - My election bind port: 0.0.0.0/0.0.0.0:3888
+2016-12-13 15:49:15,549 - INFO  [QuorumPeer[myid=0]/0:0:0:0:0:0:0:0:2181:QuorumPeer@670] - LOOKING
+2016-12-13 15:49:15,550 - INFO  [QuorumPeer[myid=0]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@740] - New election. My id =  0, proposed zxid=0x0
+2016-12-13 15:49:15,553 - INFO  [WorkerReceiver[myid=0]:FastLeaderElection@542] - Notification: 0 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 0 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-13 15:49:15,558 - INFO  [WorkerSender[myid=0]:QuorumCnxManager@190] - Have smaller server identifier, so dropping the connection: (1, 0)
+2016-12-13 15:49:15,559 - INFO  [w1/192.168.4.101:3888:QuorumCnxManager$Listener@493] - Received connection request /192.168.4.105:57109
+2016-12-13 15:49:15,560 - WARN  [WorkerSender[myid=0]:QuorumCnxManager@368] - Cannot open channel to 2 at election address w3/192.168.4.103:3888
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.toSend(QuorumCnxManager.java:327)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.process(FastLeaderElection.java:393)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.run(FastLeaderElection.java:365)
+	at java.lang.Thread.run(Thread.java:745)
+2016-12-13 15:49:15,563 - INFO  [WorkerReceiver[myid=0]:FastLeaderElection@542] - Notification: 4 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 4 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-13 15:49:15,563 - INFO  [WorkerSender[myid=0]:QuorumCnxManager@190] - Have smaller server identifier, so dropping the connection: (3, 0)
+2016-12-13 15:49:15,564 - INFO  [WorkerSender[myid=0]:QuorumCnxManager@190] - Have smaller server identifier, so dropping the connection: (1, 0)
+2016-12-13 15:49:15,565 - INFO  [w1/192.168.4.101:3888:QuorumCnxManager$Listener@493] - Received connection request /192.168.4.102:40841
+2016-12-13 15:49:15,565 - INFO  [WorkerReceiver[myid=0]:FastLeaderElection@542] - Notification: 4 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 0 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-13 15:49:15,565 - WARN  [WorkerSender[myid=0]:QuorumCnxManager@368] - Cannot open channel to 2 at election address w3/192.168.4.103:3888
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.connectOne(QuorumCnxManager.java:354)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.toSend(QuorumCnxManager.java:327)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.process(FastLeaderElection.java:393)
+	at org.apache.zookeeper.server.quorum.FastLeaderElection$Messenger$WorkerSender.run(FastLeaderElection.java:365)
+	at java.lang.Thread.run(Thread.java:745)
+2016-12-13 15:49:15,567 - INFO  [WorkerSender[myid=0]:QuorumCnxManager@190] - Have smaller server identifier, so dropping the connection: (3, 0)
+2016-12-13 15:49:15,571 - WARN  [RecvWorker:1:QuorumCnxManager$RecvWorker@762] - Connection broken for id 1, my id = 0, error = 
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker.run(QuorumCnxManager.java:747)
+2016-12-13 15:49:15,571 - WARN  [RecvWorker:1:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2016-12-13 15:49:15,571 - INFO  [w1/192.168.4.101:3888:QuorumCnxManager$Listener@493] - Received connection request /192.168.4.102:40842
+2016-12-13 15:49:15,572 - WARN  [SendWorker:1:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.pollSendQueue(QuorumCnxManager.java:831)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.access$500(QuorumCnxManager.java:62)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker.run(QuorumCnxManager.java:667)
+2016-12-13 15:49:15,573 - WARN  [SendWorker:1:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2016-12-13 15:49:15,575 - INFO  [WorkerReceiver[myid=0]:FastLeaderElection@542] - Notification: 1 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-13 15:49:15,576 - INFO  [w1/192.168.4.101:3888:QuorumCnxManager$Listener@493] - Received connection request /192.168.4.104:12152
+2016-12-13 15:49:15,577 - INFO  [WorkerReceiver[myid=0]:FastLeaderElection@542] - Notification: 4 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-13 15:49:15,579 - INFO  [WorkerReceiver[myid=0]:FastLeaderElection@542] - Notification: 3 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-13 15:49:15,580 - WARN  [RecvWorker:3:QuorumCnxManager$RecvWorker@762] - Connection broken for id 3, my id = 0, error = 
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker.run(QuorumCnxManager.java:747)
+2016-12-13 15:49:15,580 - WARN  [RecvWorker:3:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2016-12-13 15:49:15,580 - WARN  [SendWorker:3:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.pollSendQueue(QuorumCnxManager.java:831)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.access$500(QuorumCnxManager.java:62)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker.run(QuorumCnxManager.java:667)
+2016-12-13 15:49:15,581 - WARN  [SendWorker:3:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2016-12-13 15:49:15,583 - INFO  [w1/192.168.4.101:3888:QuorumCnxManager$Listener@493] - Received connection request /192.168.4.104:12155
+2016-12-13 15:49:15,584 - INFO  [WorkerReceiver[myid=0]:FastLeaderElection@542] - Notification: 3 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-13 15:49:15,592 - INFO  [WorkerReceiver[myid=0]:FastLeaderElection@542] - Notification: 4 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-13 15:49:15,593 - INFO  [w1/192.168.4.101:3888:QuorumCnxManager$Listener@493] - Received connection request /192.168.4.103:22078
+2016-12-13 15:49:15,596 - INFO  [WorkerReceiver[myid=0]:FastLeaderElection@542] - Notification: 2 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 2 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-13 15:49:15,601 - INFO  [WorkerReceiver[myid=0]:FastLeaderElection@542] - Notification: 4 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 2 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-13 15:49:15,801 - INFO  [QuorumPeer[myid=0]/0:0:0:0:0:0:0:0:2181:QuorumPeer@738] - FOLLOWING
+2016-12-13 15:49:15,806 - INFO  [QuorumPeer[myid=0]/0:0:0:0:0:0:0:0:2181:Learner@85] - TCP NoDelay set to: true
+2016-12-13 15:49:15,812 - INFO  [QuorumPeer[myid=0]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:zookeeper.version=3.4.5--1, built on 03/16/2014 21:36 GMT
+2016-12-13 15:49:15,813 - INFO  [QuorumPeer[myid=0]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:host.name=w1
+2016-12-13 15:49:15,813 - INFO  [QuorumPeer[myid=0]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.version=1.8.0_111
+2016-12-13 15:49:15,813 - INFO  [QuorumPeer[myid=0]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.vendor=Oracle Corporation
+2016-12-13 15:49:15,813 - INFO  [QuorumPeer[myid=0]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.home=/usr/lib/jvm/java-8-oracle/jre
+2016-12-13 15:49:15,813 - INFO  [QuorumPeer[myid=0]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.class.path=/etc/zookeeper/conf:/usr/share/java/jline.jar:/usr/share/java/log4j-1.2.jar:/usr/share/java/xercesImpl.jar:/usr/share/java/xmlParserAPIs.jar:/usr/share/java/netty.jar:/usr/share/java/slf4j-api.jar:/usr/share/java/slf4j-log4j12.jar:/usr/share/java/zookeeper.jar
+2016-12-13 15:49:15,813 - INFO  [QuorumPeer[myid=0]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-13 15:49:15,813 - INFO  [QuorumPeer[myid=0]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2016-12-13 15:49:15,813 - INFO  [QuorumPeer[myid=0]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.compiler=<NA>
+2016-12-13 15:49:15,813 - INFO  [QuorumPeer[myid=0]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:os.name=Linux
+2016-12-13 15:49:15,813 - INFO  [QuorumPeer[myid=0]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:os.arch=amd64
+2016-12-13 15:49:15,813 - INFO  [QuorumPeer[myid=0]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:os.version=3.16.0-4-amd64
+2016-12-13 15:49:15,813 - INFO  [QuorumPeer[myid=0]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:user.name=zookeeper
+2016-12-13 15:49:15,813 - INFO  [QuorumPeer[myid=0]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:user.home=/var/lib/zookeeper
+2016-12-13 15:49:15,813 - INFO  [QuorumPeer[myid=0]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:user.dir=/
+2016-12-13 15:49:15,815 - INFO  [QuorumPeer[myid=0]/0:0:0:0:0:0:0:0:2181:ZooKeeperServer@162] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir /var/lib/zookeeper/version-2 snapdir /var/lib/zookeeper/version-2
+2016-12-13 15:49:15,815 - INFO  [QuorumPeer[myid=0]/0:0:0:0:0:0:0:0:2181:Follower@63] - FOLLOWING - LEADER ELECTION TOOK - 265
+2016-12-13 15:49:15,818 - WARN  [QuorumPeer[myid=0]/0:0:0:0:0:0:0:0:2181:Learner@232] - Unexpected exception, tries=0, connecting to w5/192.168.4.105:2888
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.zookeeper.server.quorum.Learner.connectToLeader(Learner.java:224)
+	at org.apache.zookeeper.server.quorum.Follower.followLeader(Follower.java:71)
+	at org.apache.zookeeper.server.quorum.QuorumPeer.run(QuorumPeer.java:740)
+2016-12-13 15:49:16,857 - INFO  [QuorumPeer[myid=0]/0:0:0:0:0:0:0:0:2181:Learner@322] - Getting a diff from the leader 0x0
+2016-12-13 15:49:16,860 - INFO  [QuorumPeer[myid=0]/0:0:0:0:0:0:0:0:2181:FileTxnSnapLog@240] - Snapshotting: 0x0 to /var/lib/zookeeper/version-2/snapshot.0
+2016-12-13 15:49:16,865 - INFO  [QuorumPeer[myid=0]/0:0:0:0:0:0:0:0:2181:FileTxnSnapLog@240] - Snapshotting: 0x0 to /var/lib/zookeeper/version-2/snapshot.0

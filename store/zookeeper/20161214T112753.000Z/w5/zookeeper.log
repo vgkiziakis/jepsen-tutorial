@@ -1,0 +1,126 @@
+2016-12-14 11:27:52,426 - INFO  [main:QuorumPeerConfig@101] - Reading configuration from: /etc/zookeeper/conf/zoo.cfg
+2016-12-14 11:27:52,430 - INFO  [main:QuorumPeerConfig@334] - Defaulting to majority quorums
+2016-12-14 11:27:52,435 - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2016-12-14 11:27:52,435 - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2016-12-14 11:27:52,436 - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2016-12-14 11:27:52,451 - INFO  [main:QuorumPeerMain@127] - Starting quorum peer
+2016-12-14 11:27:52,467 - INFO  [main:NIOServerCnxnFactory@94] - binding to port 0.0.0.0/0.0.0.0:2181
+2016-12-14 11:27:52,490 - INFO  [main:QuorumPeer@913] - tickTime set to 2000
+2016-12-14 11:27:52,490 - INFO  [main:QuorumPeer@933] - minSessionTimeout set to -1
+2016-12-14 11:27:52,490 - INFO  [main:QuorumPeer@944] - maxSessionTimeout set to -1
+2016-12-14 11:27:52,490 - INFO  [main:QuorumPeer@959] - initLimit set to 10
+2016-12-14 11:27:52,510 - INFO  [main:QuorumPeer@429] - currentEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2016-12-14 11:27:52,547 - INFO  [main:QuorumPeer@444] - acceptedEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2016-12-14 11:27:52,575 - INFO  [Thread-1:QuorumCnxManager$Listener@486] - My election bind port: 0.0.0.0/0.0.0.0:3888
+2016-12-14 11:27:52,580 - INFO  [w5/192.168.4.105:3888:QuorumCnxManager$Listener@493] - Received connection request /192.168.4.101:47988
+2016-12-14 11:27:52,586 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:QuorumPeer@670] - LOOKING
+2016-12-14 11:27:52,589 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@740] - New election. My id =  4, proposed zxid=0x0
+2016-12-14 11:27:52,595 - INFO  [w5/192.168.4.105:3888:QuorumCnxManager$Listener@493] - Received connection request /192.168.4.104:49126
+2016-12-14 11:27:52,596 - INFO  [w5/192.168.4.105:3888:QuorumCnxManager$Listener@493] - Received connection request /192.168.4.102:30210
+2016-12-14 11:27:52,597 - INFO  [w5/192.168.4.105:3888:QuorumCnxManager$Listener@493] - Received connection request /192.168.4.103:42259
+2016-12-14 11:27:52,597 - INFO  [WorkerReceiver[myid=4]:FastLeaderElection@542] - Notification: 3 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 0 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-14 11:27:52,598 - INFO  [WorkerReceiver[myid=4]:FastLeaderElection@542] - Notification: 4 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 0 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-14 11:27:52,598 - INFO  [WorkerReceiver[myid=4]:FastLeaderElection@542] - Notification: 4 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 4 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-14 11:27:52,599 - INFO  [WorkerReceiver[myid=4]:FastLeaderElection@542] - Notification: 3 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-14 11:27:52,599 - INFO  [WorkerReceiver[myid=4]:FastLeaderElection@542] - Notification: 4 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-14 11:27:52,599 - INFO  [w5/192.168.4.105:3888:QuorumCnxManager$Listener@493] - Received connection request /192.168.4.103:42260
+2016-12-14 11:27:52,600 - WARN  [SendWorker:2:QuorumCnxManager$SendWorker@679] - Interrupted while waiting for message on queue
+java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.ArrayBlockingQueue.poll(ArrayBlockingQueue.java:418)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.pollSendQueue(QuorumCnxManager.java:831)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager.access$500(QuorumCnxManager.java:62)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$SendWorker.run(QuorumCnxManager.java:667)
+2016-12-14 11:27:52,602 - WARN  [SendWorker:2:QuorumCnxManager$SendWorker@688] - Send worker leaving thread
+2016-12-14 11:27:52,603 - INFO  [WorkerReceiver[myid=4]:FastLeaderElection@542] - Notification: 3 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-14 11:27:52,603 - INFO  [WorkerReceiver[myid=4]:FastLeaderElection@542] - Notification: 4 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-14 11:27:52,604 - INFO  [WorkerReceiver[myid=4]:FastLeaderElection@542] - Notification: 4 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 2 (n.sid), 0x0 (n.peerEPoch), LOOKING (my state)
+2016-12-14 11:27:52,604 - WARN  [RecvWorker:2:QuorumCnxManager$RecvWorker@762] - Connection broken for id 2, my id = 4, error = 
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at java.io.DataInputStream.readInt(DataInputStream.java:388)
+	at org.apache.zookeeper.server.quorum.QuorumCnxManager$RecvWorker.run(QuorumCnxManager.java:747)
+2016-12-14 11:27:52,607 - WARN  [RecvWorker:2:QuorumCnxManager$RecvWorker@765] - Interrupting SendWorker
+2016-12-14 11:27:52,804 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:QuorumPeer@750] - LEADING
+2016-12-14 11:27:52,807 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Leader@58] - TCP NoDelay set to: true
+2016-12-14 11:27:52,816 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:zookeeper.version=3.4.5--1, built on 03/16/2014 21:36 GMT
+2016-12-14 11:27:52,816 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:host.name=w5
+2016-12-14 11:27:52,816 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.version=1.8.0_111
+2016-12-14 11:27:52,816 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.vendor=Oracle Corporation
+2016-12-14 11:27:52,817 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.home=/usr/lib/jvm/java-8-oracle/jre
+2016-12-14 11:27:52,817 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.class.path=/etc/zookeeper/conf:/usr/share/java/jline.jar:/usr/share/java/log4j-1.2.jar:/usr/share/java/xercesImpl.jar:/usr/share/java/xmlParserAPIs.jar:/usr/share/java/netty.jar:/usr/share/java/slf4j-api.jar:/usr/share/java/slf4j-log4j12.jar:/usr/share/java/zookeeper.jar
+2016-12-14 11:27:52,817 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-12-14 11:27:52,817 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2016-12-14 11:27:52,817 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:java.compiler=<NA>
+2016-12-14 11:27:52,817 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:os.name=Linux
+2016-12-14 11:27:52,818 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:os.arch=amd64
+2016-12-14 11:27:52,818 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:os.version=3.16.0-4-amd64
+2016-12-14 11:27:52,818 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:user.name=zookeeper
+2016-12-14 11:27:52,818 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:user.home=/var/lib/zookeeper
+2016-12-14 11:27:52,818 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Environment@100] - Server environment:user.dir=/
+2016-12-14 11:27:52,820 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:ZooKeeperServer@162] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir /var/lib/zookeeper/version-2 snapdir /var/lib/zookeeper/version-2
+2016-12-14 11:27:52,821 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:Leader@345] - LEADING - LEADER ELECTION TOOK - 232
+2016-12-14 11:27:52,823 - INFO  [QuorumPeer[myid=4]/0:0:0:0:0:0:0:0:2181:FileTxnSnapLog@240] - Snapshotting: 0x0 to /var/lib/zookeeper/version-2/snapshot.0
+2016-12-14 11:27:53,823 - INFO  [LearnerHandler-/192.168.4.101:46212:LearnerHandler@263] - Follower sid: 0 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@2f081143
+2016-12-14 11:27:53,824 - INFO  [LearnerHandler-/192.168.4.102:48292:LearnerHandler@263] - Follower sid: 1 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@3d09c935
+2016-12-14 11:27:53,825 - INFO  [LearnerHandler-/192.168.4.103:56240:LearnerHandler@263] - Follower sid: 2 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@51fddaee
+2016-12-14 11:27:53,825 - INFO  [LearnerHandler-/192.168.4.104:44323:LearnerHandler@263] - Follower sid: 3 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@7211da93
+2016-12-14 11:27:53,835 - INFO  [LearnerHandler-/192.168.4.102:48292:LearnerHandler@318] - Synchronizing with Follower sid: 1 maxCommittedLog=0x0 minCommittedLog=0x0 peerLastZxid=0x0
+2016-12-14 11:27:53,836 - INFO  [LearnerHandler-/192.168.4.102:48292:LearnerHandler@395] - Sending DIFF
+2016-12-14 11:27:53,836 - INFO  [LearnerHandler-/192.168.4.101:46212:LearnerHandler@318] - Synchronizing with Follower sid: 0 maxCommittedLog=0x0 minCommittedLog=0x0 peerLastZxid=0x0
+2016-12-14 11:27:53,836 - INFO  [LearnerHandler-/192.168.4.101:46212:LearnerHandler@395] - Sending DIFF
+2016-12-14 11:27:53,845 - INFO  [LearnerHandler-/192.168.4.103:56240:LearnerHandler@318] - Synchronizing with Follower sid: 2 maxCommittedLog=0x0 minCommittedLog=0x0 peerLastZxid=0x0
+2016-12-14 11:27:53,845 - INFO  [LearnerHandler-/192.168.4.103:56240:LearnerHandler@395] - Sending DIFF
+2016-12-14 11:27:53,846 - WARN  [LearnerHandler-/192.168.4.102:48292:Leader@574] - Commiting zxid 0x100000000 from /192.168.4.105:2888 not first!
+2016-12-14 11:27:53,846 - WARN  [LearnerHandler-/192.168.4.102:48292:Leader@576] - First is 0x0
+2016-12-14 11:27:53,846 - INFO  [LearnerHandler-/192.168.4.102:48292:Leader@598] - Have quorum of supporters; starting up and setting last processed zxid: 0x100000000
+2016-12-14 11:27:53,852 - INFO  [LearnerHandler-/192.168.4.104:44323:LearnerHandler@318] - Synchronizing with Follower sid: 3 maxCommittedLog=0x0 minCommittedLog=0x0 peerLastZxid=0x0
+2016-12-14 11:27:53,852 - INFO  [LearnerHandler-/192.168.4.104:44323:LearnerHandler@395] - Sending DIFF
+2016-12-14 11:27:57,171 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxnFactory@197] - Accepted socket connection from /192.168.4.100:63622
+2016-12-14 11:27:57,250 - INFO  [SyncThread:4:FileTxnLog@199] - Creating new log file: log.100000001
+2016-12-14 11:27:57,254 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:ZooKeeperServer@839] - Client attempting to establish new session at /192.168.4.100:63622
+2016-12-14 11:27:57,279 - INFO  [CommitProcessor:4:ZooKeeperServer@595] - Established session 0x458fd16b5f80000 with negotiated timeout 5000 for client /192.168.4.100:63622
+2016-12-14 11:27:57,301 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x358fd16baa30000 type:create cxid:0x3 zxid:0x100000007 txntype:-1 reqpath:n/a Error Path:/stm Error:KeeperErrorCode = NodeExists for /stm
+2016-12-14 11:27:57,303 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x258fd16c4900000 type:create cxid:0x3 zxid:0x100000008 txntype:-1 reqpath:n/a Error Path:/stm Error:KeeperErrorCode = NodeExists for /stm
+2016-12-14 11:27:57,308 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x158fd16c2aa0000 type:create cxid:0x3 zxid:0x100000009 txntype:-1 reqpath:n/a Error Path:/stm Error:KeeperErrorCode = NodeExists for /stm
+2016-12-14 11:27:57,312 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x258fd16c4900000 type:create cxid:0x5 zxid:0x10000000b txntype:-1 reqpath:n/a Error Path:/stm/history Error:KeeperErrorCode = NodeExists for /stm/history
+2016-12-14 11:27:57,316 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x158fd16c2aa0000 type:create cxid:0x5 zxid:0x10000000d txntype:-1 reqpath:n/a Error Path:/stm/refs Error:KeeperErrorCode = NodeExists for /stm/refs
+2016-12-14 11:27:57,317 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x258fd16c4900000 type:create cxid:0x6 zxid:0x10000000e txntype:-1 reqpath:n/a Error Path:/stm/refs Error:KeeperErrorCode = NodeExists for /stm/refs
+2016-12-14 11:27:57,317 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x458fd16b5f80000 type:create cxid:0x4 zxid:0x10000000f txntype:-1 reqpath:n/a Error Path:/stm/refs Error:KeeperErrorCode = NodeExists for /stm/refs
+2016-12-14 11:27:57,320 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x358fd16baa30000 type:create cxid:0x5 zxid:0x100000010 txntype:-1 reqpath:n/a Error Path:/stm/history Error:KeeperErrorCode = NodeExists for /stm/history
+2016-12-14 11:27:57,321 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x158fd16c2aa0000 type:create cxid:0x6 zxid:0x100000012 txntype:-1 reqpath:n/a Error Path:/stm/atoms Error:KeeperErrorCode = NodeExists for /stm/atoms
+2016-12-14 11:27:57,327 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x258fd16c4900000 type:create cxid:0x7 zxid:0x100000013 txntype:-1 reqpath:n/a Error Path:/stm/atoms Error:KeeperErrorCode = NodeExists for /stm/atoms
+2016-12-14 11:27:57,328 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x458fd16b5f80000 type:create cxid:0x5 zxid:0x100000014 txntype:-1 reqpath:n/a Error Path:/stm/atoms Error:KeeperErrorCode = NodeExists for /stm/atoms
+2016-12-14 11:27:57,331 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x358fd16baa30000 type:create cxid:0x6 zxid:0x100000015 txntype:-1 reqpath:n/a Error Path:/stm/refs Error:KeeperErrorCode = NodeExists for /stm/refs
+2016-12-14 11:27:57,332 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x58fd16c1f60000 type:create cxid:0xb zxid:0x100000017 txntype:-1 reqpath:n/a Error Path:/stm/atoms/jepsen Error:KeeperErrorCode = NodeExists for /stm/atoms/jepsen
+2016-12-14 11:27:57,336 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x358fd16baa30000 type:create cxid:0x7 zxid:0x100000018 txntype:-1 reqpath:n/a Error Path:/stm/atoms Error:KeeperErrorCode = NodeExists for /stm/atoms
+2016-12-14 11:27:57,337 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x258fd16c4900000 type:create cxid:0xb zxid:0x10000001a txntype:-1 reqpath:n/a Error Path:/stm/atoms/jepsen Error:KeeperErrorCode = NodeExists for /stm/atoms/jepsen
+2016-12-14 11:27:57,343 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x58fd16c1f60000 type:create cxid:0xd zxid:0x10000001b txntype:-1 reqpath:n/a Error Path:/stm/atoms/jepsen/lock Error:KeeperErrorCode = NodeExists for /stm/atoms/jepsen/lock
+2016-12-14 11:27:57,351 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x58fd16c1f60000 type:create cxid:0x14 zxid:0x10000001e txntype:-1 reqpath:n/a Error Path:/jepsen/data Error:KeeperErrorCode = NodeExists for /jepsen/data
+2016-12-14 11:27:57,355 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x258fd16c4900000 type:create cxid:0x13 zxid:0x10000001f txntype:-1 reqpath:n/a Error Path:/jepsen/data Error:KeeperErrorCode = NodeExists for /jepsen/data
+2016-12-14 11:27:57,356 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x358fd16baa30000 type:create cxid:0x12 zxid:0x100000020 txntype:-1 reqpath:n/a Error Path:/jepsen/data Error:KeeperErrorCode = NodeExists for /jepsen/data
+2016-12-14 11:28:08,000 - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x358fd16baa30000, timeout of 5000ms exceeded
+2016-12-14 11:28:08,000 - INFO  [SessionTracker:ZooKeeperServer@325] - Expiring session 0x158fd16c2aa0000, timeout of 5000ms exceeded
+2016-12-14 11:28:08,001 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x358fd16baa30000
+2016-12-14 11:28:08,001 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x158fd16c2aa0000
+2016-12-14 11:28:08,548 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x458fd16b5f80000 type:setData cxid:0xaa zxid:0x1000000a8 txntype:-1 reqpath:n/a Error Path:/jepsen/data Error:KeeperErrorCode = NoNode for /jepsen/data
+2016-12-14 11:28:08,892 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x258fd16c4900000 type:setData cxid:0xbc zxid:0x1000000ad txntype:-1 reqpath:n/a Error Path:/jepsen/data Error:KeeperErrorCode = NoNode for /jepsen/data
+2016-12-14 11:28:09,550 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x58fd16c1f60000 type:setData cxid:0xc9 zxid:0x1000000b2 txntype:-1 reqpath:n/a Error Path:/jepsen/data Error:KeeperErrorCode = NoNode for /jepsen/data
+2016-12-14 11:28:09,907 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x358fd16baa30000 type:create cxid:0x77 zxid:0x1000000b4 txntype:-1 reqpath:/stm/atoms/jepsen/lock/1ab2ebb7-6a3f-4cf1-adc7-cf406f08931c- Error Path:null Error:KeeperErrorCode = Session expired
+2016-12-14 11:28:10,228 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x58fd16c1f60000 type:setData cxid:0xd5 zxid:0x1000000b6 txntype:-1 reqpath:n/a Error Path:/jepsen/data Error:KeeperErrorCode = NoNode for /jepsen/data
+2016-12-14 11:28:10,323 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x458fd16b5f80000 type:setData cxid:0xb6 zxid:0x1000000b9 txntype:-1 reqpath:n/a Error Path:/jepsen/data Error:KeeperErrorCode = NoNode for /jepsen/data
+2016-12-14 11:28:10,668 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x158fd16c2aa0000 type:create cxid:0x5f zxid:0x1000000bb txntype:-1 reqpath:/stm/atoms/jepsen/lock/44ec80a8-6fcd-4669-affe-bf91365848d0- Error Path:null Error:KeeperErrorCode = Session expired
+2016-12-14 11:28:10,795 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x258fd16c4900000 type:setData cxid:0xc8 zxid:0x1000000bd txntype:-1 reqpath:n/a Error Path:/jepsen/data Error:KeeperErrorCode = NoNode for /jepsen/data
+2016-12-14 11:28:10,840 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x258fd16c4900000 type:setData cxid:0xd4 zxid:0x1000000c0 txntype:-1 reqpath:n/a Error Path:/jepsen/data Error:KeeperErrorCode = NoNode for /jepsen/data
+2016-12-14 11:28:11,581 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x58fd16c1f60000 type:setData cxid:0xe1 zxid:0x1000000c3 txntype:-1 reqpath:n/a Error Path:/jepsen/data Error:KeeperErrorCode = NoNode for /jepsen/data
+2016-12-14 11:28:11,851 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x458fd16b5f80000 type:setData cxid:0xc2 zxid:0x1000000c6 txntype:-1 reqpath:n/a Error Path:/jepsen/data Error:KeeperErrorCode = NoNode for /jepsen/data
+2016-12-14 11:28:13,436 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@627] - Got user-level KeeperException when processing sessionid:0x458fd16b5f80000 type:setData cxid:0xce zxid:0x1000000c9 txntype:-1 reqpath:n/a Error Path:/jepsen/data Error:KeeperErrorCode = NoNode for /jepsen/data
+2016-12-14 11:28:15,280 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x458fd16b5f80000
+2016-12-14 11:28:15,281 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x58fd16c1f60000
+2016-12-14 11:28:15,282 - INFO  [ProcessThread(sid:4 cport:2181)::PrepRequestProcessor@476] - Processed session termination for sessionid: 0x258fd16c4900000
+2016-12-14 11:28:15,285 - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2181:NIOServerCnxn@1001] - Closed socket connection for client /192.168.4.100:63622 which had sessionid 0x458fd16b5f80000

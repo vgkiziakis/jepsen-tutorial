@@ -1,0 +1,443 @@
+{:perf
+ {:latency-graph {:valid? true},
+  :rate-graph {:valid? true},
+  :valid? true},
+ :html {:valid? true},
+ :linear
+ {:valid? false,
+  :configs
+  ({:model {:value 1},
+    :last-op
+    {:type :ok,
+     :f :read,
+     :value 1,
+     :process 3,
+     :time 12711745880,
+     :index 105},
+    :pending
+    [{:type :invoke,
+      :f :cas,
+      :value [0 3],
+      :process 0,
+      :time 6515141625,
+      :index 63}
+     {:type :invoke,
+      :f :write,
+      :value 3,
+      :process 5,
+      :time 11173130386,
+      :index 94}
+     {:type :invoke,
+      :f :cas,
+      :value [3 3],
+      :process 6,
+      :time 11834811904,
+      :index 100}
+     {:type :invoke,
+      :f :read,
+      :value 0,
+      :process 10,
+      :time 13005523478,
+      :index 108}]}
+   {:model {:value 1},
+    :last-op
+    {:type :ok,
+     :f :read,
+     :value 1,
+     :process 3,
+     :time 12711745880,
+     :index 105},
+    :pending
+    [{:type :invoke,
+      :f :cas,
+      :value [0 3],
+      :process 0,
+      :time 6515141625,
+      :index 63}
+     {:type :invoke,
+      :f :write,
+      :value 2,
+      :process 1,
+      :time 7171831662,
+      :index 69}
+     {:type :invoke,
+      :f :cas,
+      :value [3 3],
+      :process 6,
+      :time 11834811904,
+      :index 100}
+     {:type :invoke,
+      :f :read,
+      :value 0,
+      :process 10,
+      :time 13005523478,
+      :index 108}]}
+   {:model {:value 1},
+    :last-op
+    {:type :ok,
+     :f :read,
+     :value 1,
+     :process 3,
+     :time 12711745880,
+     :index 105},
+    :pending
+    [{:type :invoke,
+      :f :cas,
+      :value [0 3],
+      :process 0,
+      :time 6515141625,
+      :index 63}
+     {:type :invoke,
+      :f :cas,
+      :value [3 3],
+      :process 6,
+      :time 11834811904,
+      :index 100}
+     {:type :invoke,
+      :f :read,
+      :value 0,
+      :process 10,
+      :time 13005523478,
+      :index 108}]}
+   {:model {:value 1},
+    :last-op
+    {:type :ok,
+     :f :read,
+     :value 1,
+     :process 3,
+     :time 12711745880,
+     :index 105},
+    :pending
+    [{:type :invoke,
+      :f :cas,
+      :value [0 3],
+      :process 0,
+      :time 6515141625,
+      :index 63}
+     {:type :invoke,
+      :f :write,
+      :value 2,
+      :process 1,
+      :time 7171831662,
+      :index 69}
+     {:type :invoke,
+      :f :write,
+      :value 3,
+      :process 5,
+      :time 11173130386,
+      :index 94}
+     {:type :invoke,
+      :f :cas,
+      :value [3 3],
+      :process 6,
+      :time 11834811904,
+      :index 100}
+     {:type :invoke,
+      :f :read,
+      :value 0,
+      :process 10,
+      :time 13005523478,
+      :index 108}]}),
+  :final-paths
+  ([{:op
+     {:type :ok,
+      :f :read,
+      :value 1,
+      :process 3,
+      :time 12711745880,
+      :index 105},
+     :model {:value 1}}
+    {:op
+     {:type :invoke,
+      :f :write,
+      :value 3,
+      :process 5,
+      :time 11173130386,
+      :index 94},
+     :model {:value 3}}
+    {:op
+     {:type :invoke,
+      :f :cas,
+      :value [0 3],
+      :process 0,
+      :time 6515141625,
+      :index 63},
+     :model {:msg "can't CAS 3 from 0 to 3"}}]
+   [{:op
+     {:type :ok,
+      :f :read,
+      :value 1,
+      :process 3,
+      :time 12711745880,
+      :index 105},
+     :model {:value 1}}
+    {:op
+     {:type :invoke,
+      :f :write,
+      :value 3,
+      :process 5,
+      :time 11173130386,
+      :index 94},
+     :model {:value 3}}
+    {:op
+     {:type :invoke,
+      :f :write,
+      :value 2,
+      :process 1,
+      :time 7171831662,
+      :index 69},
+     :model {:value 2}}
+    {:op
+     {:type :invoke,
+      :f :cas,
+      :value [0 3],
+      :process 0,
+      :time 6515141625,
+      :index 63},
+     :model {:msg "can't CAS 2 from 0 to 3"}}]
+   [{:op
+     {:type :ok,
+      :f :read,
+      :value 1,
+      :process 3,
+      :time 12711745880,
+      :index 105},
+     :model {:value 1}}
+    {:op
+     {:type :invoke,
+      :f :write,
+      :value 3,
+      :process 5,
+      :time 11173130386,
+      :index 94},
+     :model {:value 3}}
+    {:op
+     {:type :invoke,
+      :f :cas,
+      :value [3 3],
+      :process 6,
+      :time 11834811904,
+      :index 100},
+     :model {:value 3}}
+    {:op
+     {:type :invoke,
+      :f :write,
+      :value 2,
+      :process 1,
+      :time 7171831662,
+      :index 69},
+     :model {:value 2}}
+    {:op
+     {:type :invoke,
+      :f :cas,
+      :value [0 3],
+      :process 0,
+      :time 6515141625,
+      :index 63},
+     :model {:msg "can't CAS 2 from 0 to 3"}}]
+   [{:op
+     {:type :ok,
+      :f :read,
+      :value 1,
+      :process 3,
+      :time 12711745880,
+      :index 105},
+     :model {:value 1}}
+    {:op
+     {:type :invoke,
+      :f :write,
+      :value 3,
+      :process 5,
+      :time 11173130386,
+      :index 94},
+     :model {:value 3}}
+    {:op
+     {:type :invoke,
+      :f :write,
+      :value 2,
+      :process 1,
+      :time 7171831662,
+      :index 69},
+     :model {:value 2}}
+    {:op
+     {:type :invoke,
+      :f :cas,
+      :value [3 3],
+      :process 6,
+      :time 11834811904,
+      :index 100},
+     :model {:msg "can't CAS 2 from 3 to 3"}}]
+   [{:op
+     {:type :ok,
+      :f :read,
+      :value 1,
+      :process 3,
+      :time 12711745880,
+      :index 105},
+     :model {:value 1}}
+    {:op
+     {:type :invoke,
+      :f :write,
+      :value 2,
+      :process 1,
+      :time 7171831662,
+      :index 69},
+     :model {:value 2}}
+    {:op
+     {:type :ok,
+      :f :read,
+      :value 0,
+      :process 10,
+      :time 13005846794,
+      :index 109},
+     :model {:msg "can't read 0 from register 2"}}]
+   [{:op
+     {:type :ok,
+      :f :read,
+      :value 1,
+      :process 3,
+      :time 12711745880,
+      :index 105},
+     :model {:value 1}}
+    {:op
+     {:type :invoke,
+      :f :write,
+      :value 3,
+      :process 5,
+      :time 11173130386,
+      :index 94},
+     :model {:value 3}}
+    {:op
+     {:type :ok,
+      :f :read,
+      :value 0,
+      :process 10,
+      :time 13005846794,
+      :index 109},
+     :model {:msg "can't read 0 from register 3"}}]
+   [{:op
+     {:type :ok,
+      :f :read,
+      :value 1,
+      :process 3,
+      :time 12711745880,
+      :index 105},
+     :model {:value 1}}
+    {:op
+     {:type :invoke,
+      :f :write,
+      :value 2,
+      :process 1,
+      :time 7171831662,
+      :index 69},
+     :model {:value 2}}
+    {:op
+     {:type :invoke,
+      :f :cas,
+      :value [0 3],
+      :process 0,
+      :time 6515141625,
+      :index 63},
+     :model {:msg "can't CAS 2 from 0 to 3"}}]
+   [{:op
+     {:type :ok,
+      :f :read,
+      :value 1,
+      :process 3,
+      :time 12711745880,
+      :index 105},
+     :model {:value 1}}
+    {:op
+     {:type :invoke,
+      :f :write,
+      :value 3,
+      :process 5,
+      :time 11173130386,
+      :index 94},
+     :model {:value 3}}
+    {:op
+     {:type :invoke,
+      :f :cas,
+      :value [3 3],
+      :process 6,
+      :time 11834811904,
+      :index 100},
+     :model {:value 3}}
+    {:op
+     {:type :ok,
+      :f :read,
+      :value 0,
+      :process 10,
+      :time 13005846794,
+      :index 109},
+     :model {:msg "can't read 0 from register 3"}}]
+   [{:op
+     {:type :ok,
+      :f :read,
+      :value 1,
+      :process 3,
+      :time 12711745880,
+      :index 105},
+     :model {:value 1}}
+    {:op
+     {:type :invoke,
+      :f :write,
+      :value 3,
+      :process 5,
+      :time 11173130386,
+      :index 94},
+     :model {:value 3}}
+    {:op
+     {:type :invoke,
+      :f :cas,
+      :value [3 3],
+      :process 6,
+      :time 11834811904,
+      :index 100},
+     :model {:value 3}}
+    {:op
+     {:type :invoke,
+      :f :cas,
+      :value [0 3],
+      :process 0,
+      :time 6515141625,
+      :index 63},
+     :model {:msg "can't CAS 3 from 0 to 3"}}]
+   [{:op
+     {:type :ok,
+      :f :read,
+      :value 1,
+      :process 3,
+      :time 12711745880,
+      :index 105},
+     :model {:value 1}}
+    {:op
+     {:type :invoke,
+      :f :cas,
+      :value [0 3],
+      :process 0,
+      :time 6515141625,
+      :index 63},
+     :model {:msg "can't CAS 1 from 0 to 3"}}]),
+  :previous-ok
+  {:type :ok,
+   :f :read,
+   :value 1,
+   :process 3,
+   :time 12711745880,
+   :index 105},
+  :last-op
+  {:type :ok,
+   :f :read,
+   :value 1,
+   :process 3,
+   :time 12711745880,
+   :index 105},
+  :op
+  {:type :ok,
+   :f :read,
+   :value 0,
+   :process 10,
+   :time 13005846794,
+   :index 109}},
+ :valid? false}

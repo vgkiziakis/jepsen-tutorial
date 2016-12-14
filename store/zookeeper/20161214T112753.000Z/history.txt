@@ -1,0 +1,160 @@
+1	:invoke	:cas	[1 0]
+1	:fail	:cas	[1 0]
+3	:invoke	:read	nil
+3	:ok	:read	0
+4	:invoke	:write	0
+4	:ok	:write	0
+0	:invoke	:read	nil
+0	:ok	:read	0
+0	:invoke	:read	nil
+0	:ok	:read	0
+3	:invoke	:read	nil
+3	:ok	:read	0
+1	:invoke	:read	nil
+1	:ok	:read	0
+3	:invoke	:write	0
+3	:ok	:write	0
+0	:invoke	:write	4
+0	:ok	:write	4
+2	:invoke	:write	4
+2	:ok	:write	4
+0	:invoke	:read	nil
+0	:ok	:read	4
+3	:invoke	:read	nil
+3	:ok	:read	4
+2	:invoke	:write	4
+2	:ok	:write	4
+2	:invoke	:read	nil
+2	:ok	:read	4
+4	:invoke	:cas	[1 0]
+4	:fail	:cas	[1 0]
+0	:invoke	:cas	[3 1]
+0	:fail	:cas	[3 1]
+3	:invoke	:cas	[4 1]
+3	:ok	:cas	[4 1]
+1	:invoke	:cas	[3 0]
+1	:fail	:cas	[3 0]
+2	:invoke	:read	nil
+2	:ok	:read	1
+0	:invoke	:read	nil
+0	:ok	:read	1
+1	:invoke	:read	nil
+1	:ok	:read	1
+2	:invoke	:write	4
+2	:ok	:write	4
+0	:invoke	:read	nil
+0	:ok	:read	4
+3	:invoke	:write	2
+3	:ok	:write	2
+1	:invoke	:read	nil
+1	:ok	:read	2
+0	:invoke	:write	2
+0	:ok	:write	2
+2	:invoke	:read	nil
+2	:ok	:read	2
+4	:invoke	:cas	[0 1]
+1	:invoke	:read	nil
+1	:ok	:read	2
+4	:fail	:cas	[0 1]
+1	:invoke	:read	nil
+1	:ok	:read	2
+0	:invoke	:cas	[3 4]
+0	:fail	:cas	[3 4]
+:nemesis	:info	:start	nil
+0	:invoke	:write	0
+0	:ok	:write	0
+3	:invoke	:write	1
+3	:ok	:write	1
+4	:invoke	:cas	[3 1]
+4	:fail	:cas	[3 1]
+1	:invoke	:read	nil
+1	:ok	:read	1
+4	:invoke	:cas	[2 4]
+4	:fail	:cas	[2 4]
+:nemesis	:info	:start	"Cut off {\"w4\" #{\"w5\" \"w3\" \"w1\"}, \"w2\" #{\"w5\" \"w3\" \"w1\"}, \"w5\" #{\"w4\" \"w2\"}, \"w3\" #{\"w4\" \"w2\"}, \"w1\" #{\"w4\" \"w2\"}}"
+0	:invoke	:cas	[3 2]
+0	:fail	:cas	[3 2]
+2	:invoke	:cas	[0 1]
+2	:fail	:cas	[0 1]
+3	:invoke	:cas	[1 2]
+1	:invoke	:write	2
+4	:invoke	:cas	[2 2]
+4	:fail	:cas	[2 2]
+2	:invoke	:read	nil
+2	:ok	:read	1
+2	:invoke	:cas	[3 1]
+2	:fail	:cas	[3 1]
+0	:invoke	:read	nil
+0	:ok	:read	1
+0	:invoke	:read	nil
+0	:ok	:read	1
+4	:invoke	:cas	[4 3]
+2	:invoke	:write	3
+4	:fail	:cas	[4 3]
+2	:ok	:write	3
+2	:invoke	:cas	[3 2]
+2	:ok	:cas	[3 2]
+4	:invoke	:read	nil
+4	:ok	:read	2
+4	:invoke	:read	nil
+4	:ok	:read	2
+0	:invoke	:read	nil
+0	:ok	:read	2
+3	:info	:cas	[1 2]	indeterminate: 
+1	:info	:write	2	indeterminate: 
+0	:invoke	:cas	[4 4]
+0	:fail	:cas	[4 4]
+2	:invoke	:write	4
+2	:ok	:write	4
+4	:invoke	:write	4
+4	:info	:write	4	indeterminate: KeeperErrorCode = NoNode for /jepsen/data
+8	:invoke	:write	3
+:nemesis	:info	:stop	nil
+6	:invoke	:cas	[0 1]
+0	:invoke	:cas	[4 0]
+0	:info	:cas	[4 0]	indeterminate: KeeperErrorCode = NoNode for /jepsen/data
+2	:invoke	:write	2
+:nemesis	:info	:stop	"fully connected"
+2	:info	:write	2	indeterminate: KeeperErrorCode = NoNode for /jepsen/data
+5	:invoke	:cas	[2 0]
+5	:info	:cas	[2 0]	indeterminate: KeeperErrorCode = NoNode for /jepsen/data
+7	:invoke	:read	nil
+7	:ok	:read	2
+10	:invoke	:write	0
+10	:info	:write	0	indeterminate: KeeperErrorCode = NoNode for /jepsen/data
+9	:invoke	:read	nil
+9	:ok	:read	4
+8	:info	:write	3	indeterminate: 
+6	:info	:cas	[0 1]	indeterminate: 
+15	:invoke	:cas	[3 3]
+15	:info	:cas	[3 3]	indeterminate: KeeperErrorCode = NoNode for /jepsen/data
+9	:invoke	:cas	[4 1]
+9	:info	:cas	[4 1]	indeterminate: KeeperErrorCode = NoNode for /jepsen/data
+7	:invoke	:cas	[0 2]
+7	:info	:cas	[0 2]	indeterminate: KeeperErrorCode = NoNode for /jepsen/data
+12	:invoke	:write	3
+12	:info	:write	3	indeterminate: KeeperErrorCode = NoNode for /jepsen/data
+11	:invoke	:read	nil
+11	:ok	:read	1
+13	:invoke	:cas	[4 2]
+13	:info	:cas	[4 2]	indeterminate: 
+20	:invoke	:cas	[3 4]
+20	:info	:cas	[3 4]	indeterminate: KeeperErrorCode = NoNode for /jepsen/data
+14	:invoke	:cas	[0 2]
+14	:info	:cas	[0 2]	indeterminate: KeeperErrorCode = NoNode for /jepsen/data
+25	:invoke	:read	nil
+25	:ok	:read	0
+17	:invoke	:read	nil
+17	:ok	:read	3
+11	:invoke	:write	3
+11	:info	:write	3	indeterminate: 
+18	:invoke	:write	4
+18	:info	:write	4	indeterminate: 
+17	:invoke	:read	nil
+17	:ok	:read	3
+19	:invoke	:cas	[0 3]
+19	:info	:cas	[0 3]	indeterminate: KeeperErrorCode = NoNode for /jepsen/data
+:nemesis	:info	:start	nil
+25	:invoke	:read	nil
+25	:ok	:read	0
+:nemesis	:info	:start	"Cut off {\"w4\" #{\"w5\" \"w2\" \"w3\"}, \"w1\" #{\"w5\" \"w2\" \"w3\"}, \"w5\" #{\"w4\" \"w1\"}, \"w2\" #{\"w4\" \"w1\"}, \"w3\" #{\"w4\" \"w1\"}}"

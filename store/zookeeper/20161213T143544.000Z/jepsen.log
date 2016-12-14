@@ -1,0 +1,34 @@
+2016-12-13 14:35:45,160{GMT}	INFO	[jepsen node w4] jepsen.os.debian: w4 setting up debian
+2016-12-13 14:35:45,160{GMT}	INFO	[jepsen node w3] jepsen.os.debian: w3 setting up debian
+2016-12-13 14:35:45,160{GMT}	INFO	[jepsen node w2] jepsen.os.debian: w2 setting up debian
+2016-12-13 14:35:45,160{GMT}	INFO	[jepsen node w5] jepsen.os.debian: w5 setting up debian
+2016-12-13 14:35:45,160{GMT}	INFO	[jepsen node w1] jepsen.os.debian: w1 setting up debian
+2016-12-13 14:35:45,874{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: Tearing down ZK on w1
+2016-12-13 14:35:45,874{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: Tearing down ZK on w3
+2016-12-13 14:35:45,874{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: Tearing down ZK on w4
+2016-12-13 14:35:45,874{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: Tearing down ZK on w5
+2016-12-13 14:35:45,874{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: Tearing down ZK on w2
+2016-12-13 14:35:45,874{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: Setting up ZK on w1
+2016-12-13 14:35:45,874{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: Setting up ZK on w3
+2016-12-13 14:35:45,874{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: Setting up ZK on w4
+2016-12-13 14:35:45,874{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: Setting up ZK on w5
+2016-12-13 14:35:45,874{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: Setting up ZK on w2
+2016-12-13 14:35:45,977{GMT}	INFO	[jepsen node w2] jepsen.os.debian: Installing :zookeeper 3.4.5+dfsg-2
+2016-12-13 14:35:45,977{GMT}	INFO	[jepsen node w5] jepsen.os.debian: Installing :zookeeper 3.4.5+dfsg-2
+2016-12-13 14:35:45,977{GMT}	INFO	[jepsen node w4] jepsen.os.debian: Installing :zookeeper 3.4.5+dfsg-2
+2016-12-13 14:35:45,977{GMT}	INFO	[jepsen node w3] jepsen.os.debian: Installing :zookeeper 3.4.5+dfsg-2
+2016-12-13 14:35:46,077{GMT}	INFO	[jepsen node w1] jepsen.os.debian: Installing :zookeeper 3.4.5+dfsg-2
+2016-12-13 14:35:51,887{GMT}	INFO	[jepsen node w1] jepsen.os.debian: Installing :zookeeper-bin 3.4.5+dfsg-2
+2016-12-13 14:35:52,795{GMT}	INFO	[jepsen node w4] jepsen.os.debian: Installing :zookeeper-bin 3.4.5+dfsg-2
+2016-12-13 14:35:52,989{GMT}	INFO	[jepsen node w2] jepsen.os.debian: Installing :zookeeper-bin 3.4.5+dfsg-2
+2016-12-13 14:35:54,291{GMT}	INFO	[jepsen node w3] jepsen.os.debian: Installing :zookeeper-bin 3.4.5+dfsg-2
+2016-12-13 14:35:54,593{GMT}	INFO	[jepsen node w1] jepsen.os.debian: Installing :zookerpd 3.4.5+dfsg-2
+2016-12-13 14:35:54,798{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: Tearing down ZK on w2
+2016-12-13 14:35:54,798{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: Tearing down ZK on w1
+2016-12-13 14:35:54,798{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: Tearing down ZK on w3
+2016-12-13 14:35:54,799{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: Tearing down ZK on w4
+2016-12-13 14:35:54,799{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: Tearing down ZK on w5
+2016-12-13 14:35:54,893{GMT}	WARN	[jepsen node w5] jepsen.control: Encountered error with conn [:control "w5"]; reopening
+2016-12-13 14:35:55,694{GMT}	WARN	[jepsen node w2] jepsen.control: Encountered error with conn [:control "w2"]; reopening
+2016-12-13 14:35:56,001{GMT}	WARN	[jepsen node w4] jepsen.control: Encountered error with conn [:control "w4"]; reopening
+2016-12-13 14:35:58,299{GMT}	WARN	[jepsen node w3] jepsen.control: Encountered error with conn [:control "w3"]; reopening

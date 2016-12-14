@@ -1,0 +1,92 @@
+2016-12-13 15:49:52,798{GMT}	INFO	[jepsen node w2] jepsen.os.debian: w2 setting up debian
+2016-12-13 15:49:52,798{GMT}	INFO	[jepsen node w3] jepsen.os.debian: w3 setting up debian
+2016-12-13 15:49:52,798{GMT}	INFO	[jepsen node w5] jepsen.os.debian: w5 setting up debian
+2016-12-13 15:49:52,798{GMT}	INFO	[jepsen node w4] jepsen.os.debian: w4 setting up debian
+2016-12-13 15:49:52,798{GMT}	INFO	[jepsen node w1] jepsen.os.debian: w1 setting up debian
+2016-12-13 15:49:53,516{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: Tearing down ZK on w3
+2016-12-13 15:49:53,517{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: Tearing down ZK on w2
+2016-12-13 15:49:53,517{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: Tearing down ZK on w5
+2016-12-13 15:49:53,517{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: Tearing down ZK on w4
+2016-12-13 15:49:53,517{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: Tearing down ZK on w1
+2016-12-13 15:49:53,719{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: Setting up ZK on w3
+2016-12-13 15:49:53,719{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: Setting up ZK on w5
+2016-12-13 15:49:53,720{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: Setting up ZK on w4
+2016-12-13 15:49:53,720{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: Setting up ZK on w2
+2016-12-13 15:49:53,721{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: Setting up ZK on w1
+2016-12-13 15:49:54,228{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: w2 ZK restarting
+2016-12-13 15:49:54,228{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: w3 ZK restarting
+2016-12-13 15:49:54,228{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: w1 ZK restarting
+2016-12-13 15:49:54,229{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: w4 ZK restarting
+2016-12-13 15:49:54,230{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: w5 ZK restarting
+2016-12-13 15:49:59,329{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: w2 ZK ready
+2016-12-13 15:49:59,329{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: w3 ZK ready
+2016-12-13 15:49:59,329{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: w1 ZK ready
+2016-12-13 15:49:59,330{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: w4 ZK ready
+2016-12-13 15:49:59,331{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: w5 ZK ready
+2016-12-13 15:49:59,337{GMT}	INFO	[clojure-agent-send-off-pool-1] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w1 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__378@d6073c1
+2016-12-13 15:49:59,337{GMT}	INFO	[clojure-agent-send-off-pool-3] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w2 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__378@c8aa28f
+2016-12-13 15:49:59,337{GMT}	INFO	[clojure-agent-send-off-pool-2] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w5 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__378@4303c343
+2016-12-13 15:49:59,337{GMT}	INFO	[clojure-agent-send-off-pool-0] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w3 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__378@1becfa00
+2016-12-13 15:49:59,337{GMT}	INFO	[clojure-agent-send-off-pool-4] org.apache.zookeeper.ZooKeeper: Initiating client connection, connectString=w4 sessionTimeout=5000 watcher=zookeeper.internal$make_watcher$reify__378@1ef836e5
+2016-12-13 15:49:59,405{GMT}	INFO	[clojure-agent-send-off-pool-1-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.4.101:2181
+2016-12-13 15:49:59,405{GMT}	INFO	[clojure-agent-send-off-pool-3-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.4.102:2181
+2016-12-13 15:49:59,406{GMT}	INFO	[clojure-agent-send-off-pool-2-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.4.105:2181
+2016-12-13 15:49:59,407{GMT}	INFO	[clojure-agent-send-off-pool-4-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.4.104:2181
+2016-12-13 15:49:59,407{GMT}	INFO	[clojure-agent-send-off-pool-0-SendThread()] org.apache.zookeeper.ClientCnxn: Opening socket connection to server /192.168.4.103:2181
+2016-12-13 15:49:59,430{GMT}	INFO	[clojure-agent-send-off-pool-0-SendThread(w3:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w3/192.168.4.103:2181, initiating session
+2016-12-13 15:49:59,430{GMT}	INFO	[clojure-agent-send-off-pool-3-SendThread(w2:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w2/192.168.4.102:2181, initiating session
+2016-12-13 15:49:59,430{GMT}	INFO	[clojure-agent-send-off-pool-2-SendThread(w5:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w5/192.168.4.105:2181, initiating session
+2016-12-13 15:49:59,430{GMT}	INFO	[clojure-agent-send-off-pool-4-SendThread(w4:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w4/192.168.4.104:2181, initiating session
+2016-12-13 15:49:59,430{GMT}	INFO	[clojure-agent-send-off-pool-1-SendThread(w1:2181)] org.apache.zookeeper.ClientCnxn: Socket connection established to w1/192.168.4.101:2181, initiating session
+2016-12-13 15:49:59,697{GMT}	INFO	[clojure-agent-send-off-pool-4-SendThread(w4:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w4/192.168.4.104:2181, sessionid = 0x358f8e03a1f0000, negotiated timeout = 5000
+2016-12-13 15:49:59,699{GMT}	INFO	[clojure-agent-send-off-pool-3-SendThread(w2:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w2/192.168.4.102:2181, sessionid = 0x158f8e03d590000, negotiated timeout = 5000
+2016-12-13 15:49:59,728{GMT}	INFO	[clojure-agent-send-off-pool-0-SendThread(w3:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w3/192.168.4.103:2181, sessionid = 0x258f8e03f9f0000, negotiated timeout = 5000
+2016-12-13 15:49:59,790{GMT}	INFO	[clojure-agent-send-off-pool-2-SendThread(w5:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w5/192.168.4.105:2181, sessionid = 0x458f8e036d20000, negotiated timeout = 5000
+2016-12-13 15:49:59,852{GMT}	INFO	[clojure-agent-send-off-pool-1-SendThread(w1:2181)] org.apache.zookeeper.ClientCnxn: Session establishment complete on server w1/192.168.4.101:2181, sessionid = 0x58f8e03e020000, negotiated timeout = 5000
+2016-12-13 15:50:00,036{GMT}	INFO	[jepsen nemesis] jepsen.core: Nemesis starting
+2016-12-13 15:50:00,037{GMT}	INFO	[jepsen nemesis] jepsen.core: nemesis done
+2016-12-13 15:50:00,038{GMT}	INFO	[jepsen worker 0] jepsen.core: Worker 0 starting
+2016-12-13 15:50:00,038{GMT}	INFO	[jepsen worker 3] jepsen.core: Worker 3 starting
+2016-12-13 15:50:00,038{GMT}	INFO	[jepsen worker 1] jepsen.core: Worker 1 starting
+2016-12-13 15:50:00,038{GMT}	INFO	[jepsen worker 4] jepsen.core: Worker 4 starting
+2016-12-13 15:50:00,038{GMT}	INFO	[jepsen worker 2] jepsen.core: Worker 2 starting
+2016-12-13 15:50:00,038{GMT}	INFO	[jepsen worker 0] jepsen.core: Worker 0 done
+2016-12-13 15:50:00,038{GMT}	INFO	[jepsen worker 3] jepsen.core: Worker 3 done
+2016-12-13 15:50:00,038{GMT}	INFO	[jepsen worker 1] jepsen.core: Worker 1 done
+2016-12-13 15:50:00,039{GMT}	INFO	[jepsen worker 4] jepsen.core: Worker 4 done
+2016-12-13 15:50:00,039{GMT}	INFO	[jepsen worker 2] jepsen.core: Worker 2 done
+2016-12-13 15:50:00,039{GMT}	INFO	[jepsen test runner] jepsen.core: Waiting for nemesis to complete
+2016-12-13 15:50:00,039{GMT}	INFO	[jepsen test runner] jepsen.core: nemesis done.
+2016-12-13 15:50:00,039{GMT}	INFO	[jepsen test runner] jepsen.core: Tearing down nemesis
+2016-12-13 15:50:00,039{GMT}	INFO	[jepsen test runner] jepsen.core: Nemesis torn down
+2016-12-13 15:50:00,043{GMT}	INFO	[clojure-agent-send-off-pool-9] org.apache.zookeeper.ZooKeeper: Session: 0x458f8e036d20000 closed
+2016-12-13 15:50:00,043{GMT}	INFO	[clojure-agent-send-off-pool-2-EventThread] org.apache.zookeeper.ClientCnxn: EventThread shut down
+2016-12-13 15:50:00,044{GMT}	INFO	[clojure-agent-send-off-pool-2] org.apache.zookeeper.ZooKeeper: Session: 0x258f8e03f9f0000 closed
+2016-12-13 15:50:00,044{GMT}	INFO	[clojure-agent-send-off-pool-0-EventThread] org.apache.zookeeper.ClientCnxn: EventThread shut down
+2016-12-13 15:50:00,044{GMT}	INFO	[clojure-agent-send-off-pool-8] org.apache.zookeeper.ZooKeeper: Session: 0x58f8e03e020000 closed
+2016-12-13 15:50:00,044{GMT}	INFO	[clojure-agent-send-off-pool-1-EventThread] org.apache.zookeeper.ClientCnxn: EventThread shut down
+2016-12-13 15:50:00,049{GMT}	INFO	[clojure-agent-send-off-pool-7] org.apache.zookeeper.ZooKeeper: Session: 0x158f8e03d590000 closed
+2016-12-13 15:50:00,049{GMT}	INFO	[clojure-agent-send-off-pool-3-EventThread] org.apache.zookeeper.ClientCnxn: EventThread shut down
+2016-12-13 15:50:00,049{GMT}	INFO	[clojure-agent-send-off-pool-1] org.apache.zookeeper.ZooKeeper: Session: 0x358f8e03a1f0000 closed
+2016-12-13 15:50:00,049{GMT}	INFO	[clojure-agent-send-off-pool-4-EventThread] org.apache.zookeeper.ClientCnxn: EventThread shut down
+2016-12-13 15:50:00,050{GMT}	INFO	[jepsen test runner] jepsen.core: Snarfing log files
+2016-12-13 15:50:00,053{GMT}	INFO	[jepsen node w5] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-13 15:50:00,053{GMT}	INFO	[jepsen node w4] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-13 15:50:00,053{GMT}	INFO	[jepsen node w3] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-13 15:50:00,053{GMT}	INFO	[jepsen node w2] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-13 15:50:00,053{GMT}	INFO	[jepsen node w1] jepsen.core: downloading /var/log/zookeeper/zookeeper.log to zookeeper.log
+2016-12-13 15:50:00,087{GMT}	INFO	[jepsen test runner] jepsen.core: Run complete, writing
+2016-12-13 15:50:00,104{GMT}	INFO	[jepsen node w4] jepsen.zookeeper: Tearing down ZK on w4
+2016-12-13 15:50:00,104{GMT}	INFO	[jepsen node w1] jepsen.zookeeper: Tearing down ZK on w1
+2016-12-13 15:50:00,104{GMT}	INFO	[jepsen node w2] jepsen.zookeeper: Tearing down ZK on w2
+2016-12-13 15:50:00,104{GMT}	INFO	[jepsen node w5] jepsen.zookeeper: Tearing down ZK on w5
+2016-12-13 15:50:00,104{GMT}	INFO	[jepsen node w3] jepsen.zookeeper: Tearing down ZK on w3
+2016-12-13 15:50:00,715{GMT}	INFO	[jepsen test runner] jepsen.core: Analyzing
+2016-12-13 15:50:00,724{GMT}	INFO	[jepsen test runner] jepsen.core: Analysis complete
+2016-12-13 15:50:00,736{GMT}	INFO	[jepsen results] jepsen.store: Wrote /home/admin/jepsen.zookeeper/store/zookeeper/20161213T154952.000Z/results.edn
+2016-12-13 15:50:00,741{GMT}	INFO	[main] jepsen.core: {:valid? true,
+ :configs ({:model {}, :last-op nil, :pending []}),
+ :final-paths ()}
+
+
+Everything looks good! ヽ(‘ー`)ノ

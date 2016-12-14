@@ -1,0 +1,56 @@
+<html><head><style>.ops        { position: absolute; }
+.op         { position: absolute;
+                      padding:  2px; }
+.op.invoke  { background: #C1DEFF; }
+.op.ok      { background: #B7FFB7; }
+.op.fail    { background: #FFD4D5; }
+.op.info    { background: #FEFFC1; }
+</style></head><body><h1>zookeeper</h1><p>2016-12-14T10:59:03.000Z</p><div class="ops"><div class="op ok" style="width:100;left:530;top:0;height:16" title="29 ms
+nil">4 :cas [0 1]</div><div class="op fail" style="width:100;left:106;top:32;height:16" title="18 ms
+nil">0 :cas [4 4]</div><div class="op ok" style="width:100;left:212;top:64;height:16" title="20 ms
+nil">1 :cas [1 4]</div><div class="op fail" style="width:100;left:106;top:96;height:16" title="19 ms
+nil">0 :cas [3 4]</div><div class="op ok" style="width:100;left:424;top:128;height:16" title="3 ms
+nil">3 :read 4</div><div class="op ok" style="width:100;left:530;top:160;height:16" title="14 ms
+nil">4 :write 4</div><div class="op fail" style="width:100;left:530;top:192;height:16" title="15 ms
+nil">4 :cas [0 0]</div><div class="op fail" style="width:100;left:530;top:224;height:16" title="15 ms
+nil">4 :cas [2 2]</div><div class="op ok" style="width:100;left:424;top:256;height:16" title="17 ms
+nil">3 :cas [4 3]</div><div class="op fail" style="width:100;left:106;top:288;height:16" title="18 ms
+nil">0 :cas [0 3]</div><div class="op ok" style="width:100;left:318;top:320;height:16" title="17 ms
+nil">2 :write 1</div><div class="op ok" style="width:100;left:530;top:352;height:16" title="17 ms
+nil">4 :write 2</div><div class="op ok" style="width:100;left:212;top:384;height:16" title="14 ms
+nil">1 :write 4</div><div class="op fail" style="width:100;left:318;top:416;height:16" title="20 ms
+nil">2 :cas [2 1]</div><div class="op ok" style="width:100;left:530;top:448;height:16" title="1 ms
+nil">4 :read 4</div><div class="op ok" style="width:100;left:106;top:480;height:16" title="15 ms
+nil">0 :write 3</div><div class="op ok" style="width:100;left:212;top:512;height:16" title="14 ms
+nil">1 :cas [3 4]</div><div class="op ok" style="width:100;left:424;top:544;height:16" title="15 ms
+nil">3 :write 2</div><div class="op fail" style="width:100;left:424;top:576;height:16" title="16 ms
+nil">3 :cas [4 0]</div><div class="op ok" style="width:100;left:318;top:608;height:16" title="1 ms
+nil">2 :read 2</div><div class="op ok" style="width:100;left:318;top:640;height:16" title="16 ms
+nil">2 :write 0</div><div class="op fail" style="width:100;left:530;top:672;height:16" title="29 ms
+nil">4 :cas [1 4]</div><div class="op ok" style="width:100;left:106;top:704;height:16" title="1 ms
+nil">0 :read 0</div><div class="op info" style="width:100;left:0;top:736;height:16" title="nil">:nemesis :start </div><div class="op fail" style="width:100;left:212;top:752;height:16" title="17 ms
+nil">1 :cas [3 4]</div><div class="op info" style="width:100;left:0;top:800;height:16" title="nil">:nemesis :start Cut off {"w5" #{"w4" "w2" "w1"}, "w3" #{"w4" "w2" "w1"}, "w4" #{"w5" "w3"}, "w2" #{"w5" "w3"}, "w1" #{"w5" "w3"}}<br /></div><div class="op ok" style="width:100;left:212;top:816;height:16" title="1 ms
+nil">1 :read 0</div><div class="op ok" style="width:100;left:212;top:864;height:16" title="0 ms
+nil">1 :read 0</div><div class="op ok" style="width:100;left:530;top:848;height:48" title="1 ms
+nil">4 :read 0</div><div class="op ok" style="width:100;left:318;top:928;height:16" title="1 ms
+nil">2 :read 0</div><div class="op ok" style="width:100;left:106;top:960;height:16" title="1 ms
+nil">0 :read 0</div><div class="op ok" style="width:100;left:106;top:1024;height:16" title="0 ms
+nil">0 :read 0</div><div class="op info" style="width:100;left:424;top:784;height:864" title="3440 ms
+&quot;indeterminate: &quot;">3 :write 1</div><div class="op info" style="width:100;left:212;top:912;height:736" title="3439 ms
+&quot;indeterminate: &quot;">1 :write 1</div><div class="op info" style="width:100;left:530;top:992;height:656" title="3439 ms
+&quot;indeterminate: &quot;">4 :write 1</div><div class="op info" style="width:100;left:318;top:1008;height:640" title="3439 ms
+&quot;indeterminate: &quot;">2 :write 2</div><div class="op info" style="width:100;left:0;top:1184;height:16" title="nil">:nemesis :stop </div><div class="op info" style="width:100;left:0;top:1216;height:16" title="nil">:nemesis :stop fully connected<br /></div><div class="op info" style="width:100;left:106;top:1056;height:592" title="3440 ms
+&quot;indeterminate: &quot;">0 :write 2</div><div class="op ok" style="width:100;left:636;top:1248;height:16" title="0 ms
+nil">5 :read 0</div><div class="op info" style="width:100;left:954;top:1200;height:448" title="1887 ms
+&quot;indeterminate: KeeperErrorCode = Session expired for /jepsen/data&quot;">8 :read </div><div class="op info" style="width:100;left:742;top:1152;height:496" title="2480 ms
+&quot;indeterminate: &quot;">6 :cas [4 1]</div><div class="op info" style="width:100;left:636;top:1312;height:336" title="0 ms
+&quot;indeterminate: &quot;">5 :write 3</div><div class="op info" style="width:100;left:1378;top:1360;height:288" title="0 ms
+&quot;indeterminate: &quot;">13 :cas [2 0]</div><div class="op info" style="width:100;left:1272;top:1344;height:304" title="197 ms
+&quot;indeterminate: &quot;">11 :write 2</div><div class="op info" style="width:100;left:1590;top:1408;height:240" title="0 ms
+&quot;indeterminate: &quot;">18 :write 3</div><div class="op ok" style="width:100;left:1166;top:1440;height:16" title="0 ms
+nil">10 :read 0</div><div class="op info" style="width:100;left:1166;top:1472;height:176" title="0 ms
+&quot;indeterminate: &quot;">10 :write 3</div><div class="op info" style="width:100;left:1060;top:1120;height:528" title="5000 ms
+:timeout">9 :write 0</div><div class="op info" style="width:100;left:1696;top:1520;height:128" title="0 ms
+&quot;indeterminate: &quot;">23 :write 3</div><div class="op info" style="width:100;left:848;top:1168;height:480" title="5000 ms
+:timeout">7 :write 3</div><div class="op info" style="width:100;left:0;top:1568;height:16" title="nil">:nemesis :start </div><div class="op info" style="width:100;left:1484;top:1584;height:64" title="1 ms
+&quot;indeterminate: &quot;">16 :cas [1 0]</div><div class="op info" style="width:100;left:0;top:1616;height:16" title="nil">:nemesis :start Cut off {"w4" #{"w5" "w2" "w1"}, "w3" #{"w5" "w2" "w1"}, "w5" #{"w4" "w3"}, "w2" #{"w4" "w3"}, "w1" #{"w4" "w3"}}<br /></div></div></body></html>
